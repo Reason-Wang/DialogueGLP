@@ -1,0 +1,6 @@
+# ignore pickle file
+*.pkl
+
+commands.txt
+
+data/meld/knowledge2

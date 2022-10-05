@@ -1,0 +1,16 @@
+Generate some feelings and reasons about the objects or concepts related to emotions in the utterance. Examples:
+
+Utterance: It was a nightmare.
+Feeling: Frustrated because "Nightmare" means something is very frightening and unpleasant.
+
+Utterance: I'm tired of you always wearing my clothing.
+Feeling: Angry because "wearing others' clothes" is impolite.
+
+Utterance: Really? I didn't know that it was against company policy.
+Feeling: Surprised because "really" is used to express surprise or disbelief.
+
+Utterance: I think you look fantastic. Happy Birthday!
+Feeling: Happy because I wish someone is happy on birthday.
+
+Utterance: {utterance}
+Feeling:

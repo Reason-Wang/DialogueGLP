@@ -1,0 +1,16 @@
+Generate some knowledge about the objects or concepts related to emotions in the utterance. Examples:
+
+Utterance: It was a nightmare.
+Knowledge: Nightmare means something is very frightening and unpleasant.
+
+Utterance: I'm tired of you always wearing my clothing.
+Knowledge: Tired of means being bored of something or unhappy with it.
+
+Utterance: Really? I didn't know that it was against company policy.
+Knowledge: Really is used to express surprise or disbelief.
+
+Utterance: I think you look fantastic. Happy Birthday!
+Knowledge: Fantastic means extremely good or excellent.
+
+Utterance: {utterance}
+Knowledge:

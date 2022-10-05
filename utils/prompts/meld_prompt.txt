@@ -1,0 +1,22 @@
+Decide whether the speaker feels good, neutral, or bad and give the reason. Examples:
+
+Utterance: I keep hearing all these rumors that I might get fired.
+Feeling: Bad because rumours are stories that may not be true and usually beset others and I might lost my job.
+
+Utterance: Uh, listen, I just wanna thank you for this great opportunity.
+Feeling: Good because I feel grateful to be given the opportunity.
+
+Utterance: Are you travelling with a child?
+Feeling: Neutral because I just ask a question and nothing related to how I feel.
+
+Utterance: Rachel, I have not missed one question the whole game. I own this game! Look at my hand.
+Feeling: Good because I won the game.
+
+Utterance: Listen Ross, we ran out of gas, and we don't know where we are, so we can't get a tow truck.
+Feeling: Bad because we get lost and there is no gas and tow truck.
+
+Utterance: Oh, yeah, well you know Chandler printed it up on his computer.
+Feeling: Neutral because I just state a fact.
+
+Utterance: You don't plan these things.
+Feeling:

@@ -1,0 +1,22 @@
+Decide whether the speaker's emotion is positive, neutral, or negative and give the reason. Examples:
+
+Utterance: It was a nightmare.
+Feeling: Negative because "nightmare" means something is very frightening and unpleasant.
+
+Utterance: I'm tired of you always wearing my clothing.
+Feeling: Negative because "tired of" means unhappy with something and "wearing others' clothes" is rude.
+
+Utterance: Really? I didn't know that it was against company policy.
+Feeling: Negative because "really" is used to express surprise or disbelief and "against company policy" is an unexpected behavior.
+
+Utterance: Brian, may I have a pleasure to have a dance with you? 
+Feeling: Neutral because it's just a request and nothing is related to emotions.
+
+Utterance: I think you look fantastic. Happy Birthday!
+Feeling: Positive because I complimented him and make a wish he is happy on birthday.
+
+Utterance:  A small bag. I guess we also need a few oranges.
+Feeling: Neutral because I just make a guess and noting is related to emotions.
+
+Utterance: {utterance}
+Feeling:

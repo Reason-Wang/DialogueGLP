@@ -1,0 +1,1329 @@
+Dialogue_ID,Utterance_ID,Utterance,Speaker,Emotion,Sentiment
+s01_e01_c04,s01_e01_c04_u001,"I'm supposed to attach a brackety thing to the side things, using a bunch of these little worm guys. I have no brackety thing, I see no whim guys whatsoever and- I cannot feel my legs.",Ross Geller,Mad,negative
+s01_e01_c04,s01_e01_c04_u003,I'm thinking we've got a bookcase here.,Joey Tribbiani,Neutral,neutral
+s01_e01_c04,s01_e01_c04_u004,It's a beautiful thing.,Chandler Bing,Joyful,positive
+s01_e01_c04,s01_e01_c04_u005,What's this?,Joey Tribbiani,Neutral,neutral
+s01_e01_c04,s01_e01_c04_u006,I would have to say that is an 'L'-shaped bracket.,Chandler Bing,Neutral,neutral
+s01_e01_c04,s01_e01_c04_u007,Which goes where?,Joey Tribbiani,Neutral,neutral
+s01_e01_c04,s01_e01_c04_u008,I have no idea.,Chandler Bing,Scared,negative
+s01_e01_c04,s01_e01_c04_u010,Done with the bookcase!,Joey Tribbiani,Joyful,positive
+s01_e01_c04,s01_e01_c04_u011,All finished!,Chandler Bing,Joyful,positive
+s01_e01_c04,s01_e01_c04_u012,"This was Carol's favorite beer. She always drank it out of the can, I should have known.",Ross Geller,Sad,negative
+s01_e01_c04,s01_e01_c04_u013,"Hey-hey-hey-hey, if you're gonna start with that stuff we're outta here.",Joey Tribbiani,Mad,negative
+s01_e01_c04,s01_e01_c04_u014,"Yes, please don't spoil all this fun.",Chandler Bing,Scared,negative
+s01_e01_c04,s01_e01_c04_u015,"Ross, let me ask you a question. She got the furniture, the stereo, the good TV- what did you get?",Joey Tribbiani,Neutral,neutral
+s01_e01_c04,s01_e01_c04_u016,You guys.,Ross Geller,Sad,negative
+s01_e01_c04,s01_e01_c04_u017,"Oh, God.",Chandler Bing,Sad,negative
+s01_e01_c04,s01_e01_c04_u018,You got screwed.,Joey Tribbiani,Mad,negative
+s01_e01_c04,s01_e01_c04_u019,Oh my God!,Chandler Bing,Mad,negative
+s01_e01_c05,s01_e01_c05_u001,Oh my God!,Monica Geller,Mad,negative
+s01_e01_c05,s01_e01_c05_u002,"I know, I know, I'm such an idiot. I guess I should have caught on when she started going to the dentist four and five times a week. I mean, how clean can teeth get?",Paul the Wine Guy,Sad,negative
+s01_e01_c05,s01_e01_c05_u003,"My brother's going through that right now, he's such a mess. How did you get through it?",Monica Geller,Sad,negative
+s01_e01_c05,s01_e01_c05_u004,"Well, you might try accidentally breaking something valuable of hers, say her-",Paul the Wine Guy,Powerful,positive
+s01_e01_c05,s01_e01_c05_u005,-leg?,Monica Geller,Joyful,positive
+s01_e01_c05,s01_e01_c05_u006,"That's one way! Me, I- I went for the watch.",Paul the Wine Guy,Joyful,positive
+s01_e01_c05,s01_e01_c05_u007,"You actually broke her watch? Wow! The worst thing I ever did was, I-I shredded by boyfriend's favorite bath towel.",Monica Geller,Powerful,positive
+s01_e01_c05,s01_e01_c05_u008,"Ooh, steer clear of you.",Paul the Wine Guy,Peaceful,positive
+s01_e01_c05,s01_e01_c05_u009,That's right.,Monica Geller,Powerful,positive
+s01_e01_c07,s01_e01_c07_u001,I'm divorced! I'm only 26 and I'm divorced!,Ross Geller,Sad,negative
+s01_e01_c07,s01_e01_c07_u002,Shut up!,Joey Tribbiani,Mad,negative
+s01_e01_c07,s01_e01_c07_u003,You must stop!,Chandler Bing,Mad,negative
+s01_e01_c07,s01_e01_c07_u004,That only took me an hour.,Ross Geller,Sad,negative
+s01_e01_c07,s01_e01_c07_u005,"Look, Ross, you gotta understand, between us we haven't had a relationship that has lasted longer than a Mento. You, however have had the love of a woman for four years. Four years of closeness and sharing at the end of which she ripped your heart out, and that is why we don't do it! I don't think that was my point!",Chandler Bing,Sad,negative
+s01_e01_c07,s01_e01_c07_u006,"You know what the scariest part is? What if there's only one woman for everybody, y'know? I mean what if you get one woman- and that's it? Unfortunately in my case, there was only one woman- for her...",Ross Geller,Scared,negative
+s01_e01_c07,s01_e01_c07_u007,"What are you talking about? 'One woman'? That's like saying there's only one flavor of ice cream for you. Lemme tell you something, Ross. There's lots of flavors out there. There's Rocky Road, and Cookie Dough, and Bing! Cherry Vanilla. You could get 'em with Jimmies, or nuts, or whipped cream! This is the best thing that ever happened to you! You got married, you were, like, what, eight? Welcome back to the world! Grab a spoon!",Joey Tribbiani,Powerful,positive
+s01_e01_c07,s01_e01_c07_u008,I honestly don't know if I'm hungry or horny.,Ross Geller,Scared,negative
+s01_e01_c07,s01_e01_c07_u009,Stay out of my freezer!,Chandler Bing,Mad,negative
+s01_e01_c08,s01_e01_c08_u001,"Ever since she walked out on me, I, uh...",Paul the Wine Guy,Sad,negative
+s01_e01_c08,s01_e01_c08_u002,"What?..... What, you wanna spell it out with noodles?",Monica Geller,Neutral,neutral
+s01_e01_c08,s01_e01_c08_u003,"No, it's, it's more of a fifth date kinda revelation.",Paul the Wine Guy,Sad,negative
+s01_e01_c08,s01_e01_c08_u004,"Oh, so there is gonna be a fifth date?",Monica Geller,Neutral,neutral
+s01_e01_c08,s01_e01_c08_u005,Isn't there?,Paul the Wine Guy,Scared,negative
+s01_e01_c08,s01_e01_c08_u006,"Yeah... yeah, I think there is. -What were you gonna say?",Monica Geller,Neutral,neutral
+s01_e01_c08,s01_e01_c08_u007,"Well, ever-ev-... ever since she left me, um, I haven't been able to, uh, perform. ...Sexually.",Paul the Wine Guy,Sad,negative
+s01_e01_c08,s01_e01_c08_u008,"Oh God, oh God, I am sorry... I am so sorry...",Monica Geller,Neutral,neutral
+s01_e01_c08,s01_e01_c08_u009,It's okay...,Paul the Wine Guy,Sad,negative
+s01_e01_c08,s01_e01_c08_u010,I know being spit on is probably not what you need right now. Um... how long?,Monica Geller,Neutral,neutral
+s01_e01_c08,s01_e01_c08_u011,Two years.,Paul the Wine Guy,Neutral,neutral
+s01_e01_c08,s01_e01_c08_u012,Wow! I'm-I'm-I'm glad you smashed her watch!,Monica Geller,Joyful,positive
+s01_e01_c08,s01_e01_c08_u013,"So you still think you, um... might want that fifth date?",Paul the Wine Guy,Neutral,neutral
+s01_e01_c08,s01_e01_c08_u014,"...Yeah. Yeah, I do.",Monica Geller,Neutral,neutral
+s01_e01_c10,s01_e01_c10_u001,"Grab a spoon. Do you know how long it's been since I've grabbed a spoon? Do the words 'Billy, don't be a hero' mean anything to you?",Ross Geller,Peaceful,positive
+s01_e01_c10,s01_e01_c10_u002,"Great story! But, I uh, I gotta go, I got a date with Andrea--Angela--Andrea... Oh man,",Joey Tribbiani,Scared,negative
+s01_e01_c10,s01_e01_c10_u003,"Angela's the screamer, Andrea has cats.",Chandler Bing,Joyful,positive
+s01_e01_c10,s01_e01_c10_u004,Right. Thanks. It's June. I'm outta here.,Joey Tribbiani,Peaceful,positive
+s01_e01_c10,s01_e01_c10_u005,"Y'know, here's the thing. Even if I could get it together enough to- to ask a woman out,... who am I gonna ask?",Ross Geller,Sad,negative
+s01_e01_c12,s01_e01_c12_u001,"Hey, Monica!",Franny,Joyful,positive
+s01_e01_c12,s01_e01_c12_u002,"Hey Frannie, welcome back! How was Florida?",Monica Geller,Neutral,neutral
+s01_e01_c12,s01_e01_c12_u003,"You had sex, didn't you?",Franny,Neutral,neutral
+s01_e01_c12,s01_e01_c12_u004,How do you do that?,Monica Geller,Neutral,neutral
+s01_e01_c12,s01_e01_c12_u005,"Oh, I hate you, I'm pushing my Aunt Roz through Parrot Jungle and you're having sex! So? Who?",Franny,Mad,negative
+s01_e01_c12,s01_e01_c12_u006,You know Paul?,Monica Geller,Neutral,neutral
+s01_e01_c12,s01_e01_c12_u007,"Paul the Wine Guy? Oh yeah, I know Paul.",Franny,Neutral,neutral
+s01_e01_c12,s01_e01_c12_u008,You mean you know Paul like I know Paul?,Monica Geller,Neutral,neutral
+s01_e01_c12,s01_e01_c12_u009,"Are you kidding? I take credit for Paul. Y'know before me, there was no snap in his turtle for two years.",Franny,Neutral,neutral
+s01_e01_c13,s01_e01_c13_u001,Of course it was a line!,Joey Tribbiani,Mad,negative
+s01_e01_c13,s01_e01_c13_u002,"Why?! Why? Why, why would anybody do something like that?",Monica Geller,Mad,negative
+s01_e01_c13,s01_e01_c13_u003,I assume we're looking for an answer more sophisticated than 'to get you into bed'.,Ross Geller,Neutral,neutral
+s01_e01_c13,s01_e01_c13_u004,I hate men! I hate men!,Monica Geller,Mad,negative
+s01_e01_c13,s01_e01_c13_u005,"Oh no, don't hate, you don't want to put that out into the universe.",Phoebe Buffay,Peaceful,positive
+s01_e01_c13,s01_e01_c13_u006,Is it me? Is it like I have some sort of beacon that only dogs and men with severe emotional problems can hear?,Monica Geller,Mad,negative
+s01_e01_c13,s01_e01_c13_u007,"All right, c'mere, gimme your feet.",Phoebe Buffay,Peaceful,positive
+s01_e01_c13,s01_e01_c13_u008,"I just thought he was nice, y'know?",Monica Geller,Sad,negative
+s01_e01_c13,s01_e01_c13_u009,I can't believe you didn't know it was a line!,Joey Tribbiani,Joyful,positive
+s01_e01_c13,s01_e01_c13_u011,Guess what?,Rachel Green,Neutral,neutral
+s01_e01_c13,s01_e01_c13_u012,You got a job?,Ross Geller,Neutral,neutral
+s01_e01_c13,s01_e01_c13_u013,Are you kidding? I'm trained for nothing! I was laughed out of twelve interviews today.,Rachel Green,Mad,negative
+s01_e01_c13,s01_e01_c13_u014,And yet you're surprisingly upbeat.,Chandler Bing,Neutral,neutral
+s01_e01_c13,s01_e01_c13_u015,"You would be too if you found John and David boots on sale, fifty percent off!",Rachel Green,Joyful,positive
+s01_e01_c13,s01_e01_c13_u016,"Oh, how well you know me...",Chandler Bing,Neutral,neutral
+s01_e01_c13,s01_e01_c13_u017,"They're my new 'I don't need a job, I don't need my parents, I've got great boots' boots!",Rachel Green,Joyful,positive
+s01_e01_c13,s01_e01_c13_u018,How'd you pay for them?,Monica Geller,Neutral,neutral
+s01_e01_c13,s01_e01_c13_u019,"Uh, credit card.",Rachel Green,Neutral,neutral
+s01_e01_c13,s01_e01_c13_u020,And who pays for that?,Monica Geller,Neutral,neutral
+s01_e01_c13,s01_e01_c13_u021,Um... my... father.,Rachel Green,Neutral,neutral
+s01_e01_c15,s01_e01_c15_u001,I can't believe what I'm hearing here.,Joey Tribbiani,Neutral,neutral
+s01_e01_c15,s01_e01_c15_u002,I can't believe what I'm hearing here...,Phoebe Buffay,Joyful,positive
+s01_e01_c15,s01_e01_c15_u003,What? I-I said you had a-,Monica Geller,Scared,negative
+s01_e01_c15,s01_e01_c15_u004,What I said you had...,Phoebe Buffay,Joyful,positive
+s01_e01_c15,s01_e01_c15_u005,Would you stop?,Monica Geller,Mad,negative
+s01_e01_c15,s01_e01_c15_u006,"Oh, was I doing it again?",Phoebe Buffay,Neutral,neutral
+s01_e01_c15,s01_e01_c15_u007,Yes!,#ALL#,Mad,negative
+s01_e01_c15,s01_e01_c15_u008,"I said that you had a nice butt, it's just not a great butt.",Monica Geller,Peaceful,positive
+s01_e01_c15,s01_e01_c15_u009,"Oh, you wouldn't know a great butt if it came up and bit ya.",Joey Tribbiani,Joyful,positive
+s01_e01_c15,s01_e01_c15_u010,There's an image.,Ross Geller,Neutral,neutral
+s01_e01_c15,s01_e01_c15_u011,Would anybody like more coffee?,Rachel Green,Peaceful,positive
+s01_e01_c15,s01_e01_c15_u012,"Did you make it, or are you just serving it?",Chandler Bing,Scared,negative
+s01_e01_c15,s01_e01_c15_u013,I'm just serving it.,Rachel Green,Neutral,neutral
+s01_e01_c15,s01_e01_c15_u014,"Yeah. Yeah, I'll have a cup of coffee.",#ALL#,Joyful,positive
+s01_e01_c15,s01_e01_c15_u015,"Kids, new dream... I'm in Las Vegas.",Chandler Bing,Peaceful,positive
+s01_e01_c15,s01_e01_c15_u016,"Ahh, miss? More coffee?",Customer,Scared,negative
+s01_e01_c15,s01_e01_c15_u017,"Ugh. Excuse me, could you give this to that guy over there? Go ahead. Thank you. Sorry. Okay, Las Vegas.",Rachel Green,Mad,negative
+s01_e01_c15,s01_e01_c15_u018,"Okay, so, I'm in Las Vegas... I'm Liza Minelli-",Chandler Bing,Neutral,neutral
+s01_e10_c01,s01_e10_c01_u001,Guys? There's a somebody I'd like you to meet.,Ross Geller,Neutral,neutral
+s01_e10_c01,s01_e10_c01_u003,Oooh!,#ALL#,Joyful,positive
+s01_e10_c01,s01_e10_c01_u004,W-wait. What is that?,Monica Geller,Scared,negative
+s01_e10_c01,s01_e10_c01_u005,'That' would be Marcel. You wanna say hi?,Ross Geller,Joyful,positive
+s01_e10_c01,s01_e10_c01_u006,"No, no, I don't.",Monica Geller,Scared,negative
+s01_e10_c01,s01_e10_c01_u007,"Oh, he is precious! Where did you get him?",Rachel Green,Joyful,positive
+s01_e10_c01,s01_e10_c01_u008,My friend Bethel rescued him from some lab.,Ross Geller,Neutral,neutral
+s01_e10_c01,s01_e10_c01_u009,That is so cruel! Why? Why would a parent name their child Bethel?,Phoebe Buffay,Neutral,neutral
+s01_e10_c01,s01_e10_c01_u010,"Hey, that monkey's got a Ross on its ass!",Chandler Bing,Joyful,positive
+s01_e10_c01,s01_e10_c01_u011,"Ross, is he gonna live with you, like, in your apartment?",Monica Geller,Neutral,neutral
+s01_e10_c01,s01_e10_c01_u012,"Yeah. I mean, it's been kinda quiet since Carol left, so...",Ross Geller,Neutral,neutral
+s01_e10_c01,s01_e10_c01_u013,Why don't you just get a roommate?,Monica Geller,Neutral,neutral
+s01_e10_c01,s01_e10_c01_u014,"Nah, I dunno... I think you reach a certain age, having a roommate is kinda pathe- ....sorry, that's, that's 'pathet', which is Sanskrit for 'really cool way to live'.",Ross Geller,Sad,negative
+s01_e10_c04,s01_e10_c04_u001,"...But, you can't actually test this theory, because today's particle accelerators are nowhere near powerful enough to simulate these conditions.",David,Powerful,positive
+s01_e10_c04,s01_e10_c04_u002,"Okay, alright, I have a question, then.",Phoebe Buffay,Neutral,neutral
+s01_e10_c04,s01_e10_c04_u003,Yuh.,David,Neutral,neutral
+s01_e10_c04,s01_e10_c04_u004,"Um, were you planning on kissing me ever?",Phoebe Buffay,Neutral,neutral
+s01_e10_c04,s01_e10_c04_u005,"Uh, that's definitely a, uh, valid question. And, uh, the answer would be yes. Yes I was. But, see, I wanted it to be this phenomenal kiss that happened at this phenomenal moment, because, well, 'cause it's you.",David,Joyful,positive
+s01_e10_c04,s01_e10_c04_u006,Sure.,Phoebe Buffay,Neutral,neutral
+s01_e10_c04,s01_e10_c04_u007,"Right. But, see, the longer I waited, the more phenomenal the kiss had to be, and now we've reached a place where it's just gotta be one of those things where I just like... sweep everything off the table and throw you down on it. And, uh, I'm not really a, uh, sweeping sorta fella.",David,Scared,negative
+s01_e10_c04,s01_e10_c04_u008,"Oh, David, I, I think you are a sweeping sorta fella. I mean, you're a sweeper! ...trapped inside a physicist's body.",Phoebe Buffay,Joyful,positive
+s01_e10_c04,s01_e10_c04_u009,Rrrreally.,David,Neutral,neutral
+s01_e10_c04,s01_e10_c04_u010,"Oh, yeah, oh, I'm sure of it. You should just do it, just sweep and throw me.",Phoebe Buffay,Joyful,positive
+s01_e10_c04,s01_e10_c04_u011,...Now? Now?,David,Scared,negative
+s01_e10_c04,s01_e10_c04_u012,"Oh yeah, right now.",Phoebe Buffay,Powerful,positive
+s01_e10_c04,s01_e10_c04_u013,"Okay, okay, okay. Y'know what, this was just really expensive. And I'll take- this was a gift.",David,Neutral,neutral
+s01_e10_c04,s01_e10_c04_u014,"Okay, now you're just kinda tidying.",Phoebe Buffay,Neutral,neutral
+s01_e10_c04,s01_e10_c04_u015,"Okay, what the hell, what the hell. You want me to actually throw you or you-you wanna just hop?",David,Joyful,positive
+s01_e10_c04,s01_e10_c04_u016,I can hop.,Phoebe Buffay,Joyful,positive
+s01_e10_c06,s01_e10_c06_u001,Hello?,Phoebe Buffay,Scared,negative
+s01_e10_c06,s01_e10_c06_u002,Hey!,David,Joyful,positive
+s01_e10_c06,s01_e10_c06_u003,Hi.,Phoebe Buffay,Neutral,neutral
+s01_e10_c06,s01_e10_c06_u004,Hi! What-what're you doing here?,David,Joyful,positive
+s01_e10_c06,s01_e10_c06_u005,"Um, well, Max told me about Minsk, so congratulations! This is so exciting!",Phoebe Buffay,Joyful,positive
+s01_e10_c06,s01_e10_c06_u006,It'd be even more exciting if we were going.,Max,Sad,negative
+s01_e10_c06,s01_e10_c06_u007,"Oh, you're not going? Oh, why?",Phoebe Buffay,Joyful,positive
+s01_e10_c06,s01_e10_c06_u008,"Tell her, David. 'I don't wanna go to Minsk and work with Lifson and Yamaguchi and Flench, on nonononononono. I wanna stay here and make out with my girlfriend!!'",Max,Mad,negative
+s01_e10_c06,s01_e10_c06_u009,"Thank you, Max. Thank you.",David,Peaceful,positive
+s01_e10_c06,s01_e10_c06_u010,So-so you're really not going?,Phoebe Buffay,Neutral,neutral
+s01_e10_c06,s01_e10_c06_u011,I don't know. I don't know what I'm gonna do. I just- you decide.,David,Neutral,neutral
+s01_e10_c06,s01_e10_c06_u012,Oh don't do that.,Phoebe Buffay,Scared,negative
+s01_e10_c06,s01_e10_c06_u013,Please.,David,Neutral,neutral
+s01_e10_c06,s01_e10_c06_u014,Oh no no.,Phoebe Buffay,Neutral,neutral
+s01_e10_c06,s01_e10_c06_u015,"No, but I'm asking-",David,Neutral,neutral
+s01_e10_c06,s01_e10_c06_u016,"Oh, but I can't do that-",Phoebe Buffay,Neutral,neutral
+s01_e10_c06,s01_e10_c06_u017,"No, but I can't-",David,Scared,negative
+s01_e10_c06,s01_e10_c06_u018,"It's your thing, and-",Phoebe Buffay,Neutral,neutral
+s01_e10_c06,s01_e10_c06_u019,-make the decision-,David,Neutral,neutral
+s01_e10_c06,s01_e10_c06_u020,"Okay, um, stay.",Phoebe Buffay,Neutral,neutral
+s01_e10_c06,s01_e10_c06_u021,Stay.,David,Neutral,neutral
+s01_e10_c06,s01_e10_c06_u022,Stay.,Phoebe Buffay,Neutral,neutral
+s01_e10_c06,s01_e10_c06_u024,Getting so good at that!,Phoebe Buffay,Joyful,positive
+s01_e10_c06,s01_e10_c06_u025,It was Max's stuff.,David,Peaceful,positive
+s02_e08_c01,s02_e08_c01_u002,Ross kissed me.,Rachel Green,Joyful,positive
+s02_e08_c01,s02_e08_c01_u003,"Oh my god, oh my god, oh my god!",Monica Geller,Joyful,positive
+s02_e08_c01,s02_e08_c01_u004,It was unbelievable!,Rachel Green,Joyful,positive
+s02_e08_c01,s02_e08_c01_u005,"Oh my god, oh my god, oh my god!",Monica Geller,Joyful,positive
+s02_e08_c01,s02_e08_c01_u006,"Ok, all right. We want to hear everything. Monica, get the wine and unplug the phone. Rachel, does this end well or do we need to get tissues?",Phoebe Buffay,Joyful,positive
+s02_e08_c01,s02_e08_c01_u007,"Oh, it ended very well.",Rachel Green,Neutral,neutral
+s02_e08_c01,s02_e08_c01_u008,Oh.,Phoebe Buffay,Neutral,neutral
+s02_e08_c01,s02_e08_c01_u009,Do not start without me. Do not start without me.,Monica Geller,Neutral,neutral
+s02_e08_c01,s02_e08_c01_u010,"Ok, all right, let's hear about the kiss. Was it like, was it like a soft brush against your lips? Or was it like a, you know, a ""I gotta have you now"" kind of thing?",Phoebe Buffay,Joyful,positive
+s02_e08_c01,s02_e08_c01_u011,"Well, at first it was really intense, you know. And then, oh, god, and then we just sort of sunk into it.",Rachel Green,Joyful,positive
+s02_e08_c01,s02_e08_c01_u012,"Ok, so, ok, was he holding you? Or was his hand like on your back?",Phoebe Buffay,Neutral,neutral
+s02_e08_c01,s02_e08_c01_u013,"No, actually first they started on my waist. And then, they slid up, and then, they were in my hair.",Rachel Green,Joyful,positive
+s02_e08_c01,s02_e08_c01_u014,Ohhhh.,Monica Geller,Joyful,positive
+s02_e08_c04,s02_e08_c04_u002,"This is a nice resume. Nice, nice, nice. Muy impressivo.",Mr. Ratstatter,Joyful,positive
+s02_e08_c04,s02_e08_c04_u003,"So, Mr. Rastatter, what exactly does this job entail? The ad wasn't too clear.",Monica Geller,Neutral,neutral
+s02_e08_c04,s02_e08_c04_u004,Mockolate.,Mr. Ratstatter,Neutral,neutral
+s02_e08_c04,s02_e08_c04_u005,I'm sorry?,Monica Geller,Scared,negative
+s02_e08_c04,s02_e08_c04_u006,Mockolate. It's a completely synthetic chocolate substitute.,Mr. Ratstatter,Neutral,neutral
+s02_e08_c04,s02_e08_c04_u007,Ohh.,Monica Geller,Scared,negative
+s02_e08_c04,s02_e08_c04_u008,"Go ahead. Try a piece. Yeah, we think that Mockolate is even better than chocolate.",Mr. Ratstatter,Powerful,positive
+s02_e08_c04,s02_e08_c04_u009,All right. Mmm-mmm.,Monica Geller,Mad,negative
+s02_e08_c04,s02_e08_c04_u010,Yeah?,Mr. Ratstatter,Neutral,neutral
+s02_e08_c04,s02_e08_c04_u011,"I love how it crumbles. Now see, your chocolate doesn't do that.",Monica Geller,Mad,negative
+s02_e08_c04,s02_e08_c04_u012,"No, ma'am. Well, anyhoo, we should be getting our F.D.A. approval any day now, hopefully, in time for Thanksgiving. See, the way we look at it, chocolate already dominates most of your major food-preparation holidays: Easter, Christmas, what have you.",Mr. Ratstatter,Powerful,positive
+s02_e08_c04,s02_e08_c04_u013,Mmm-mmm.,Monica Geller,Mad,negative
+s02_e08_c04,s02_e08_c04_u014,"But, we're thinking, given the right marketing, we can make Thanksgiving the Mockolate holiday.",Mr. Ratstatter,Powerful,positive
+s02_e08_c04,s02_e08_c04_u015,Wow.,Monica Geller,Neutral,neutral
+s02_e08_c04,s02_e08_c04_u016,Aren't you going to swallow that?,Mr. Ratstatter,Neutral,neutral
+s02_e08_c04,s02_e08_c04_u017,Just waiting for it to stop bubbling.,Monica Geller,Mad,negative
+s02_e08_c04,s02_e08_c04_u018,"Yeah, isn't that great?",Mr. Ratstatter,Powerful,positive
+s02_e08_c04,s02_e08_c04_u019,Mmm.,Monica Geller,Mad,negative
+s02_e08_c04,s02_e08_c04_u020,"Well, anyhoo, um, we are looking for a couple of chefs who can create some Thanksgiving-themed recipes. You think you might be interested?",Mr. Ratstatter,Powerful,positive
+s02_e08_c04,s02_e08_c04_u021,"Abso... ...lutely. See, I love creating new recipes. I love Thanksgiving. And, well, now, I love Mockolate.",Monica Geller,Joyful,positive
+s02_e08_c04,s02_e08_c04_u022,Really?,Mr. Ratstatter,Powerful,positive
+s02_e08_c04,s02_e08_c04_u023,"Especially the after taste, you know, I'll tell ya, that'll last ya till Christmas.",Monica Geller,Joyful,positive
+s02_e08_c05,s02_e08_c05_u002,How about Mockolate mousse?,Monica Geller,Neutral,neutral
+s02_e08_c05,s02_e08_c05_u003,"It's not, it's not very Thanksgiving-y.",Phoebe Buffay,Mad,negative
+s02_e08_c05,s02_e08_c05_u004,"Ok, how about pilgrim Mockolate mousse?",Monica Geller,Neutral,neutral
+s02_e08_c05,s02_e08_c05_u005,What makes it pilgrim?,Phoebe Buffay,Neutral,neutral
+s02_e08_c05,s02_e08_c05_u006,We'll put buckles on it.,Monica Geller,Joyful,positive
+s02_e08_c05,s02_e08_c05_u007,Hey.,Rachel Green,Neutral,neutral
+s02_e08_c05,s02_e08_c05_u008,Hey.,Phoebe Buffay,Neutral,neutral
+s02_e08_c05,s02_e08_c05_u009,Hey.,Monica Geller,Neutral,neutral
+s02_e08_c05,s02_e08_c05_u010,"Did uh, Ross call?",Rachel Green,Neutral,neutral
+s02_e08_c05,s02_e08_c05_u011,"No, I'm sorry.",Monica Geller,Sad,negative
+s02_e08_c05,s02_e08_c05_u012,"Why didn't he call? He's gonna stay with Julie, isn't he? He's gonna stay with her and she's going to be all, ""Hi, I'm Julie, Ross picked me, and we're gonna to get married, have a lot of kids and dig up stuff together.""",Rachel Green,Mad,negative
+s02_e08_c05,s02_e08_c05_u013,"No offense, but that sounds nothing like her.",Phoebe Buffay,Powerful,positive
+s02_e08_c06,s02_e08_c06_u002,"I don't know what to do. What am I gonna do? I mean, this, this is like a complete nightmare.",Ross Geller,Scared,negative
+s02_e08_c06,s02_e08_c06_u003,"Oh, I know. This must be so hard. Oh, no. Two women love me. They're both gorgeous and sexy. My wallet's too small for my fifties, and my diamond shoes are too tight.",Chandler Bing,Mad,negative
+s02_e08_c06,s02_e08_c06_u004,"Hey, here's a thought, Ross.",Joey Tribbiani,Peaceful,positive
+s02_e08_c06,s02_e08_c06_u005,Don't touch the computer. Don't ever touch the computer.,Chandler Bing,Mad,negative
+s02_e08_c06,s02_e08_c06_u006,"Ross, listen. I got two words for you. Threesome.",Joey Tribbiani,Joyful,positive
+s02_e08_c06,s02_e08_c06_u007,"Ok, all right, look. Let's get logical about this, ok? We'll make a list. Rachel and Julie, pros and cons. Oh. We'll put their names in bold, with different fonts, and I can use different colors for each column.",Chandler Bing,Peaceful,positive
+s02_e08_c06,s02_e08_c06_u008,Can't we just use a pen?,Ross Geller,Neutral,neutral
+s02_e08_c06,s02_e08_c06_u009,"No, Amish boy.",Chandler Bing,Joyful,positive
+s02_e08_c06,s02_e08_c06_u010,"Ok, let's start with the cons, 'cause they're more fun. All right, Rachel first.",Joey Tribbiani,Neutral,neutral
+s02_e08_c06,s02_e08_c06_u011,"I don't know. I mean, all right, I guess you can say she's a little spoiled sometimes.",Ross Geller,Peaceful,positive
+s02_e08_c06,s02_e08_c06_u012,You could say that.,Joey Tribbiani,Neutral,neutral
+s02_e08_c06,s02_e08_c06_u013,"And I guess, you know, sometimes, she's a little ditzy, you know. And I've seen her be a little too into her looks. Oh, and Julie and I, we have a lot in common 'cause we're both paleontologists, but Rachel's just a waitress.",Ross Geller,Peaceful,positive
+s02_e08_c06,s02_e08_c06_u014,Waitress. Got it. You guys wanna play Doom? Or we could keep doing this. What else?,Chandler Bing,Joyful,positive
+s02_e08_c06,s02_e08_c06_u015,I don't know.,Ross Geller,Neutral,neutral
+s02_e08_c06,s02_e08_c06_u016,"Oh, her ankles are a little chubby.",Joey Tribbiani,Joyful,positive
+s02_e08_c06,s02_e08_c06_u017,"Ok, let's do Julie. What's wrong with her?",Chandler Bing,Neutral,neutral
+s02_e08_c06,s02_e08_c06_u018,She's not Rachel.,Ross Geller,Sad,negative
+s02_e08_c07,s02_e08_c07_u002,"Ok, this is pumpkin pie with mockolate cookie crumb crust. This is mockolate cranberry cake, and these are mockolate chip cookies. Just like the Indians served.",Monica Geller,Neutral,neutral
+s02_e08_c07,s02_e08_c07_u003,Oh my god.,Rachel Green,Mad,negative
+s02_e08_c07,s02_e08_c07_u004,Oh my god good?,Monica Geller,Scared,negative
+s02_e08_c07,s02_e08_c07_u005,"Oh my god, I can't believe you let me put this in my mouth.",Rachel Green,Mad,negative
+s02_e08_c07,s02_e08_c07_u006,"Oh, oh sweet Lord! This is what evil must taste like!",Phoebe Buffay,Sad,negative
+s02_e08_c09,s02_e08_c09_u002,"My diary! My diary, that's brilliant. I should have told her it was my diary, she never would have made me read her my diary.",Chandler Bing,Joyful,positive
+s02_e08_c09,s02_e08_c09_u003,"You know, that's true. You'd be a great person to have around the day after an emergency.",Monica Geller,Powerful,positive
+s02_e08_c09,s02_e08_c09_u004,I... I cannot believe Ross even made this list. What a dinkus.,Phoebe Buffay,Scared,negative
+s02_e08_c09,s02_e08_c09_u005,"Hey, cut him some slack. It was Chandler's idea.",Joey Tribbiani,Neutral,neutral
+s02_e08_c09,s02_e08_c09_u006,What?,Phoebe Buffay,Neutral,neutral
+s02_e08_c09,s02_e08_c09_u007,What?,Monica Geller,Neutral,neutral
+s02_e08_c09,s02_e08_c09_u008,"Oh good, I was hoping that would come up.",Chandler Bing,Joyful,positive
+s02_e08_c09,s02_e08_c09_u009,This was your idea?,Monica Geller,Neutral,neutral
+s02_e08_c09,s02_e08_c09_u010,What were you thinking?,Phoebe Buffay,Neutral,neutral
+s02_e08_c09,s02_e08_c09_u011,"All right, let's get some perspective here, ok? These things, they happen for a reason.",Chandler Bing,Peaceful,positive
+s02_e08_c09,s02_e08_c09_u012,Yeah. You!,Monica Geller,Neutral,neutral
+s02_e08_c09,s02_e08_c09_u013,"All right, Pheebs, back me up here, ok? You believe in that karma crap, don't you?",Chandler Bing,Scared,negative
+s02_e08_c09,s02_e08_c09_u014,"Yeah, by the way, good luck in your next life as a dung beetle.",Phoebe Buffay,Neutral,neutral
+s02_e08_c10,s02_e08_c10_u002,"Rach! Whoops! Rach, hey, open up, please!",Ross Geller,Scared,negative
+s02_e08_c10,s02_e08_c10_u003,"When somebody does not buzz you in, Ross, that means go away. That doesn't mean please climb up the fire escape.",Rachel Green,Mad,negative
+s02_e08_c10,s02_e08_c10_u004,I just wanna read something. It's your pro list.,Ross Geller,Neutral,neutral
+s02_e08_c10,s02_e08_c10_u005,Not interested.,Rachel Green,Mad,negative
+s02_e08_c10,s02_e08_c10_u006,"Ok, ok, number one: The way you cry at game shows. Number two: how much you love your friends. Number three: the way you play with your hair when you're nervous. Number four: how brave you are for starting your life over. Number five: how great you are with Ben.",Ross Geller,Neutral,neutral
+s02_e08_c10,s02_e08_c10_u007,Number six: the way you smell.,Ross Geller,Peaceful,positive
+s02_e08_c10,s02_e08_c10_u008,"Hey, Ross! What are you doin'?",Joey Tribbiani,Peaceful,positive
+s02_e08_c10,s02_e08_c10_u009,"Hey, Joey. You wanna open the window?",Ross Geller,Neutral,neutral
+s02_e08_c10,s02_e08_c10_u010,"Oh, yeah, I do.",Joey Tribbiani,Joyful,positive
+s02_e08_c10,s02_e08_c10_u011,What are you doing out there?,Chandler Bing,Neutral,neutral
+s02_e08_c10,s02_e08_c10_u012,"I am, uh, I am...",Ross Geller,Scared,negative
+s02_e08_c10,s02_e08_c10_u013,"Oh, you must be freezing. You know what you need? How about a nice steaming cup of hot Mockolate?",Monica Geller,Peaceful,positive
+s02_e08_c10,s02_e08_c10_u014,"Rach, come on, open up. Rach, come on, come on, Rach. You got to give me another chance.",Ross Geller,Scared,negative
+s02_e08_c10,s02_e08_c10_u015,No.,Rachel Green,Mad,negative
+s02_e08_c10,s02_e08_c10_u016,No?,Ross Geller,Scared,negative
+s02_e08_c10,s02_e08_c10_u017,That's what I said.,Rachel Green,Mad,negative
+s02_e08_c10,s02_e08_c10_u018,"Look, maybe we should go?",Chandler Bing,Scared,negative
+s02_e08_c10,s02_e08_c10_u019,"No, you guys, you really don't have to go, we're done talking.",Rachel Green,Mad,negative
+s02_e08_c10,s02_e08_c10_u020,"Rach, come on, look, I know how you must feel.",Ross Geller,Scared,negative
+s02_e08_c10,s02_e08_c10_u021,"No, you don't, Ross. Imagine the worst things you think about yourself. Now, how would you feel if the one person that you trusted the most in the world not only thinks them too, but actually uses them as reasons not to be with you.",Rachel Green,Sad,negative
+s02_e08_c10,s02_e08_c10_u022,"No, but, but I wanna be with you in spite of all those things.",Ross Geller,Peaceful,positive
+s02_e08_c10,s02_e08_c10_u023,"Oh, well, that's, that's mighty big of you, Ross. I said don't go!",Rachel Green,Sad,negative
+s02_e08_c10,s02_e08_c10_u024,"You know what? You know what? If, things were the other way around, there's nothing you could put on a list that would ever make me not want to be with you.",Ross Geller,Peaceful,positive
+s02_e08_c10,s02_e08_c10_u025,"Well, then, I guess that's the difference between us. See, I'd never make a list.",Rachel Green,Scared,negative
+s02_e08_c10,s02_e08_c10_u026,"I never know how long you're supposed to wait in this type of a situation before you can talk again, you know? Maybe a little longer.",Joey Tribbiani,Scared,negative
+s02_e08_c11,s02_e08_c11_u002,"Now, in some of these recipes, the quantities may seem just a little unusual, uh, like these coconut mockolate holiday nut bars. I've indicated four cups of coconut, and four cups of crushed nut, and only, uh, one tablespoon of mockolate.",Monica Geller,Neutral,neutral
+s02_e08_c11,s02_e08_c11_u003,Doesn't matter.,Mr. Ratstatter,Neutral,neutral
+s02_e08_c11,s02_e08_c11_u004,What?,Monica Geller,Scared,negative
+s02_e08_c11,s02_e08_c11_u005,Our FDA approval didn't come through. Something about laboratory rats.,Mr. Ratstatter,Sad,negative
+s02_e08_c11,s02_e08_c11_u006,"Oh, gosh, I'm sorry.",Monica Geller,Sad,negative
+s02_e08_c11,s02_e08_c11_u007,"Yeah, well, anyhoo, here is your check. Thank you for all the trouble you went through. Um, listen, you didn't eat a lot of it while you were cooking, did you?",Mr. Ratstatter,Sad,negative
+s02_e08_c11,s02_e08_c11_u008,"Well, uh, I ate some.",Monica Geller,Scared,negative
+s02_e08_c11,s02_e08_c11_u009,"Oh, some, that's fine. Some is fine. Some is not a lot. So, it doesn't burn when you pee, does it?",Mr. Ratstatter,Neutral,neutral
+s02_e08_c12,s02_e08_c12_u003,Hello?,Monica Geller,Neutral,neutral
+s02_e08_c12,s02_e08_c12_u004,Hi.,Ross Geller,Neutral,neutral
+s02_e08_c12,s02_e08_c12_u005,"Is that him again? Tell him I'd come to the phone, but my ankles are weighin' me down.",Rachel Green,Peaceful,positive
+s02_e08_c12,s02_e08_c12_u006,"Listen, I... I don't think this is the best time.",Monica Geller,Neutral,neutral
+s02_e08_c12,s02_e08_c12_u007,"Look, can, can you do something for me?",Ross Geller,Scared,negative
+s02_e08_c12,s02_e08_c12_u008,"Sure, what? Ok, ok. Music?",Monica Geller,Powerful,positive
+s02_e08_c12,s02_e08_c12_u009,"The next one's dedicated to Rachel from Ross. Rachel, he wants you to know he's deeply sorry for what he did and he hopes you can find it in your heart to forgive him.",Radio,Powerful,positive
+s02_e08_c12,s02_e08_c12_u010,"Uh, we've just gotten a call from Rachel, and she told us what Ross did. It's pretty appalling, and Ross, if you're listening, I don't wanna play your song anymore. Why don't we devote our time to a couple that stands a chance? Avery, Michelle's sorry she hit you with her car and she hopes you two will work it out.",Radio,Joyful,positive
+s02_e08_c13,s02_e08_c13_u002,"Hi, thanks for coming in again.",Mr. Ratstatter,Neutral,neutral
+s02_e08_c13,s02_e08_c13_u003,"Oh, not at all. I have no morals and I need the cash.",Monica Geller,Sad,negative
+s02_e08_c13,s02_e08_c13_u004,"It's like I'm lookin' in a mirror. Anyway, they're called ""fishtachios"". They taste exactly like pistachios, but they're made primarily of reconstituted fish bits. Here, try one. You're not allergic to anything, are you?",Mr. Ratstatter,Neutral,neutral
+s02_e08_c13,s02_e08_c13_u005,Cat hair.,Monica Geller,Sad,negative
+s02_e08_c13,s02_e08_c13_u006,"Oh, sorry.",Mr. Ratstatter,Sad,negative
+s02_e23_c02,s02_e23_c02_u002,"Honey, you made the bed again. I told you, you don't have to do that. This isn't camp.",Monica Geller,Joyful,positive
+s02_e23_c02,s02_e23_c02_u003,"Ooh, then I guess the panty raid last night was totally uncalled for. Ok, I am going to take a shower and today I will be singing Jim Crochee's Leroy Brown.",Richard Burke,Joyful,positive
+s02_e23_c02,s02_e23_c02_u004,"Monica... Hey Mon, I have a question. Is Leroy the baddest man in the whole damn town or the fattest man in the whole damn town?",Richard Burke,Powerful,positive
+s02_e23_c02,s02_e23_c02_u005,Baddest. Otherwise the song would be Fat Fat Leroy Brown.,Monica Geller,Joyful,positive
+s02_e23_c02,s02_e23_c02_u006,What're you doing?,Richard Burke,Neutral,neutral
+s02_e23_c02,s02_e23_c02_u007,Just waiting for you sweetie.,Monica Geller,Joyful,positive
+s02_e23_c02,s02_e23_c02_u008,Are you remaking the bed?,Richard Burke,Neutral,neutral
+s02_e23_c02,s02_e23_c02_u009,"I'm sorry, I'm sorry. You know what, the way you did it was just fine.",Monica Geller,Sad,negative
+s02_e23_c02,s02_e23_c02_u010,"Then, you're redoing it because...",Richard Burke,Neutral,neutral
+s02_e23_c02,s02_e23_c02_u011,"If I tell you, you'll think I'm crazy.",Monica Geller,Sad,negative
+s02_e23_c02,s02_e23_c02_u012,You're pretty much running that risk either way.,Richard Burke,Scared,negative
+s02_e23_c02,s02_e23_c02_u013,"Ok, you see, the tag shouldn't be at the top left corner, it should be at the bottom right corner.",Monica Geller,Sad,negative
+s02_e23_c02,s02_e23_c02_u014,"Oh, well that's not so crazy.",Richard Burke,Neutral,neutral
+s02_e23_c02,s02_e23_c02_u015,I'm just easing you in.,Monica Geller,Joyful,positive
+s02_e23_c02,s02_e23_c02_u016,"Oh, alright.",Richard Burke,Neutral,neutral
+s02_e23_c02,s02_e23_c02_u017,"Alright, you see these little flower blossoms? They should be facing up, not down, because, well, the head of the bed is where the sun would be. You don't love me any more do you.",Monica Geller,Peaceful,positive
+s02_e23_c02,s02_e23_c02_u018,"Actually, if it's possible, I love you more.",Richard Burke,Peaceful,positive
+s02_e23_c02,s02_e23_c02_u019,"Really? Wow, well then come on, I wanna show you how to fold the toilet paper into a point.",Monica Geller,Joyful,positive
+s02_e23_c03,s02_e23_c03_u002,"Hey, look Joey, I'm just saying if you need something to hold you over, I can get you a job right here as an entry level processor.",Chandler Bing,Neutral,neutral
+s02_e23_c03,s02_e23_c03_u003,But don't you need experience for a job like that?,Joey Tribbiani,Scared,negative
+s02_e23_c03,s02_e23_c03_u004,"It's not that hard to learn. And as for people realizing you have no idea what you're doing, hey, you're an actor. Act like a processor, people will think you're a processor.",Chandler Bing,Peaceful,positive
+s02_e23_c03,s02_e23_c03_u005,"Hey Chandler, here's this morning's projections.",Scott Alexander,Joyful,positive
+s02_e23_c03,s02_e23_c03_u006,"Hey thanks. Scott Alexander, Joey Tribbianni. Joey is a uh, fellow processor.",Chandler Bing,Mad,negative
+s02_e23_c03,s02_e23_c03_u007,No kidding.,Scott Alexander,Peaceful,positive
+s02_e23_c03,s02_e23_c03_u008,"Oh yeah yeah. I process. People want the processing, I'm the one they call.",Joey Tribbiani,Powerful,positive
+s02_e23_c03,s02_e23_c03_u009,Where do you work?,Scott Alexander,Neutral,neutral
+s02_e23_c03,s02_e23_c03_u010,"Uhh, well, right now I'm in between things. You know how it is. One day you're processing, the next day you're not so much... processing any more.",Joey Tribbiani,Neutral,neutral
+s02_e23_c03,s02_e23_c03_u011,I was just telling Joey about the opening in Fleischman's group.,Chandler Bing,Neutral,neutral
+s02_e23_c03,s02_e23_c03_u012,"Fleischman's group. Whatever you do, don't touch his sandwiches. Ha-ha-ha...",Scott Alexander,Joyful,positive
+s02_e23_c03,s02_e23_c03_u013,Ha-ha. Are all you processors dorks?,Joey Tribbiani,Joyful,positive
+s02_e23_c04,s02_e23_c04_u002,"Oh, this lipstick looks just great on you.",Rachel Green,Joyful,positive
+s02_e23_c04,s02_e23_c04_u003,"You look fabulous honey, you really do.",Monica Geller,Joyful,positive
+s02_e23_c04,s02_e23_c04_u004,"Yeah? Are you sure, really.",Phoebe Buffay,Joyful,positive
+s02_e23_c04,s02_e23_c04_u005,"You see, you look beautiful. For god sakes, dim the lights.",Rachel Green,Scared,negative
+s02_e23_c04,s02_e23_c04_u006,"I, I, I'm hideous.",Phoebe Buffay,Sad,negative
+s02_e23_c04,s02_e23_c04_u007,It's gonna be ok. Ryan's been under water. He's just gonna be so glad that you don't have barnicles on your butt.,Monica Geller,Neutral,neutral
+s02_e23_c05,s02_e23_c05_u002,Come in.,Phoebe Buffay,Neutral,neutral
+s02_e23_c05,s02_e23_c05_u003,"Hey baby, I'm back...",Ryan,Peaceful,positive
+s02_e23_c05,s02_e23_c05_u004,"Hey Ryan, what's up?",Phoebe Buffay,Neutral,neutral
+s02_e23_c05,s02_e23_c05_u005,What's goin' on?,Ryan,Neutral,neutral
+s02_e23_c05,s02_e23_c05_u006,"Well, no no, you have to stay back. I, I have the pox.",Phoebe Buffay,Sad,negative
+s02_e23_c05,s02_e23_c05_u007,Chicken or small?,Ryan,Neutral,neutral
+s02_e23_c05,s02_e23_c05_u008,Chicken. Which is so ironic considering I'm a vegetarian.,Phoebe Buffay,Joyful,positive
+s02_e23_c05,s02_e23_c05_u009,Why aren't you at home in bed?,Ryan,Neutral,neutral
+s02_e23_c05,s02_e23_c05_u010,"'Cause my, my grandmother's never had chicken pox. Please, please tell me you have, 'cause oh my God, I forgot how cute you are.",Phoebe Buffay,Joyful,positive
+s02_e23_c05,s02_e23_c05_u011,"I'm sorry, I never had 'em.",Ryan,Scared,negative
+s02_e23_c05,s02_e23_c05_u012,"Ohh, ohh.",Phoebe Buffay,Scared,negative
+s02_e23_c05,s02_e23_c05_u013,"If I had one wish, it would be to build a time machine, go back to when I was 7, when Jimmy Hauser had the chicken pox. I would grab that kid and rub him all over my face.",Ryan,Powerful,positive
+s02_e23_c05,s02_e23_c05_u014,"Yeah, or you know, you could just wish that I didn't have them now.",Phoebe Buffay,Mad,negative
+s02_e23_c05,s02_e23_c05_u015,Can I please see your face?,Ryan,Neutral,neutral
+s02_e23_c05,s02_e23_c05_u016,Nope. You don't want to see a face covered with pox.,Phoebe Buffay,Scared,negative
+s02_e23_c05,s02_e23_c05_u017,"Your face could be covered with lochs, I wouldn't care.",Ryan,Peaceful,positive
+s02_e23_c05,s02_e23_c05_u018,"And you hate fish. Oh. That's so sweet, alright. Ok, alright, you can see. This is me... Oh, I am scary.",Phoebe Buffay,Scared,negative
+s02_e23_c05,s02_e23_c05_u019,"Sorry, the lightning. Lightning was an unfortunate incidence. You look lovely, lovely.",Ryan,Peaceful,positive
+s02_e23_c05,s02_e23_c05_u020,"I hate this. 'Cause I tell you, I had the most amazing two weeks planned for us, and almost everything I had in mind, we had to be a lot closer than this.",Phoebe Buffay,Sad,negative
+s02_e23_c05,s02_e23_c05_u021,"Phoebe, I have spent the last eight months in a steel tube with men, thinking about this moment. I am not gonna let a bunch of itchy spots stand between us.",Ryan,Joyful,positive
+s02_e23_c05,s02_e23_c05_u022,"Ok, this is the most romantic disease I've ever had.",Phoebe Buffay,Joyful,positive
+s02_e23_c06,s02_e23_c06_u002,Hey.,Joey Tribbiani,Neutral,neutral
+s02_e23_c06,s02_e23_c06_u003,"Hey, how's the first day goin'?",Chandler Bing,Peaceful,positive
+s02_e23_c06,s02_e23_c06_u004,Pretty good. It's like you said. It's mostly just putting numbers from one column into another column.,Joey Tribbiani,Peaceful,positive
+s02_e23_c06,s02_e23_c06_u005,Well there you go.,Chandler Bing,Neutral,neutral
+s02_e23_c06,s02_e23_c06_u006,"Hey and everbody is so nice. I just had a good talk with that lady with the red hair, Jeannie.",Joey Tribbiani,Joyful,positive
+s02_e23_c06,s02_e23_c06_u007,"Jeannie, the head of east coast operations Jeannie?",Chandler Bing,Neutral,neutral
+s02_e23_c06,s02_e23_c06_u008,"Yeah, turns out our kids go to the same school. Small world huh?",Joey Tribbiani,Joyful,positive
+s02_e23_c06,s02_e23_c06_u009,Weird world. Your kids?,Chandler Bing,Neutral,neutral
+s02_e23_c06,s02_e23_c06_u010,I figure my character has kids.,Joey Tribbiani,Neutral,neutral
+s02_e23_c06,s02_e23_c06_u011,Ya know there isn't a part of that sentence I don't need explained.,Chandler Bing,Scared,negative
+s02_e23_c06,s02_e23_c06_u012,"Well, see when you're acting you need to think about stuff like that. My character, Joseph the processor guy, has two little girls, Ashley and Brittany. Ashley copies everything Brittany does.",Joey Tribbiani,Joyful,positive
+s02_e23_c06,s02_e23_c06_u013,"Well, invisible kids can be that way sometimes.",Chandler Bing,Peaceful,positive
+s02_e23_c06,s02_e23_c06_u014,"Yeah. Joseph and his wife, Karen, are thinking of having a third kid... Ya know what? Just did.",Joey Tribbiani,Joyful,positive
+s02_e23_c06,s02_e23_c06_u015,Really? Wow. That's some pretty powerful imaginary sperm you must have there.,Chandler Bing,Joyful,positive
+s02_e23_c07,s02_e23_c07_u002,You know what makes the itching even worse?,Ryan,Neutral,neutral
+s02_e23_c07,s02_e23_c07_u003,That you don't stop talking about it.,Phoebe Buffay,Neutral,neutral
+s02_e23_c07,s02_e23_c07_u004,Fine.,Ryan,Mad,negative
+s02_e23_c07,s02_e23_c07_u005,"Let's just play, ok. Good, ok. Here we go, double sixes, here we go... Here we go, come to mama, just getting ready to roll the dice...",Phoebe Buffay,Joyful,positive
+s02_e23_c07,s02_e23_c07_u006,What're you doing? Are you scratching?,Ryan,Scared,negative
+s02_e23_c07,s02_e23_c07_u007,"No. This is what I do for luck, ok.",Phoebe Buffay,Powerful,positive
+s02_e23_c07,s02_e23_c07_u008,You're scratching. Give me the dice.,Ryan,Powerful,positive
+s02_e23_c07,s02_e23_c07_u009,No.,Phoebe Buffay,Powerful,positive
+s02_e23_c07,s02_e23_c07_u010,Give me the dice.,Ryan,Powerful,positive
+s02_e23_c07,s02_e23_c07_u011,"No. Here. There. Ooh, double sixes.",Phoebe Buffay,Powerful,positive
+s02_e23_c07,s02_e23_c07_u012,"We can't scratch. You know we can't, we'll scar.",Ryan,Neutral,neutral
+s02_e23_c07,s02_e23_c07_u013,"Uhh, I can't stop thinking about it. It's just so hard. I just wanna grab all these houses and rub 'em all over my body.",Phoebe Buffay,Sad,negative
+s02_e23_c07,s02_e23_c07_u014,No.,Ryan,Powerful,positive
+s02_e23_c07,s02_e23_c07_u015,Give it.,Phoebe Buffay,Powerful,positive
+s02_e23_c07,s02_e23_c07_u016,No.,Ryan,Powerful,positive
+s02_e23_c07,s02_e23_c07_u017,"Yeah, come on. You know you want it, you know you want it too, come on. Let's just be bad, it'll feel so good.",Phoebe Buffay,Powerful,positive
+s02_e23_c07,s02_e23_c07_u018,Oh God help me.,Ryan,Scared,negative
+s02_e23_c07,s02_e23_c07_u019,"Now do me, do my back. Oh come on, harder.",Phoebe Buffay,Joyful,positive
+s02_e23_c07,s02_e23_c07_u020,"Oh, stop that, stop that right now.",Rachel Green,Mad,negative
+s02_e23_c07,s02_e23_c07_u021,"You know, I might have expected this of you Phoebe, but Ryan, you're a military man.",Ross Geller,Scared,negative
+s02_e23_c08,s02_e23_c08_u002,"You and Milton have to join us on the boat. Karen'll pack a lunch, you'll bring the kids, we'll make a day of it.",Joey Tribbiani,Joyful,positive
+s02_e23_c08,s02_e23_c08_u003,"Oh, that sounds lovely. We're gonna have to set that up. Oh, I better get back. Hope the baby feels better.",Jeannie,Joyful,positive
+s02_e23_c08,s02_e23_c08_u004,"Oh, thanks, thanks. Bye bye Jeannie.",Joey Tribbiani,Neutral,neutral
+s02_e23_c08,s02_e23_c08_u005,Bye bye Joey.,Jeannie,Neutral,neutral
+s02_e23_c08,s02_e23_c08_u006,What a phony.,Joey Tribbiani,Mad,negative
+s02_e23_c08,s02_e23_c08_u007,"Well, I'm sure you'll teach her a lesson when she steps off the dock onto nothing. Hey Mr. Douglas.",Chandler Bing,Mad,negative
+s02_e23_c08,s02_e23_c08_u008,Sir.,Joey Tribbiani,Neutral,neutral
+s02_e23_c08,s02_e23_c08_u009,"Uh, listen Bing, I received your memo. So, we're not gonna receive the systems report until next Friday?",Mr. Douglas,Mad,negative
+s02_e23_c08,s02_e23_c08_u010,Well the people in my group wanna spend the holiday weekend with their families.,Chandler Bing,Neutral,neutral
+s02_e23_c08,s02_e23_c08_u011,"I have a family, I'm gonna be here.",Mr. Douglas,Peaceful,positive
+s02_e23_c08,s02_e23_c08_u012,"Yeah Bing, what's that about?",Joey Tribbiani,Neutral,neutral
+s02_e23_c08,s02_e23_c08_u013,"It's about cutting my people a little slack, ya know, for morale. Look, if you wanna see some rough numbers, I can get them to you by Wednesday.",Chandler Bing,Powerful,positive
+s02_e23_c08,s02_e23_c08_u014,Rough numbers?,Mr. Douglas,Mad,negative
+s02_e23_c08,s02_e23_c08_u015,This company was not built on rough numbers. Am I right Mr. Douglas.,Joey Tribbiani,Neutral,neutral
+s02_e23_c08,s02_e23_c08_u016,Have the final numbers on my desk by Tuesday.,Mr. Douglas,Powerful,positive
+s02_e23_c08,s02_e23_c08_u017,"Uh, if you say so sir.",Chandler Bing,Neutral,neutral
+s02_e23_c08,s02_e23_c08_u018,"Joseph's good, isn't he?",Joey Tribbiani,Joyful,positive
+s02_e23_c08,s02_e23_c08_u019,"Well, I'm going to kill you.",Chandler Bing,Mad,negative
+s02_e23_c08,s02_e23_c08_u020,"Hey, hey, I just figure Joseph's the kinda guy that likes to mix it up. Ya know, get in there, ruffle some feathers.",Joey Tribbiani,Joyful,positive
+s02_e23_c08,s02_e23_c08_u021,Why?,Chandler Bing,Neutral,neutral
+s02_e23_c08,s02_e23_c08_u022,"Look, I'm sorry but that's what Joseph does, ok. If you try to pull somethin', he'll call you on it. 'What're you tryin' to pull,' he'll say.",Joey Tribbiani,Powerful,positive
+s02_e23_c10,s02_e23_c10_u002,Hey. Mr. Douglas is looking for you.,Joey Tribbiani,Neutral,neutral
+s02_e23_c10,s02_e23_c10_u003,Why? Wh- wh- why is Mr. Douglas looking for me?,Chandler Bing,Scared,negative
+s02_e23_c10,s02_e23_c10_u004,'Cause he has a strong suspicion that you dropped the ball on the Lender project.,Joey Tribbiani,Powerful,positive
+s02_e23_c10,s02_e23_c10_u005,"Wha- wh- why, why, why does he suspect that?",Chandler Bing,Scared,negative
+s02_e23_c10,s02_e23_c10_u006,"Becasue at first he thought it was Joseph. But after he asked Joseph about it, turns out it was you. Anyway, I just thought you should know.",Joey Tribbiani,Neutral,neutral
+s02_e23_c10,s02_e23_c10_u007,"Alright, that's it. Look Joey, I'm sorry, I realize this is the role of a lifetime for ya, and if I could just fire Joseph, I would, but unfortunately that's not possible so I'm gonna have to let both of you go.",Chandler Bing,Powerful,positive
+s02_e23_c10,s02_e23_c10_u008,"What're you talking about, everybody loves Joseph.",Joey Tribbiani,Neutral,neutral
+s02_e23_c10,s02_e23_c10_u009,"I don't, I hate Joseph, ok. I think he's a brown-nosing suck up.",Chandler Bing,Mad,negative
+s02_e23_c10,s02_e23_c10_u010,"Oh yeah. Well you can't fire Joseph. You know why, 'cause he's not in your department.",Joey Tribbiani,Neutral,neutral
+s02_e23_c10,s02_e23_c10_u011,"Alright, ok, alright. So I can't fire Joseph but uh, I can sleep with his wife.",Chandler Bing,Mad,negative
+s02_e23_c10,s02_e23_c10_u012,Karen.,Joey Tribbiani,Neutral,neutral
+s02_e23_c10,s02_e23_c10_u013,"Yeah, Karen. I'm thinking about having an affair with her. Oh, you know what? I just did.",Chandler Bing,Powerful,positive
+s02_e23_c10,s02_e23_c10_u014,Ahh. What the hell are you doing to me man.,Joey Tribbiani,Sad,negative
+s02_e23_c10,s02_e23_c10_u015,"Oh well it's not me, it's my character, Chandy. Yeah the rogue processor who seduces his co-worker's wives for sport and then laughs about it the next day at the water cooler. In fact, I have her panties right there in my drawer.",Chandler Bing,Powerful,positive
+s02_e23_c10,s02_e23_c10_u016,Really?,Joey Tribbiani,Scared,negative
+s02_e23_c10,s02_e23_c10_u017,"No freakshow, she's fictional.",Chandler Bing,Mad,negative
+s02_e23_c10,s02_e23_c10_u018,"Take it easy. If it means that much to you, I'll uh, I'll go find something else.",Joey Tribbiani,Neutral,neutral
+s02_e23_c10,s02_e23_c10_u019,Thank you.,Chandler Bing,Peaceful,positive
+s02_e23_c10,s02_e23_c10_u020,"It's just that, I, I'm gonna miss Joseph. I liked him. His wife, she was hot.",Joey Tribbiani,Powerful,positive
+s02_e23_c11,s02_e23_c11_u002,Can I please take these off? I swear I won't scratch.,Phoebe Buffay,Sad,negative
+s02_e23_c11,s02_e23_c11_u003,"No sorry hon, Monica's orders.",Rachel Green,Neutral,neutral
+s02_e23_c11,s02_e23_c11_u004,Well that wasn't easy.,Ryan,Neutral,neutral
+s02_e23_c11,s02_e23_c11_u005,"Ok, dinner's on.",Ross Geller,Neutral,neutral
+s02_e23_c11,s02_e23_c11_u006,And there's a peach cobbler warming in the oven so the plate's gonna be hot but that shouldn't be a problem for you.,Rachel Green,Powerful,positive
+s02_e23_c11,s02_e23_c11_u007,"Alright you kids, bye now.",Ross Geller,Neutral,neutral
+s02_e23_c11,s02_e23_c11_u008,Bye.,Phoebe Buffay,Neutral,neutral
+s02_e23_c11,s02_e23_c11_u009,"Oh look, a low budget puppet show.",Ross Geller,Joyful,positive
+s02_e23_c11,s02_e23_c11_u010,It's such a shame you can't see which finger I'm holding up.,Phoebe Buffay,Powerful,positive
+s02_e23_c11,s02_e23_c11_u011,Wine?,Ryan,Neutral,neutral
+s02_e23_c11,s02_e23_c11_u012,Please.,Phoebe Buffay,Neutral,neutral
+s02_e23_c11,s02_e23_c11_u013,"Oh, I spilled some.",Ryan,Sad,negative
+s02_e23_c11,s02_e23_c11_u014,I got it.,Phoebe Buffay,Neutral,neutral
+s02_e23_c11,s02_e23_c11_u015,"I must tell you, you look beautiful tonight.",Ryan,Joyful,positive
+s02_e23_c11,s02_e23_c11_u016,What?,Phoebe Buffay,Neutral,neutral
+s02_e23_c11,s02_e23_c11_u017,Sorry. You look beautiful.,Ryan,Joyful,positive
+s02_e23_c11,s02_e23_c11_u018,Oh.,Phoebe Buffay,Peaceful,positive
+s02_e23_c11,s02_e23_c11_u019,"You know what, that's it, that's it.",Phoebe Buffay,Powerful,positive
+s02_e23_c12,s02_e23_c12_u002,"Monica, wake up. Monica.",Richard Burke,Neutral,neutral
+s02_e23_c12,s02_e23_c12_u003,What's up?,Monica Geller,Neutral,neutral
+s02_e23_c12,s02_e23_c12_u004,I thought of a thing.,Richard Burke,Neutral,neutral
+s02_e23_c12,s02_e23_c12_u005,Yeah?,Monica Geller,Neutral,neutral
+s02_e23_c12,s02_e23_c12_u006,"Yeah. I have to sleep, have to, on this side of the bed.",Richard Burke,Neutral,neutral
+s02_e23_c12,s02_e23_c12_u007,No honey. You have to sleep on this side of the bed because I have to sleep on this side of the bed.,Monica Geller,Mad,negative
+s02_e23_c12,s02_e23_c12_u008,Or so I would have you believe.,Richard Burke,Neutral,neutral
+s02_e23_c12,s02_e23_c12_u009,"No. Big deal, so you have a side of the bed, everybody has a side of the bed.",Monica Geller,Peaceful,positive
+s02_e23_c12,s02_e23_c12_u010,"Hey come on, you haven't heard my reason yet.",Richard Burke,Mad,negative
+s02_e23_c12,s02_e23_c12_u011,"Alright, go on.",Monica Geller,Neutral,neutral
+s02_e23_c12,s02_e23_c12_u012,"Ok, I have to sleep on the west side because I grew up in California and otherwise the ocean would be on the wrong side.",Richard Burke,Neutral,neutral
+s02_e23_c12,s02_e23_c12_u013,"Oh my God, you're a freak.",Monica Geller,Joyful,positive
+s02_e23_c12,s02_e23_c12_u014,Yeah. How 'bout that.,Richard Burke,Neutral,neutral
+s02_e23_c13,s02_e23_c13_u002,"So uh, Ryan, were you shipping off to?",Rachel Green,Joyful,positive
+s02_e23_c13,s02_e23_c13_u003,I really can't say.,Ryan,Neutral,neutral
+s02_e23_c13,s02_e23_c13_u004,So do you have like any nuclear weapons on board?,Ross Geller,Joyful,positive
+s02_e23_c13,s02_e23_c13_u005,I can't say.,Ryan,Neutral,neutral
+s02_e23_c13,s02_e23_c13_u006,"Well do you get to look through one of those like, those periscope thingys.",Rachel Green,Joyful,positive
+s02_e23_c13,s02_e23_c13_u007,"I'm sorry, but I can't say.",Ryan,Neutral,neutral
+s02_e23_c13,s02_e23_c13_u008,"Wow, it, it's neat learning about submarines.",Ross Geller,Joyful,positive
+s02_e23_c13,s02_e23_c13_u009,"I better get out of here, I'm gonna miss my flight.",Ryan,Neutral,neutral
+s02_e23_c13,s02_e23_c13_u010,"Ok, I'll walk you out.",Phoebe Buffay,Neutral,neutral
+s02_e23_c13,s02_e23_c13_u011,Bye Ryan.,Ross Geller,Sad,negative
+s02_e23_c13,s02_e23_c13_u012,Pleasure.,Ryan,Neutral,neutral
+s02_e23_c13,s02_e23_c13_u013,It was nice to meet you.,Rachel Green,Neutral,neutral
+s02_e23_c13,s02_e23_c13_u014,Take care.,Ryan,Neutral,neutral
+s02_e23_c13,s02_e23_c13_u015,"So do you uh, think we can get you one of those uh, uniform things?",Rachel Green,Joyful,positive
+s02_e23_c13,s02_e23_c13_u016,You like that do ya?,Ross Geller,Joyful,positive
+s02_e23_c13,s02_e23_c13_u017,Oh yeah.,Rachel Green,Joyful,positive
+s02_e23_c13,s02_e23_c13_u018,I'll make some calls.,Ross Geller,Joyful,positive
+s02_e23_c13,s02_e23_c13_u019,Ok.,Rachel Green,Joyful,positive
+s02_e23_c13,s02_e23_c13_u020,Can you believe how we spent our two weeks together?,Ryan,Joyful,positive
+s02_e23_c13,s02_e23_c13_u021,"I know. We didn't do any of the romantic things I had planned, like having a picnic at Central Park and ya know, coffee at Central Perk. Oh I just got that.",Phoebe Buffay,Sad,negative
+s02_e23_c13,s02_e23_c13_u022,Taxi.,Ryan,Neutral,neutral
+s02_e23_c13,s02_e23_c13_u023,Bye you.,Phoebe Buffay,Joyful,positive
+s02_e23_c14,s02_e23_c14_u002,"Oh I'm sorry, we're clo-... Hey sailor.",Rachel Green,Neutral,neutral
+s02_e23_c14,s02_e23_c14_u003,Is this what you had in mind?,Ross Geller,Neutral,neutral
+s02_e23_c14,s02_e23_c14_u004,I'll say.,Rachel Green,Neutral,neutral
+s02_e23_c14,s02_e23_c14_u005,I'm shipping out tomorrow.,Ross Geller,Neutral,neutral
+s02_e23_c14,s02_e23_c14_u006,"Well then uh, we better make this night count. Oh wait, I forgot to turn off the cappucino machine. Anchors away. Oh no no, my purse, my purse, my purse, my purse, my purse, my pu rse. Oh, you know what. I forgot to turn off the bathroom light.",Rachel Green,Neutral,neutral
+s02_e23_c14,s02_e23_c14_u007,"Alright you know, why don't I just meet you upstairs.",Ross Geller,Neutral,neutral
+s03_e08_c01,s03_e08_c01_u002,Here you go Pheebs. Who else wants one of my special homemade brownies?,Rachel Green,Joyful,positive
+s03_e08_c01,s03_e08_c01_u003,I will have one.,Chandler Bing,Peaceful,positive
+s03_e08_c01,s03_e08_c01_u005,"Okay, I'm not gonna have one.",Chandler Bing,Peaceful,positive
+s03_e08_c01,s03_e08_c01_u006,Neither will I.,Ross Geller,Peaceful,positive
+s03_e08_c01,s03_e08_c01_u007,"No, no, it's just my tooth.",Phoebe Buffay,Mad,negative
+s03_e08_c01,s03_e08_c01_u008,All right I'll have one.,Chandler Bing,Joyful,positive
+s03_e08_c01,s03_e08_c01_u009,"So what's a matter, you need a dentist? I've got a good one.",Ross Geller,Peaceful,positive
+s03_e08_c01,s03_e08_c01_u010,"No thanks, I have a good one too. I just, I, I can't see him.",Phoebe Buffay,Scared,negative
+s03_e08_c01,s03_e08_c01_u011,See that is the problem with invisible dentists.,Chandler Bing,Joyful,positive
+s03_e08_c01,s03_e08_c01_u012,Why? Why can't you go to him?,Ross Geller,Scared,negative
+s03_e08_c01,s03_e08_c01_u013,"Because, every time I go to the dentist, somebody dies.",Phoebe Buffay,Scared,negative
+s03_e08_c01,s03_e08_c01_u014,"That is so weird, because every time I go to the dentist, I look down the hygienist's blouse.",Chandler Bing,Scared,negative
+s03_e08_c01,s03_e08_c01_u015,"Phoebe, what? Umm...what?!",Rachel Green,Scared,negative
+s03_e08_c01,s03_e08_c01_u016,"Yeah, yeah, first there was my aunt Mary, and then there was umm, John, my mailman, and then my, my cowboy friend 'Albino Bob'.",Phoebe Buffay,Scared,negative
+s03_e08_c01,s03_e08_c01_u017,And all these people actually died?,Rachel Green,Scared,negative
+s03_e08_c01,s03_e08_c01_u018,"Yes, while I was in the chair! That's why I take such good care of my teeth now, y'know, it's not about oral hygiene, I floss to save lives!",Phoebe Buffay,Scared,negative
+s03_e08_c01,s03_e08_c01_u019,"Pheebs, come on, you didn't kill anybody, these people just happened to die when you went to the dentist. It's, it's, it's just ah, a coincidence.",Ross Geller,Powerful,positive
+s03_e08_c01,s03_e08_c01_u020,"Well tell that to them. Oh! You can't, their dead.",Phoebe Buffay,Sad,negative
+s03_e08_c02,s03_e08_c02_u002,"Thanks, Gunther. Hey! Umm, can I get a napkin too?",Ross Geller,Peaceful,positive
+s03_e08_c02,s03_e08_c02_u003,"Oh, like you don't already have everything.",Gunther,Neutral,neutral
+s03_e08_c02,s03_e08_c02_u004,Ow! Ow!,Phoebe Buffay,Joyful,positive
+s03_e08_c02,s03_e08_c02_u005,"Phoebe, your in pain, would you just go to the dentist, just go.",Rachel Green,Sad,negative
+s03_e08_c02,s03_e08_c02_u006,"All right, fine, fine, but if you're my next victim, don't come back as a poltergeist and like suck me into the TV set.",Phoebe Buffay,Sad,negative
+s03_e08_c02,s03_e08_c02_u007,I promise.,Rachel Green,Peaceful,positive
+s03_e08_c02,s03_e08_c02_u008,"Although, don't feel like you can't visit.",Phoebe Buffay,Sad,negative
+s03_e08_c02,s03_e08_c02_u009,"Hey, is, is, is Chandler here?",Joey Tribbiani,Joyful,positive
+s03_e08_c02,s03_e08_c02_u010,"No, no he's not.",Ross Geller,Joyful,positive
+s03_e08_c02,s03_e08_c02_u011,"You guys, Joey just saw Janice kissing her ex-husband.",Monica Geller,Mad,negative
+s03_e08_c02,s03_e08_c02_u012,"What? So what are you going to do? I mean how, how are you going to tell Chandler?",Ross Geller,Scared,negative
+s03_e08_c02,s03_e08_c02_u013,"Well, I was thinking about that and I, I think the best way would be, to not.",Joey Tribbiani,Scared,negative
+s03_e08_c02,s03_e08_c02_u014,"Joey, you can't keep this to yourself, if you know about this, you have to tell him.",Rachel Green,Neutral,neutral
+s03_e08_c02,s03_e08_c02_u015,"It'll kill him. I mean it'll, it'll just kill him.",Joey Tribbiani,Mad,negative
+s03_e08_c02,s03_e08_c02_u016,"Well, you could wait 'til I go to the dentist, maybe I'll kill him.",Phoebe Buffay,Mad,negative
+s03_e08_c03,s03_e08_c03_u002,Ewww! Ugly Naked Guy is using his new hammock. It's like a Play-Doo Fat Factory.,Joey Tribbiani,Mad,negative
+s03_e08_c03,s03_e08_c03_u003,"Well, I'm going to the dentist, so listen, okay, just be on the look out for anything that, that, that you can fall into, or, or that can fall on you, or... All right, just look out! Okay, And um, I also just wanna, I just wanna tell you all that um......",Phoebe Buffay,Scared,negative
+s03_e08_c03,s03_e08_c03_u004,"Okay, I have a problem I have to go into work for a few hours, some kids messed up the Homo Sapien display.",Ross Geller,Peaceful,positive
+s03_e08_c03,s03_e08_c03_u005,What did they do?,Joey Tribbiani,Neutral,neutral
+s03_e08_c03,s03_e08_c03_u006,"Well, they painted over the word 'Sapien' for one thing, then they rearranged the figures, let's just leave it at that.",Ross Geller,Mad,negative
+s03_e08_c03,s03_e08_c03_u007,"So, do you want me to watch Ben for you?",Monica Geller,Peaceful,positive
+s03_e08_c03,s03_e08_c03_u008,"Yes, that's what I was going to ask, thank you.",Ross Geller,Powerful,positive
+s03_e08_c03,s03_e08_c03_u009,Whoa! Wait! Hello! What about me?,Rachel Green,Scared,negative
+s03_e08_c03,s03_e08_c03_u010,"You? You! Want to watch Ben? Yes! That'd be great, no, I just wanted to ask Monica, because I know how empty her life is.",Ross Geller,Scared,negative
+s03_e08_c03,s03_e08_c03_u011,"Hey-hey, Ross?",Joey Tribbiani,Neutral,neutral
+s03_e08_c03,s03_e08_c03_u012,Yeah.,Ross Geller,Neutral,neutral
+s03_e08_c03,s03_e08_c03_u013,I've got a science question.,Joey Tribbiani,Neutral,neutral
+s03_e08_c03,s03_e08_c03_u014,Hmm?,Ross Geller,Neutral,neutral
+s03_e08_c03,s03_e08_c03_u015,"If the Homo Sapiens, were in fact 'Homo-sapien', is that why there extinct?",Joey Tribbiani,Neutral,neutral
+s03_e08_c03,s03_e08_c03_u016,"Joey, Homo Sapiens are people.",Ross Geller,Peaceful,positive
+s03_e08_c03,s03_e08_c03_u017,"Hey-hey, I'm not judging.",Joey Tribbiani,Neutral,neutral
+s03_e08_c05,s03_e08_c05_u002,"Hey! Hold on a minute, hold on a second. Do you think these pearls are nice?",Chandler Bing,Neutral,neutral
+s03_e08_c05,s03_e08_c05_u003,I'd really prefer a mountain bike.,Joey Tribbiani,Joyful,positive
+s03_e08_c05,s03_e08_c05_u004,"Janice's birthday is coming up, I want to get her something speacial. Come in here with me.",Chandler Bing,Peaceful,positive
+s03_e08_c05,s03_e08_c05_u005,"Whoa, whoa, whoa, wait, whoa. Do you ah, want to get her something speacial, get her flowers, get her candy, get her gum, girls love gum.",Joey Tribbiani,Peaceful,positive
+s03_e08_c05,s03_e08_c05_u006,"That's a good idea, 'Dear Janice have a Hubba-Bubba birthday'. I would like to get her something serious.",Chandler Bing,Peaceful,positive
+s03_e08_c05,s03_e08_c05_u007,"Oh, you want something serious. Y'know what you should do, you should get her one of those um, barium enemas. Those are dead serious.",Joey Tribbiani,Peaceful,positive
+s03_e08_c05,s03_e08_c05_u008,"All right. Look, I'm gonna go in here, and you don't buy me anything ever.",Chandler Bing,Peaceful,positive
+s03_e08_c05,s03_e08_c05_u009,"No, no, you can't, you can't, okay, you can't, you can't buy her pearls, you just can't, you can't, you can't.",Joey Tribbiani,Scared,negative
+s03_e08_c05,s03_e08_c05_u010,Why not?!,Chandler Bing,Peaceful,positive
+s03_e08_c05,s03_e08_c05_u011,"Oh God. Uh, okay, here's the thing, this is the thing, okay, the thing is...",Joey Tribbiani,Scared,negative
+s03_e08_c05,s03_e08_c05_u012,What is the thing?,Chandler Bing,Peaceful,positive
+s03_e08_c05,s03_e08_c05_u013,"Okay. I went down to the 'Mattress King' showroom and, and I saw Janice, kissing her ex-husband.",Joey Tribbiani,Scared,negative
+s03_e08_c05,s03_e08_c05_u014,What?,Chandler Bing,Mad,negative
+s03_e08_c05,s03_e08_c05_u015,They were in his office.,Joey Tribbiani,Scared,negative
+s03_e08_c05,s03_e08_c05_u016,"Well she, she wouldn't do that, she's with, she's with me.",Chandler Bing,Sad,negative
+s03_e08_c05,s03_e08_c05_u017,"I'm telling you man, I saw it.",Joey Tribbiani,Peaceful,positive
+s03_e08_c05,s03_e08_c05_u018,"Yeah, well, you're wrong! Okay, you're wrong.",Chandler Bing,Mad,negative
+s03_e08_c05,s03_e08_c05_u019,"I'm not wrong! I wish I was. I'm sorry. Bet that barium enema doesn't sound so bad now, huh?",Joey Tribbiani,Powerful,positive
+s03_e08_c06,s03_e08_c06_u002,It just makes more sense as an ensemble.,Monica Geller,Peaceful,positive
+s03_e08_c06,s03_e08_c06_u003,Right.,Rachel Green,Neutral,neutral
+s03_e08_c06,s03_e08_c06_u004,"Besides, it takes the focus off the hat.",Monica Geller,Neutral,neutral
+s03_e08_c06,s03_e08_c06_u005,No! Oh! You're alive! You're alive!,Phoebe Buffay,Scared,negative
+s03_e08_c06,s03_e08_c06_u006,"See Pheebs, I promised you no one would die, didn't I?",Rachel Green,Peaceful,positive
+s03_e08_c06,s03_e08_c06_u007,"Yeah, well, we'll see about that. Can I use your phone? I just wanna call everyone I know.",Phoebe Buffay,Scared,negative
+s03_e08_c06,s03_e08_c06_u008,"Sure, we have no money, go ahead.",Monica Geller,Scared,negative
+s03_e08_c06,s03_e08_c06_u009,"'Hey! You're not dead! Okay, see ya!'",Phoebe Buffay,Joyful,positive
+s03_e08_c06,s03_e08_c06_u010,Monica.,Ben Geller,Neutral,neutral
+s03_e08_c06,s03_e08_c06_u011,Oh my God! He just said my name! Did you hear that?,Monica Geller,Joyful,positive
+s03_e08_c06,s03_e08_c06_u012,Monica bang!,Ben Geller,Joyful,positive
+s03_e08_c06,s03_e08_c06_u013,"Okay, I heard that.",Rachel Green,Peaceful,positive
+s03_e08_c06,s03_e08_c06_u014,Did he just say 'Monica bang'?,Monica Geller,Scared,negative
+s03_e08_c06,s03_e08_c06_u015,Uh-huh.,Rachel Green,Scared,negative
+s03_e08_c06,s03_e08_c06_u016,Oh my God! He's gonna rat me out!,Monica Geller,Scared,negative
+s03_e08_c06,s03_e08_c06_u017,Monica bang!,Ben Geller,Powerful,positive
+s03_e08_c06,s03_e08_c06_u018,"Oh-ho-ho, sweetie, sweetie, you gotta stop saying that, now. It's no big deal, it's not even worth mentioning, you see we all do it all the time. See watch this, Ben, Ben, Ben. Ow, Monica bang! Everybody bang. Ben bang. Rachel bang. Bang, Rachel bang! Oh, isn't that fun?",Monica Geller,Joyful,positive
+s03_e08_c06,s03_e08_c06_u019,"Look at that! Look at that! We all do it. Okay, I'm stopping now.",Rachel Green,Scared,negative
+s03_e08_c06,s03_e08_c06_u020,You okay?,Monica Geller,Sad,negative
+s03_e08_c06,s03_e08_c06_u021,"Oh yeah! Y'know, if it's not a headboard, it's just not worth it.",Rachel Green,Powerful,positive
+s03_e08_c07,s03_e08_c07_u002,How's my Bing-a-ling?,Janice Litman Goralnik,Joyful,positive
+s03_e08_c07,s03_e08_c07_u003,"Ah, I don't know, you tell me. Anything you ah, wanna tell me, because, if you ah, you should, if you, you would, tell me.",Chandler Bing,Mad,negative
+s03_e08_c07,s03_e08_c07_u004,Why are your eyes so white?,Janice Litman Goralnik,Neutral,neutral
+s03_e08_c07,s03_e08_c07_u005,"You tell me! Maybe, it's because I was just fooling with my ex! Oh no-no-no-no, no-no-no-no, that was you!!",Chandler Bing,Mad,negative
+s03_e08_c07,s03_e08_c07_u006,Oh my God!!,Janice Litman Goralnik,Scared,negative
+s03_e08_c07,s03_e08_c07_u007,All right!,Chandler Bing,Mad,negative
+s03_e08_c07,s03_e08_c07_u008,How did you know?,Janice Litman Goralnik,Powerful,positive
+s03_e08_c07,s03_e08_c07_u009,"Joey told me, he saw you two kissing.",Chandler Bing,Mad,negative
+s03_e08_c07,s03_e08_c07_u010,In the park?,Janice Litman Goralnik,Scared,negative
+s03_e08_c07,s03_e08_c07_u011,No! In his office! How many kisses were there?,Chandler Bing,Neutral,neutral
+s03_e08_c07,s03_e08_c07_u012,Just those two!,Janice Litman Goralnik,Joyful,positive
+s03_e08_c07,s03_e08_c07_u013,"Wh-wh-why, wh-why, why, why was there kissing!? There should be no kissing!!",Chandler Bing,Mad,negative
+s03_e08_c07,s03_e08_c07_u014,"Oh, I'm sorry honey, I'm so, so, haaaaa! I'm so, so sorry, I just haaaaaa! But I, oh what happened was, I-I-I can't breathe. Can you get me a bag, or something?",Janice Litman Goralnik,Scared,negative
+s03_e08_c07,s03_e08_c07_u015,Here.,Chandler Bing,Neutral,neutral
+s03_e08_c07,s03_e08_c07_u017,The receipt.,Janice Litman Goralnik,Scared,negative
+s03_e08_c07,s03_e08_c07_u018,"I'll take it! All right look, I gotta know. Are you finished with me? Are you finished with him? Do you still love him? Do you still love me? All right look, I'm gonna need an actual answer here okay, so which is it, him or me?",Chandler Bing,Powerful,positive
+s03_e08_c07,s03_e08_c07_u019,I don't know.,Janice Litman Goralnik,Scared,negative
+s03_e08_c07,s03_e08_c07_u020,Okay. If you're alive you answer your phone!,Phoebe Buffay,Mad,negative
+s03_e08_c09,s03_e08_c09_u002,"Hey! Y'know how we ah, save all those chopsticks for no reason we get when we get Chinese food?",Joey Tribbiani,Joyful,positive
+s03_e08_c09,s03_e08_c09_u003,Yeah.,Chandler Bing,Powerful,positive
+s03_e08_c09,s03_e08_c09_u004,"Well, now we got a reason.",Joey Tribbiani,Powerful,positive
+s03_e08_c09,s03_e08_c09_u005,What?,Chandler Bing,Neutral,neutral
+s03_e08_c09,s03_e08_c09_u006,"Well, we're fashioning a very long poking device.",Joey Tribbiani,Powerful,positive
+s03_e08_c09,s03_e08_c09_u007,All right.,Chandler Bing,Neutral,neutral
+s03_e08_c09,s03_e08_c09_u008,"Hey uh, what's a matter?",Joey Tribbiani,Neutral,neutral
+s03_e08_c09,s03_e08_c09_u009,I talked to Janice.,Chandler Bing,Neutral,neutral
+s03_e08_c09,s03_e08_c09_u010,"Oh my God, is she going back to him?",Joey Tribbiani,Scared,negative
+s03_e08_c09,s03_e08_c09_u011,"She doesn't know. Says she loves us both. Y'know I woke up this morning and I was in love, well I was happy. Y'know it serves me right for buying that twelve pack of condoms. And now I can't even return them, because she choked on the reciept!",Chandler Bing,Mad,negative
+s03_e08_c09,s03_e08_c09_u012,"What are you ah, what are you gonna do?",Joey Tribbiani,Sad,negative
+s03_e08_c09,s03_e08_c09_u013,"I don't know, y'know. What, what, would you do?",Chandler Bing,Sad,negative
+s03_e08_c09,s03_e08_c09_u014,"Well, it doesn't matter what I would do.",Joey Tribbiani,Neutral,neutral
+s03_e08_c09,s03_e08_c09_u015,"Come on, tell me.",Chandler Bing,Scared,negative
+s03_e08_c09,s03_e08_c09_u016,"All right, you're probably not gonna want to hear this but ah, if it was me, and this is just me, I would ah, I would bow out.",Joey Tribbiani,Neutral,neutral
+s03_e08_c09,s03_e08_c09_u017,"What? What are you, what are you talking about?",Chandler Bing,Scared,negative
+s03_e08_c09,s03_e08_c09_u018,"They have a kid together, y'know. They're like, they're like a family, and if, I don't know, there's chance they could make that work, I know I wouldn't want to be the guy who stood in the way of that. Are you okay? Do you wanna ah, come poke a nude guy?",Joey Tribbiani,Joyful,positive
+s03_e08_c10,s03_e08_c10_u002,"Well, he's finally alseep. About that ah, bump on his head?",Ross Geller,Scared,negative
+s03_e08_c10,s03_e08_c10_u003,"Are you, are you, are you sure it's ah, a new bump? I mean, no offense, I've always thought of Ben as a fairly bumpy headed child.",Rachel Green,Scared,negative
+s03_e08_c10,s03_e08_c10_u004,"It's okay if he bumps his head, kids bump their heads all the time, y'know, it was your first time babysitting, I figured you did the best you could.",Ross Geller,Powerful,positive
+s03_e08_c10,s03_e08_c10_u005,I did!,Rachel Green,Powerful,positive
+s03_e08_c10,s03_e08_c10_u006,I know! I'm saying you have to watch them all the time.,Ross Geller,Powerful,positive
+s03_e08_c10,s03_e08_c10_u007,I did!! I watched! I watched! I watched Monica bang his head against that thing!,Rachel Green,Powerful,positive
+s03_e08_c10,s03_e08_c10_u008,Monica did it?,Ross Geller,Mad,negative
+s03_e08_c10,s03_e08_c10_u010,Monica?,Ross Geller,Mad,negative
+s03_e08_c10,s03_e08_c10_u011,Yeah.,Monica Geller,Peaceful,positive
+s03_e08_c10,s03_e08_c10_u012,"Umm, did you notice anything wierd about Ben today?",Ross Geller,Scared,negative
+s03_e08_c10,s03_e08_c10_u013,No. Why?,Monica Geller,Neutral,neutral
+s03_e08_c10,s03_e08_c10_u014,"Well, I was just playing with him, and y'know we were doing the alphabet song, which he used to be really good at, but suddenly he's leaving out 'e' and 'f.' It's like they just ah, I don't know, fell out of his head.",Ross Geller,Scared,negative
+s03_e08_c10,s03_e08_c10_u015,Really?!,Monica Geller,Scared,negative
+s03_e08_c10,s03_e08_c10_u016,"Oh, and also, he's, he's walkin' kind of funny, his left leg is moving a lot faster than his right leg, and he's in there just sort of y'know...",Ross Geller,Scared,negative
+s03_e08_c10,s03_e08_c10_u017,"Oh my God, I wrecked your baby!!",Monica Geller,Scared,negative
+s03_e08_c10,s03_e08_c10_u018,I hope it's still funny when you're in hell.,Rachel Green,Mad,negative
+s03_e08_c10,s03_e08_c10_u019,You jerk! You know how much I love that kid!,Monica Geller,Mad,negative
+s03_e08_c10,s03_e08_c10_u020,Monica bang! Monica bang! Ow!,Ross Geller,Joyful,positive
+s03_e08_c10,s03_e08_c10_u021,I'll get the hat.,Rachel Green,Neutral,neutral
+s03_e08_c11,s03_e08_c11_u002,"Janice, I have something I need to tell you, and I want you to let me get through it, because it's, it's, it's not gonna be easy.",Chandler Bing,Scared,negative
+s03_e08_c11,s03_e08_c11_u003,Okay.,Janice Litman Goralnik,Neutral,neutral
+s03_e08_c11,s03_e08_c11_u004,"I think you should go back with Gary. I don't wanna be the guy that breaks up a family, y'know when my parents split up, it was because of that guy. Whenever I would see him I was always think y'know 'You're the reason, you are the reason why their not together.' and I hated that guy. And it didn't matter how nice he was, or how happy he made my Dad.",Chandler Bing,Powerful,positive
+s03_e08_c11,s03_e08_c11_u005,Wow!,Janice Litman Goralnik,Scared,negative
+s03_e08_c11,s03_e08_c11_u006,"Yeah, well. It's the right thing to do.",Chandler Bing,Powerful,positive
+s03_e08_c11,s03_e08_c11_u007,"Oh! You're right. Oh God. But, before I can say 'good-bye', there's something I really need you to know, Chandler. The way I feel about you, it's like, I finally understand what Lionel Richie's been singing about. Y'know, I mean what we have, it's like movie love, you're my soulmate, and I can't believe we're not going to be spending the rest of our lives together.",Janice Litman Goralnik,Sad,negative
+s03_e08_c11,s03_e08_c11_u008,Then don't leave me!,Chandler Bing,Scared,negative
+s03_e08_c11,s03_e08_c11_u009,What?,Janice Litman Goralnik,Scared,negative
+s03_e08_c11,s03_e08_c11_u010,"Forget what I said, I was babbling! Pick me!",Chandler Bing,Scared,negative
+s03_e08_c11,s03_e08_c11_u011,"No, you were right, you were right. I mean, I-I-I've got to give my marriage another chance.",Janice Litman Goralnik,Sad,negative
+s03_e08_c11,s03_e08_c11_u012,"No you don't! No, no, no, I say you have to give your divorce another chance.",Chandler Bing,Scared,negative
+s03_e08_c11,s03_e08_c11_u013,I'm sorry.,Janice Litman Goralnik,Sad,negative
+s03_e08_c11,s03_e08_c11_u014,Ohhh. Don't go.,Chandler Bing,Scared,negative
+s03_e08_c11,s03_e08_c11_u015,"No, I-I-I gotta go.",Janice Litman Goralnik,Scared,negative
+s03_e08_c11,s03_e08_c11_u016,No. No! No! No!,Chandler Bing,Scared,negative
+s03_e08_c11,s03_e08_c11_u017,"Honey, honey, people are looking.",Janice Litman Goralnik,Peaceful,positive
+s03_e08_c11,s03_e08_c11_u018,I don't care! I don't care!!,Chandler Bing,Scared,negative
+s03_e08_c11,s03_e08_c11_u019,"Yeah, um, I'm, I'm leaving now.",Janice Litman Goralnik,Powerful,positive
+s03_e08_c11,s03_e08_c11_u020,You can't leave! I have your shoe!,Chandler Bing,Sad,negative
+s03_e08_c11,s03_e08_c11_u021,Good-bye Chandler Bing.,Janice Litman Goralnik,Sad,negative
+s03_e08_c11,s03_e08_c11_u022,Rachel has those in burgendy.,Gunther,Neutral,neutral
+s03_e08_c12,s03_e08_c12_u002,"All right now remember, something this big and long is going to be difficult to manuver, fortunately I have a lot of experience in that area.",Joey Tribbiani,Scared,negative
+s03_e08_c12,s03_e08_c12_u003,"Can we please focus here, a naked man's life hangs in the balance!",Ross Geller,Scared,negative
+s03_e08_c12,s03_e08_c12_u004,I'm telling you he's dead. What we are about to have here is a dead fat guy on a stick.,Phoebe Buffay,Scared,negative
+s03_e08_c12,s03_e08_c12_u005,"All right, ladies and gentlemen, let's poke. Steady. Steady. Okay, a little higher. Careful of the angle. Okay, okay, we're approaching the window Thread the needle. Thread the needle.",Joey Tribbiani,Scared,negative
+s03_e08_c12,s03_e08_c12_u007,He's alive! He's a-live!!!,Phoebe Buffay,Scared,negative
+s03_e08_c12,s03_e08_c12_u008,"And yet, we're still poking him.",Monica Geller,Scared,negative
+s03_e08_c12,s03_e08_c12_u009,"Okay, retract the device, retract the device.",Joey Tribbiani,Scared,negative
+s03_e08_c12,s03_e08_c12_u010,He does not look happy.,Ross Geller,Scared,negative
+s03_e08_c12,s03_e08_c12_u011,"Hey-hey, now he's showing us his poking device.",Rachel Green,Scared,negative
+s03_e08_c12,s03_e08_c12_u012,"Hey, that's never gonna make it all the way over here, buddy!",Joey Tribbiani,Powerful,positive
+s03_e08_c13,s03_e08_c13_u002,I'll hold you close in my arms. I can't resist your charms. And love....,Chandler Bing,Powerful,positive
+s03_e08_c13,s03_e08_c13_u003,Love....,Phoebe Buffay,Powerful,positive
+s03_e08_c13,s03_e08_c13_u004,"I'll be a fool for you. I'm sure, you know I don't mind.",Chandler Bing,Peaceful,positive
+s03_e08_c13,s03_e08_c13_u005,No you know I don't mind.,Chandler Bing,Powerful,positive
+s03_e08_c13,s03_e08_c13_u006,Yes! You mean the world the world to me. Oh...,Chandler Bing,Sad,negative
+s03_e08_c13,s03_e08_c13_u007,I know.,Chandler Bing,Powerful,positive
+s03_e08_c13,s03_e08_c13_u008,I know.,Phoebe Buffay,Powerful,positive
+s03_e08_c13,s03_e08_c13_u009,I've found.,Chandler Bing,Powerful,positive
+s03_e08_c13,s03_e08_c13_u010,I've found....,Phoebe Buffay,Powerful,positive
+s03_e08_c13,s03_e08_c13_u011,"...in you, my endless love. My endless love.",Chandler Bing,Powerful,positive
+s03_e20_c01,s03_e20_c01_u002,"Wait a minute, wait. You're telling me this actress person is the only woman you ever wanted who didn't want you back?!",Chandler Bing,Joyful,positive
+s03_e20_c01,s03_e20_c01_u003,Yeah! Oh my God! Is this what it's like to be you?,Joey Tribbiani,Joyful,positive
+s03_e20_c01,s03_e20_c01_u004,"Wow, you're really crazy about her, huh?",Monica Geller,Joyful,positive
+s03_e20_c01,s03_e20_c01_u005,"Oh, you have no idea. And-and when we're on stage I get to-to kiss her and-and touch her, but then she goes home with the director, and it's like somebody's ripping out my heart!",Joey Tribbiani,Joyful,positive
+s03_e20_c01,s03_e20_c01_u006,"Oh, it's so great to see you feeling like this!",Phoebe Buffay,Joyful,positive
+s03_e20_c01,s03_e20_c01_u007,Hey!,Ross Geller,Joyful,positive
+s03_e20_c01,s03_e20_c01_u008,Hey!,#ALL#,Joyful,positive
+s03_e20_c01,s03_e20_c01_u009,"Monica, uh Dad called this morning and ah, Aunt Silvia passed away.",Ross Geller,Sad,negative
+s03_e20_c01,s03_e20_c01_u010,"Yes!! Yes! Yeah, yeah, yeah!",Monica Geller,Joyful,positive
+s03_e20_c01,s03_e20_c01_u011,We were all pretty shaken up about it.,Ross Geller,Sad,negative
+s03_e20_c01,s03_e20_c01_u012,"Wait, am I missing something though? 'Cause I thought death was something that's supposed to be sad, in a way.",Phoebe Buffay,Neutral,neutral
+s03_e20_c01,s03_e20_c01_u013,"Well ah, Aunt Silvia was, well not a nice person.",Ross Geller,Neutral,neutral
+s03_e20_c01,s03_e20_c01_u014,"Oh, she was a cruel, cranky, old bitch! And I'm sorry she died. Did Dad say I get the dollhouse?",Monica Geller,Joyful,positive
+s03_e20_c01,s03_e20_c01_u015,You get the dollhouse.,Ross Geller,Neutral,neutral
+s03_e20_c01,s03_e20_c01_u016,I get the dollhouse!,Monica Geller,Joyful,positive
+s03_e20_c01,s03_e20_c01_u017,"Wow, a house for dolls, that is so cool! When I was kid, I had a barrel.",Phoebe Buffay,Neutral,neutral
+s03_e20_c01,s03_e20_c01_u018,"Uh, Pheebs, you had a barrel for a dollhouse?",Joey Tribbiani,Neutral,neutral
+s03_e20_c01,s03_e20_c01_u019,"No, just a barrel.",Phoebe Buffay,Neutral,neutral
+s03_e20_c01,s03_e20_c01_u020,"Y'know what, you can play with my dollhouse.",Monica Geller,Joyful,positive
+s03_e20_c01,s03_e20_c01_u021,Really?! Really?!,Phoebe Buffay,Joyful,positive
+s03_e20_c01,s03_e20_c01_u022,"Any time you want. Y'know, when I was younger, all I wanted to do was to play with this dollhouse, but no!! It was to be looked at, but never played with.",Monica Geller,Joyful,positive
+s03_e20_c01,s03_e20_c01_u023,My Grandmother used to say that exact same thing to me.,Chandler Bing,Joyful,positive
+s03_e20_c02,s03_e20_c02_u002,"Hey, Sophie!",Rachel Green,Joyful,positive
+s03_e20_c02,s03_e20_c02_u003,"Hey, Rach!",Sophie,Joyful,positive
+s03_e20_c02,s03_e20_c02_u004,Hey.,Chandler Bing,Neutral,neutral
+s03_e20_c02,s03_e20_c02_u005,Hey.,Sophie,Neutral,neutral
+s03_e20_c02,s03_e20_c02_u006,"Thanks for lunch, Chandler. Y'know, you didn't have to walk me all the way back up here.",Rachel Green,Joyful,positive
+s03_e20_c02,s03_e20_c02_u007,"Oh, that's-that's okay, no problem.",Chandler Bing,Neutral,neutral
+s03_e20_c02,s03_e20_c02_u008,"Honey um, honey, you do realise that we don't keep the women's lingerie here in the office?",Rachel Green,Joyful,positive
+s03_e20_c02,s03_e20_c02_u009,"Yes, I realise that.",Chandler Bing,Neutral,neutral
+s03_e20_c02,s03_e20_c02_u010,Summer catalogue!,Rachel Green,Joyful,positive
+s03_e20_c02,s03_e20_c02_u011,That's the stuff!,Chandler Bing,Joyful,positive
+s03_e20_c02,s03_e20_c02_u013,"Rachel, I need the Versachi invoice. Hello! You don't work for me.",Joanna,Powerful,positive
+s03_e20_c02,s03_e20_c02_u014,"Joanna, this is my friend Chandler Bing Joanna.",Rachel Green,Neutral,neutral
+s03_e20_c02,s03_e20_c02_u015,Bing! That's a great name.,Joanna,Joyful,positive
+s03_e20_c02,s03_e20_c02_u016,"Thanks, it's ah, Gaelic, for 'Thy turkey's done.' So ah, I'm gonna go, nice, nice meeting you.",Chandler Bing,Joyful,positive
+s03_e20_c02,s03_e20_c02_u017,Me too.,Joanna,Joyful,positive
+s03_e20_c02,s03_e20_c02_u018,"Bye, Chandler.",Rachel Green,Joyful,positive
+s03_e20_c02,s03_e20_c02_u019,"So ah, what's wrong with him?",Joanna,Neutral,neutral
+s03_e20_c02,s03_e20_c02_u020,"Oh, nothing, he's just goofy like that, I actually, hardly notice it anymore.",Rachel Green,Neutral,neutral
+s03_e20_c02,s03_e20_c02_u021,"Oh no, no-no-no, is he ah, married, or involved with anyone?",Joanna,Scared,negative
+s03_e20_c02,s03_e20_c02_u022,"No!! No! He's not married, or involved, with anyone!",Rachel Green,Neutral,neutral
+s03_e20_c02,s03_e20_c02_u023,"Oh, Rachel, actually, y'know what, forget it.",Joanna,Neutral,neutral
+s03_e20_c02,s03_e20_c02_u024,"Well, I'll ask him for you, if you want me too?",Rachel Green,Neutral,neutral
+s03_e20_c02,s03_e20_c02_u025,"Would you? Or, is it just to sad and desperate, and y'know something that Sophie would do?",Joanna,Sad,negative
+s03_e20_c02,s03_e20_c02_u026,"Uh, uh, uh, I am here.",Sophie,Mad,negative
+s03_e20_c02,s03_e20_c02_u027,I know that.,Joanna,Powerful,positive
+s03_e20_c04,s03_e20_c04_u002,"Hey, Kate!",Joey Tribbiani,Joyful,positive
+s03_e20_c04,s03_e20_c04_u003,Morning.,Kate Miller,Sad,negative
+s03_e20_c04,s03_e20_c04_u004,"Listen, I ah, went to that restaurant that you were talking about last week...",Joey Tribbiani,Neutral,neutral
+s03_e20_c04,s03_e20_c04_u005,"Hey, lovely! Come, talk to me a minute!",The Director,Joyful,positive
+s03_e20_c04,s03_e20_c04_u006,"And I ate the food, I had the fish, it was good, yeah. It was good, yeah...",Joey Tribbiani,Sad,negative
+s03_e20_c04,s03_e20_c04_u007,"Hi, oh, I'm Lauren, Kate's understudy.",Woman,Neutral,neutral
+s03_e20_c04,s03_e20_c04_u008,"Oh, hey! Joey Tribbiani.",Joey Tribbiani,Peaceful,positive
+s03_e20_c04,s03_e20_c04_u009,I know! I-I'm a big fan of yours.,Lauren,Joyful,positive
+s03_e20_c04,s03_e20_c04_u010,What?!,Joey Tribbiani,Joyful,positive
+s03_e20_c04,s03_e20_c04_u011,"I used to umm, schedule my classes so I could watch Dr. Drake Remoray on Days of Our Lives.",Lauren,Joyful,positive
+s03_e20_c04,s03_e20_c04_u012,"Get out of here, really?!",Joey Tribbiani,Joyful,positive
+s03_e20_c04,s03_e20_c04_u013,Absolutely!,Lauren,Joyful,positive
+s03_e20_c04,s03_e20_c04_u014,Yeah?,Joey Tribbiani,Neutral,neutral
+s03_e20_c04,s03_e20_c04_u015,"Oh but then, they went and dropped you down that elevator shaft.",Lauren,Sad,negative
+s03_e20_c04,s03_e20_c04_u016,They gave me the shaft all right.,Joey Tribbiani,Sad,negative
+s03_e20_c04,s03_e20_c04_u017,"Oh, you're so funny. Listen, umm, what are you doing after rehearsals? Do you want to get a drink, or something?",Lauren,Scared,negative
+s03_e20_c04,s03_e20_c04_u018,"Well Ahh, yeah! Yeah, sure, a drink sounds great.",Joey Tribbiani,Neutral,neutral
+s03_e20_c04,s03_e20_c04_u019,Cool! I-I'll see you then.,Lauren,Joyful,positive
+s03_e20_c04,s03_e20_c04_u020,All right.,Joey Tribbiani,Peaceful,positive
+s03_e20_c04,s03_e20_c04_u021,"All right, it's time to act, my talking props.",The Director,Neutral,neutral
+s03_e20_c05,s03_e20_c05_u002,Hey!,Phoebe Buffay,Joyful,positive
+s03_e20_c05,s03_e20_c05_u003,Hey!,#ALL#,Joyful,positive
+s03_e20_c05,s03_e20_c05_u004,"Look everybody, look at my new dollhouse!!",Phoebe Buffay,Joyful,positive
+s03_e20_c05,s03_e20_c05_u005,Wow!!,Rachel Green,Joyful,positive
+s03_e20_c05,s03_e20_c05_u006,"Look, look!",Phoebe Buffay,Joyful,positive
+s03_e20_c05,s03_e20_c05_u007,"Hey, what's this?!",Ross Geller,Neutral,neutral
+s03_e20_c05,s03_e20_c05_u008,"Oh, okay, it's the slide instead of stairs. Watch this.",Phoebe Buffay,Joyful,positive
+s03_e20_c05,s03_e20_c05_u009,"It's very interesting, Phoebe.",Monica Geller,Peaceful,positive
+s03_e20_c05,s03_e20_c05_u010,What's this?,Rachel Green,Neutral,neutral
+s03_e20_c05,s03_e20_c05_u011,"The Licorice Room, you can eat all the furniture. And, when guests come over, they can stay on the tootsie roll-away bed.",Phoebe Buffay,Joyful,positive
+s03_e20_c05,s03_e20_c05_u012,This is the coolest house ever!!,Ross Geller,Joyful,positive
+s03_e20_c05,s03_e20_c05_u014,"Hey, does anybody want to join me in the aroma room?",Phoebe Buffay,Joyful,positive
+s03_e20_c05,s03_e20_c05_u015,All right!,Rachel Green,Joyful,positive
+s03_e20_c05,s03_e20_c05_u016,I would!,Ross Geller,Joyful,positive
+s03_e20_c05,s03_e20_c05_u017,"Hey, guys, guys, did you see my new, china cabinet?!",Monica Geller,Powerful,positive
+s03_e20_c05,s03_e20_c05_u018,Uh-huh.,Rachel Green,Neutral,neutral
+s03_e20_c05,s03_e20_c05_u019,"Watch, watch.",Phoebe Buffay,Joyful,positive
+s03_e20_c05,s03_e20_c05_u020,Ooohhhh!!,Rachel Green,Joyful,positive
+s03_e20_c05,s03_e20_c05_u021,"And, and!",Phoebe Buffay,Joyful,positive
+s03_e20_c05,s03_e20_c05_u022,Ahhhh!!,Rachel Green,Joyful,positive
+s03_e20_c05,s03_e20_c05_u023,"Hey, my Father's house does that!",Chandler Bing,Peaceful,positive
+s03_e20_c05,s03_e20_c05_u024,"O-o-o-okay, how did it go? Tell me everything.",Rachel Green,Peaceful,positive
+s03_e20_c05,s03_e20_c05_u025,"Well, the movie was great, dinner was great, and there's nothing like a cool, crisp New York evening.",Chandler Bing,Joyful,positive
+s03_e20_c05,s03_e20_c05_u026,Hmm.,Rachel Green,Scared,negative
+s03_e20_c05,s03_e20_c05_u027,"Of course, I didn't get to enjoy any of that, because Joanna's such a big, dull dud!",Chandler Bing,Mad,negative
+s03_e20_c06,s03_e20_c06_u002,Chandler is fantastic!!,Joanna,Joyful,positive
+s03_e20_c06,s03_e20_c06_u003,What?!,Rachel Green,Scared,negative
+s03_e20_c06,s03_e20_c06_u004,"Oh God, we just clicked! Y'know how people just click? Like he came by to pick me up, and I opened the door, and it was just like, click! Did he tell you?",Joanna,Joyful,positive
+s03_e20_c06,s03_e20_c06_u005,"Oh, I....",Rachel Green,Neutral,neutral
+s03_e20_c06,s03_e20_c06_u006,"Oh, and he's got such a good heart! Doesn't he have a good heart?",Joanna,Joyful,positive
+s03_e20_c06,s03_e20_c06_u007,"Oh, I know...",Rachel Green,Neutral,neutral
+s03_e20_c06,s03_e20_c06_u008,"Oh, I know and he's soo sweet! Listen, he said he was going to call, so put him straight through.",Joanna,Joyful,positive
+s03_e20_c06,s03_e20_c06_u009,Isn't this great?!,Sophie,Joyful,positive
+s03_e20_c06,s03_e20_c06_u010,Don't spoil it.,Joanna,Peaceful,positive
+s03_e20_c08,s03_e20_c08_u002,Hey.,Joey Tribbiani,Neutral,neutral
+s03_e20_c08,s03_e20_c08_u003,Hi.,Ross Geller,Neutral,neutral
+s03_e20_c08,s03_e20_c08_u004,Hey.,Joey Tribbiani,Joyful,positive
+s03_e20_c08,s03_e20_c08_u006,Hi.,Ross Geller,Neutral,neutral
+s03_e20_c08,s03_e20_c08_u007,Hey.,Joey Tribbiani,Joyful,positive
+s03_e20_c08,s03_e20_c08_u009,It's a little early to be drinkin'.,Ross Geller,Joyful,positive
+s03_e20_c08,s03_e20_c08_u010,"No-no, things ah, finally happened with Kate.",Joey Tribbiani,Sad,negative
+s03_e20_c08,s03_e20_c08_u011,Ohhhhh!,Ross Geller,Joyful,positive
+s03_e20_c08,s03_e20_c08_u012,You're kidding?! That's great!,Monica Geller,Joyful,positive
+s03_e20_c08,s03_e20_c08_u013,"Oh, it was so amazing. After the love making...",Joey Tribbiani,Joyful,positive
+s03_e20_c08,s03_e20_c08_u014,Oh my.,Monica Geller,Scared,negative
+s03_e20_c08,s03_e20_c08_u015,"Yep. I just, I just watched her sleep for like hours, just breathing in and breathing out. And then I knew she was dreaming 'cause, 'cause her eyes keep going like this.",Joey Tribbiani,Neutral,neutral
+s03_e20_c08,s03_e20_c08_u016,"I'm telling ya, Joanna's got it all wrong. Okay? All I said was, 'This was fun. Let's do it again sometime. I'll give you a call.'",Chandler Bing,Neutral,neutral
+s03_e20_c08,s03_e20_c08_u017,"Ohh, gee. I wonder why she thinks you're going to call her?",Rachel Green,Peaceful,positive
+s03_e20_c08,s03_e20_c08_u018,That's what you say at the end of a date.,Chandler Bing,Peaceful,positive
+s03_e20_c08,s03_e20_c08_u019,"You can't just say, 'Nice to meet you, good night?'",Rachel Green,Mad,negative
+s03_e20_c08,s03_e20_c08_u020,"To her face? Look it's the end of the date, I'm standing there, I know all she's waiting for is for me to say 'I'll call her' and it's just y'know, comes out. I can't help it, it's a compulsion.",Chandler Bing,Peaceful,positive
+s03_e20_c08,s03_e20_c08_u021,"Come on Rach, when a guy says he's going to call, it doesn't mean he's going to call. Hasn't it ever happened to you?",Monica Geller,Peaceful,positive
+s03_e20_c08,s03_e20_c08_u022,"Well, they always called.",Rachel Green,Neutral,neutral
+s03_e20_c08,s03_e20_c08_u023,"Hmm, bite me.",Monica Geller,Mad,negative
+s03_e20_c09,s03_e20_c09_u002,Did he call?,Joanna,Scared,negative
+s03_e20_c09,s03_e20_c09_u003,No. Sorry.,Rachel Green,Sad,negative
+s03_e20_c09,s03_e20_c09_u004,Why?! Why?! He said he'd call. Why hasn't he called?,Joanna,Mad,negative
+s03_e20_c09,s03_e20_c09_u005,"Maybe he's intimated by really smart, strong, successful women.",Sophie,Peaceful,positive
+s03_e20_c09,s03_e20_c09_u006,"Sophie, would you please climb out of my butt. Why hasn't he called, Rachel? Why?",Joanna,Mad,negative
+s03_e20_c09,s03_e20_c09_u007,"Okay, okay. Umm, well ah, maybe he, maybe he feels awkward because you are my boss.",Rachel Green,Peaceful,positive
+s03_e20_c09,s03_e20_c09_u008,Awkward? Why should he feel awkward?,Joanna,Scared,negative
+s03_e20_c09,s03_e20_c09_u009,Well...,Rachel Green,Neutral,neutral
+s03_e20_c09,s03_e20_c09_u010,"The only person that should feel awkward is you, and you didn't tell him not to call me, did you?",Joanna,Scared,negative
+s03_e20_c09,s03_e20_c09_u011,No. I...,Rachel Green,Neutral,neutral
+s03_e20_c09,s03_e20_c09_u012,"Because if you feel uncomfortable with your friend dating someone you work for, there are always ways to fix...that.",Joanna,Powerful,positive
+s03_e20_c10,s03_e20_c10_u002,Call her! Call her now!,Rachel Green,Joyful,positive
+s03_e20_c10,s03_e20_c10_u003,"Multiple, so many paper cuts.",Chandler Bing,Scared,negative
+s03_e20_c10,s03_e20_c10_u004,"Why hasn't he called Rachel? Why? Why? I don't understand. Why? He said he'll call. Why? Why? Chandler I'm telling you she has flipped out, she's gone crazy!",Rachel Green,Scared,negative
+s03_e20_c10,s03_e20_c10_u005,"Oh, well give me the phone then.",Chandler Bing,Mad,negative
+s03_e20_c10,s03_e20_c10_u006,"Come on, this isn't funny. She thinks it's my fault that you haven't called her. You have to call her!",Rachel Green,Scared,negative
+s03_e20_c10,s03_e20_c10_u007,"Look, you can't call somebody after this long just to say, 'In case you didn't notice, I don't like you!'",Chandler Bing,Mad,negative
+s03_e20_c10,s03_e20_c10_u008,Well then you're going to have to take her out again.,Rachel Green,Powerful,positive
+s03_e20_c10,s03_e20_c10_u009,Nooo!! She's really dull! And she gets this gross mascara goop thing in the corner of her eye!,Chandler Bing,Mad,negative
+s03_e20_c10,s03_e20_c10_u010,"I don't care! I don't care! You are going to have to take her out again and end it, and end it in way that she knows it's actually ended. And, I don't care how hard it is for you, do not tell her that you will call her again!",Rachel Green,Mad,negative
+s03_e20_c10,s03_e20_c10_u011,"All right! Fine! But it's just a lunch date, no more than an hour! And from now on I get my own dates, I don't want you setting me up with anybody ever again!",Chandler Bing,Mad,negative
+s03_e20_c10,s03_e20_c10_u012,That's fine!,Rachel Green,Mad,negative
+s03_e20_c10,s03_e20_c10_u013,"That's just a lot of big talk, y'know.",Chandler Bing,Scared,negative
+s03_e20_c10,s03_e20_c10_u014,I know.,Rachel Green,Mad,negative
+s03_e20_c12,s03_e20_c12_u002,Hey.,Joey Tribbiani,Neutral,neutral
+s03_e20_c12,s03_e20_c12_u003,Hi.,Kate Miller,Neutral,neutral
+s03_e20_c12,s03_e20_c12_u004,"So I ah, talked to Lauren, kinda told her how things were with us. Did you ah, did you talk to Marshall?",Joey Tribbiani,Scared,negative
+s03_e20_c12,s03_e20_c12_u005,About what?,Kate Miller,Neutral,neutral
+s03_e20_c12,s03_e20_c12_u006,"Y'know, about what happened with us.",Joey Tribbiani,Powerful,positive
+s03_e20_c12,s03_e20_c12_u007,"Nooo. And there's really no reason he should find out, so ah let's not make a big deal about it, okay?",Kate Miller,Mad,negative
+s03_e20_c12,s03_e20_c12_u008,"What are you talking about? It was a big deal. I mean, come on you can't tell me last night didn't mean something to you. I-I was there, you're not that good an actress.",Joey Tribbiani,Mad,negative
+s03_e20_c12,s03_e20_c12_u009,"Look umm, I, I was, I was just caught up in the moment. That's all it was. Joey, I'm-I'm sorry you feel bad, but haven't you ever sleep with a women where it meant more to her than it did to you?",Kate Miller,Scared,negative
+s03_e20_c12,s03_e20_c12_u010,Nooo.,Joey Tribbiani,Peaceful,positive
+s03_e20_c12,s03_e20_c12_u011,"Hi, Kate!",Lauren,Joyful,positive
+s03_e20_c12,s03_e20_c12_u012,"Hi, Lauren.",Kate Miller,Peaceful,positive
+s03_e20_c12,s03_e20_c12_u013,"Hi, Lauren.",Joey Tribbiani,Neutral,neutral
+s03_e20_c12,s03_e20_c12_u014,"Hi, pig!",Lauren,Mad,negative
+s03_e20_c13,s03_e20_c13_u002,"Sorry I ah, I scared you in there.",Ross Geller,Peaceful,positive
+s03_e20_c13,s03_e20_c13_u003,"Oh, that's okay. By the way, I was just checking the shower massager.",Monica Geller,Peaceful,positive
+s03_e20_c13,s03_e20_c13_u004,Yeah.,Ross Geller,Neutral,neutral
+s03_e20_c13,s03_e20_c13_u005,Hey!,Phoebe Buffay,Joyful,positive
+s03_e20_c13,s03_e20_c13_u006,I tried to reach you at work. There's....been a fire.,Monica Geller,Sad,negative
+s03_e20_c13,s03_e20_c13_u007,What?! Oh my... Oh my God!! What happened?!,Phoebe Buffay,Scared,negative
+s03_e20_c13,s03_e20_c13_u008,"Well, we believe it originated here. In the Aroma Room.",Ross Geller,Neutral,neutral
+s03_e20_c13,s03_e20_c13_u009,All right. Did everyone get out okay?,Phoebe Buffay,Scared,negative
+s03_e20_c13,s03_e20_c13_u010,"Well, the giraffe's okay. And so is the pirate.",Monica Geller,Peaceful,positive
+s03_e20_c13,s03_e20_c13_u011,Ohh. What is this?,Phoebe Buffay,Scared,negative
+s03_e20_c13,s03_e20_c13_u012,"No Phoebe, don't look! You don't want to see what's under there!!",Ross Geller,Scared,negative
+s03_e20_c13,s03_e20_c13_u013,"Ohh, the-the Foster puppets!",Phoebe Buffay,Sad,negative
+s03_e20_c14,s03_e20_c14_u002,"It's not a big deal. It's, just it's right here, and it's all the time.",Chandler Bing,Neutral,neutral
+s03_e20_c14,s03_e20_c14_u003,"Well, thanks again for lunch.",Joanna,Joyful,positive
+s03_e20_c14,s03_e20_c14_u004,"Yes, this, this was pleasant.",Chandler Bing,Neutral,neutral
+s03_e20_c14,s03_e20_c14_u006,"It was, wasn't it?",Joanna,Joyful,positive
+s03_e20_c14,s03_e20_c14_u007,"The food there was, was great.",Chandler Bing,Joyful,positive
+s03_e20_c14,s03_e20_c14_u008,Wasn't it?,Joanna,Joyful,positive
+s03_e20_c14,s03_e20_c14_u009,So take care.,Chandler Bing,Neutral,neutral
+s03_e20_c14,s03_e20_c14_u010,You too.,Joanna,Joyful,positive
+s03_e20_c14,s03_e20_c14_u011,"Well, this was great. I'll give you a call. We should do it again sometime.",Chandler Bing,Joyful,positive
+s03_e20_c14,s03_e20_c14_u012,"Great! I'm looking forward to it. Rachel, any messages?",Joanna,Joyful,positive
+s03_e20_c14,s03_e20_c14_u013,Sophie's desk.,Rachel Green,Neutral,neutral
+s03_e20_c14,s03_e20_c14_u015,Chandler!! Are you gonna call her!,Rachel Green,Mad,negative
+s03_e20_c14,s03_e20_c14_u016,Noo!,Chandler Bing,Scared,negative
+s03_e20_c14,s03_e20_c14_u017,Chandler!!,Rachel Green,Mad,negative
+s03_e20_c14,s03_e20_c14_u018,"Look, I'm sorry. Okay? I'm weak, and pathetic, and sorry.",Chandler Bing,Sad,negative
+s03_e20_c14,s03_e20_c14_u019,"Okay, you are going to tell her and you're going to tell her now.",Rachel Green,Mad,negative
+s03_e20_c14,s03_e20_c14_u020,Ahhhh-I'm not going to call you.,Chandler Bing,Scared,negative
+s03_e20_c14,s03_e20_c14_u021,What?,Joanna,Sad,negative
+s03_e20_c14,s03_e20_c14_u022,"I'm sorry. I'm-I'm-I'm sorry that I said I was going to when I'm not. Look, this has nothing to do with you, y'know? And this isn't Rachel's fault. It's me. I have serious, serious problems when it comes to women. I have issues with commitment, intimacy, mascara goop. And I'm really sorry, it's just that this is not, this isn't going to work out.",Chandler Bing,Scared,negative
+s03_e20_c14,s03_e20_c14_u023,"Well, this isn't how I was hoping how this would end, but I guess I have to appreciate your honesty.",Joanna,Sad,negative
+s03_e20_c14,s03_e20_c14_u024,"Yeah, o-okay.",Chandler Bing,Neutral,neutral
+s03_e20_c14,s03_e20_c14_u025,So...,Joanna,Neutral,neutral
+s03_e20_c14,s03_e20_c14_u026,Well this is great! I'll give you a call! We should do it again sometime!,Chandler Bing,Joyful,positive
+s04_e02_c01,s04_e02_c01_u002,Wow! That ripped! That ripped real nice!,Chandler Bing,Joyful,positive
+s04_e02_c01,s04_e02_c01_u003,"How many times do I have to tell you! Ya, turn and sliiiide! Y'know, turn and slide.",Joey Tribbiani,Mad,negative
+s04_e02_c01,s04_e02_c01_u004,"You don't turn and slide, you throw it out! I'm tired of having to get a tetanus shot every time I get dressed!",Chandler Bing,Mad,negative
+s04_e02_c01,s04_e02_c01_u005,"Look, we're not throwing it out! I built this thing with my own hands!",Joey Tribbiani,Mad,negative
+s04_e02_c01,s04_e02_c01_u006,"All right, how about we, how 'bout we sell it.",Chandler Bing,Neutral,neutral
+s04_e02_c01,s04_e02_c01_u007,"All right. But, you're gonna have to tell them.",Joey Tribbiani,Sad,negative
+s04_e02_c01,s04_e02_c01_u008,Do you mind if we stick you in another cabinet? They seem all right with it!,Chandler Bing,Neutral,neutral
+s04_e02_c02,s04_e02_c02_u002,"Hey Monica, it's Chip.",Chip Matthews,Joyful,positive
+s04_e02_c02,s04_e02_c02_u003,Yesss!!,Monica Geller,Joyful,positive
+s04_e02_c02,s04_e02_c02_u004,Who's Chip?,Ross Geller,Scared,negative
+s04_e02_c02,s04_e02_c02_u005,Shhh!,Monica Geller,Neutral,neutral
+s04_e02_c02,s04_e02_c02_u006,"Good runnin' into you at the bank today, so ah, here's my number, 555-9323. Give me a call. Later.",Chip Matthews,Neutral,neutral
+s04_e02_c02,s04_e02_c02_u007,"Chip, is Chip Matthews.",Monica Geller,Neutral,neutral
+s04_e02_c02,s04_e02_c02_u008,The guy who took Rachel to the prom? Why is he calling you?,Ross Geller,Scared,negative
+s04_e02_c02,s04_e02_c02_u009,"'Cause I ran into him at the bank, he is still soo cute.",Monica Geller,Joyful,positive
+s04_e02_c02,s04_e02_c02_u010,"Monica, you're so lucky! He's like the most popular guy in school!!",Ross Geller,Joyful,positive
+s04_e02_c02,s04_e02_c02_u011,"I know!! Chip? Hi! It's Monica. 'Kay. 'Kay. Okay. Okay, good-bye. Oh my God, we just had the best conversation!!",Monica Geller,Powerful,positive
+s04_e02_c02,s04_e02_c02_u012,I was just leaving.,Ross Geller,Neutral,neutral
+s04_e02_c02,s04_e02_c02_u013,"Good! 'Cause I've got a product report to read, it's like eight pages, I hope I don't fall asleep.",Rachel Green,Sad,negative
+s04_e02_c02,s04_e02_c02_u014,Why? Did you write it?,Ross Geller,Scared,negative
+s04_e02_c02,s04_e02_c02_u015,"Wow! Look at that, Chip Matthews called. I wonder what he wants?",Rachel Green,Joyful,positive
+s04_e02_c02,s04_e02_c02_u016,"Well ah, actually...",Ross Geller,Scared,negative
+s04_e02_c02,s04_e02_c02_u017,I bet he sensed that I was ready to have sex with another guy.,Rachel Green,Neutral,neutral
+s04_e02_c02,s04_e02_c02_u018,"Well, umm, why don't you give him a call?",Ross Geller,Peaceful,positive
+s04_e02_c02,s04_e02_c02_u019,Okay. Are you sure you wanna hear this?,Rachel Green,Scared,negative
+s04_e02_c02,s04_e02_c02_u020,"Oh, I'm sure.",Ross Geller,Powerful,positive
+s04_e02_c02,s04_e02_c02_u021,"Chip! Hi, it's Rachel. Rachel Green. Yeah, umm, you left me a message. Yes you did, my roommate wrote it down. Monica Geller. Ohh.",Rachel Green,Peaceful,positive
+s04_e02_c02,s04_e02_c02_u022,"Oh, that's right! He called to ask out Monica! That-that's gotta be embarrassing!",Ross Geller,Powerful,positive
+s04_e02_c04,s04_e02_c04_u002,Hey!,Monica Geller,Joyful,positive
+s04_e02_c04,s04_e02_c04_u003,"Umm, when were you gonna tell me that you're going out with Chip Matthews?",Rachel Green,Mad,negative
+s04_e02_c04,s04_e02_c04_u004,Now? Is it okay if I go out with Chip Matthews?,Monica Geller,Scared,negative
+s04_e02_c04,s04_e02_c04_u005,Nooo! It's not okay! I can't believe you would want to after what he did to me!,Rachel Green,Mad,negative
+s04_e02_c04,s04_e02_c04_u006,"What, that little thing at the prom?",Monica Geller,Scared,negative
+s04_e02_c04,s04_e02_c04_u007,Monica! I couldn't find him for two hours! He was having sex with Amy Welch!,Rachel Green,Mad,negative
+s04_e02_c04,s04_e02_c04_u008,"Come on, that was back in high school! How could that still bother you?",Monica Geller,Scared,negative
+s04_e02_c04,s04_e02_c04_u009,"I mean why, of all people would you want to go out with Chip?!",Rachel Green,Mad,negative
+s04_e02_c04,s04_e02_c04_u010,"Look, you and I went to different high schools...",Monica Geller,Neutral,neutral
+s04_e02_c04,s04_e02_c04_u011,"Okay, that doesn't help me, because we went to the same high school.",Rachel Green,Mad,negative
+s04_e02_c04,s04_e02_c04_u012,"You went to one where you were popular, and you got to ride off Chip's motorcycle, and wear his letterman jacket. I went to one where I wore a band uniform they had to have specially made.",Monica Geller,Sad,negative
+s04_e02_c04,s04_e02_c04_u013,They had to have that specially made?!,Rachel Green,Sad,negative
+s04_e02_c04,s04_e02_c04_u014,It was a project for one of the Home Ec classes.,Monica Geller,Sad,negative
+s04_e02_c04,s04_e02_c04_u015,"Oh my God, they told us that was for the mascot!",Rachel Green,Scared,negative
+s04_e02_c04,s04_e02_c04_u016,"Back then, I thought that I would never, ever get the chance to go out with a Chip Matthews, and now he's-he's called me up and asked me out. And the fat girl inside of me really wants to go. I-I owe her this. I never let her eat.",Monica Geller,Sad,negative
+s04_e02_c04,s04_e02_c04_u017,"Oh, you go out with him.",Rachel Green,Peaceful,positive
+s04_e02_c04,s04_e02_c04_u018,"Oh, really?!",Monica Geller,Joyful,positive
+s04_e02_c04,s04_e02_c04_u019,"Yeah. Just, if it's possible, could you leave him somewhere and go have sex with another guy?",Rachel Green,Joyful,positive
+s04_e02_c04,s04_e02_c04_u020,I'll try.,Monica Geller,Peaceful,positive
+s04_e02_c05,s04_e02_c05_u002,So you guys having any luck getting rid of the entertainment center?,Ross Geller,Neutral,neutral
+s04_e02_c05,s04_e02_c05_u003,"Well, there were a couple of calls last night, but ah, I don't think any of them are gonna work out.",Joey Tribbiani,Sad,negative
+s04_e02_c05,s04_e02_c05_u004,"Yes, Joey has a very careful screening process. Apparently, not everyone is qualified to own wood and nails.",Chandler Bing,Neutral,neutral
+s04_e02_c05,s04_e02_c05_u005,"Stop it! Stop it! She keeps squirming, trying to get away! Just like when she was alive.",Phoebe Buffay,Mad,negative
+s04_e02_c05,s04_e02_c05_u006,"So Pheebs, how long is your mom gonna be with us?",Ross Geller,Joyful,positive
+s04_e02_c05,s04_e02_c05_u007,"Well, I'm not sure. I mean, I guess until she y'know, gets used to the fact that there's y'know, a new mom. Y'know, I think she's worried that y'know, she's gonna, she's gonna be replaced. Well, that's not gonna happen is it? Noo. Okay, I have to return a call in the other room.",Phoebe Buffay,Peaceful,positive
+s04_e02_c05,s04_e02_c05_u008,Why can't you use the phone in here?,Monica Geller,Neutral,neutral
+s04_e02_c05,s04_e02_c05_u009,"Well, I'm returning a call from a certain mom at the B-E-A-C-H. I just spelled the wrong word.",Phoebe Buffay,Powerful,positive
+s04_e02_c05,s04_e02_c05_u010,"So, guys, am I crazy, or does Phoebe's mom remind anyone of a cat?",Ross Geller,Powerful,positive
+s04_e02_c05,s04_e02_c05_u011,"Ross, don't start.",Monica Geller,Joyful,positive
+s04_e02_c05,s04_e02_c05_u012,"Come on, you-you can't tell me you actually believe that-that there's a woman inside that cat!",Ross Geller,Sad,negative
+s04_e02_c05,s04_e02_c05_u013,I believe it.,Rachel Green,Peaceful,positive
+s04_e02_c05,s04_e02_c05_u014,No you don't.,Ross Geller,Peaceful,positive
+s04_e02_c05,s04_e02_c05_u015,"Yes, I do.",Rachel Green,Joyful,positive
+s04_e02_c05,s04_e02_c05_u016,"No you do-y'know what, you're not gonna suck me into this.",Ross Geller,Mad,negative
+s04_e02_c05,s04_e02_c05_u017,"Oh sure I am, because you always have to be right.",Rachel Green,Mad,negative
+s04_e02_c05,s04_e02_c05_u018,"I do not always have to be-okay, okay.",Ross Geller,Neutral,neutral
+s04_e02_c05,s04_e02_c05_u019,Jurassic Park could happen.,Rachel Green,Powerful,positive
+s04_e02_c06,s04_e02_c06_u002,"Wow! That's ah, that's pretty nice!",Tony,Joyful,positive
+s04_e02_c06,s04_e02_c06_u003,Pretty nice?,Joey Tribbiani,Peaceful,positive
+s04_e02_c06,s04_e02_c06_u004,"You'll have to pardon my roommate, he wanted to marry this.",Chandler Bing,Neutral,neutral
+s04_e02_c06,s04_e02_c06_u005,"We don't have 50 bucks, but would you be willing to trade for it? We've got a canoe.",Tony,Neutral,neutral
+s04_e02_c06,s04_e02_c06_u007,"Y'know, I, I really don't think we need a canoe.",Chandler Bing,Sad,negative
+s04_e02_c06,s04_e02_c06_u008,You gotta take the canoe!,Tony,Neutral,neutral
+s04_e02_c06,s04_e02_c06_u009,"All right, just, just take the entertainment center, and then when you get home, throw the canoe away!",Chandler Bing,Neutral,neutral
+s04_e02_c06,s04_e02_c06_u010,We're not throwing it away! I built that canoe!,Peter,Sad,negative
+s04_e02_c06,s04_e02_c06_u011,Good for you!!,Joey Tribbiani,Joyful,positive
+s04_e02_c07,s04_e02_c07_u002,"You guys, you're never gonna believe what I just found tacked up on a telephone pole! Look kinda familiar?",Rachel Green,Scared,negative
+s04_e02_c07,s04_e02_c07_u003,Apparently Phoebe's mother also goes by the name Julio.,Ross Geller,Peaceful,positive
+s04_e02_c07,s04_e02_c07_u004,"You guys, there's a little girl in Soho looking for this cat. I mean, you know what that means?!",Rachel Green,Peaceful,positive
+s04_e02_c07,s04_e02_c07_u005,"Yeah-eah! 200 dollar reward, split five ways!!",Joey Tribbiani,Joyful,positive
+s04_e02_c07,s04_e02_c07_u006,Do we have to tell her?,Rachel Green,Scared,negative
+s04_e02_c07,s04_e02_c07_u007,"Yes, we have to tell her!",Ross Geller,Powerful,positive
+s04_e02_c07,s04_e02_c07_u008,"Oh, but it's made her so happy.",Monica Geller,Sad,negative
+s04_e02_c07,s04_e02_c07_u009,"Little girl misses her cat. Crazy lady thinks her mother is in a cat. Okay, y'know what, I have to go have dinner with my son, can I trust that when you see Phoebe, you will tell her.",Ross Geller,Scared,negative
+s04_e02_c07,s04_e02_c07_u010,Yeah.,#ALL#,Scared,negative
+s04_e02_c07,s04_e02_c07_u011,Thank you.,Ross Geller,Joyful,positive
+s04_e02_c07,s04_e02_c07_u012,I hate when Ross is right!,Rachel Green,Sad,negative
+s04_e02_c07,s04_e02_c07_u013,"He is right, isn't he?",Monica Geller,Scared,negative
+s04_e02_c07,s04_e02_c07_u014,"Y'know what, I think this might be one of the times he's wrong.",Chandler Bing,Sad,negative
+s04_e02_c07,s04_e02_c07_u015,You think?,#ALL#,Scared,negative
+s04_e02_c07,s04_e02_c07_u016,"Oh-no, he's right.",Chandler Bing,Peaceful,positive
+s04_e02_c08,s04_e02_c08_u002,Hi.,Phoebe Buffay,Neutral,neutral
+s04_e02_c08,s04_e02_c08_u003,Hi!,Monica Geller,Neutral,neutral
+s04_e02_c08,s04_e02_c08_u004,Hey!,#ALL#,Neutral,neutral
+s04_e02_c08,s04_e02_c08_u005,"Uh, Pheebs, about your mom...",Joey Tribbiani,Neutral,neutral
+s04_e02_c08,s04_e02_c08_u006,Yeah?,Phoebe Buffay,Neutral,neutral
+s04_e02_c08,s04_e02_c08_u007,How's that going?,Joey Tribbiani,Neutral,neutral
+s04_e02_c08,s04_e02_c08_u008,"So great. Oh, we took a nap today and my Mom fell asleep on my tummy and purred.",Phoebe Buffay,Joyful,positive
+s04_e02_c08,s04_e02_c08_u009,That's so sweet. I'm gonna get some coffee.,Joey Tribbiani,Powerful,positive
+s04_e02_c08,s04_e02_c08_u010,Huh? What'd ya say Joe? I'll be right there.,Monica Geller,Peaceful,positive
+s04_e02_c08,s04_e02_c08_u012,Pheebs...,Rachel Green,Powerful,positive
+s04_e02_c08,s04_e02_c08_u013,"I just feel so, uhh.....",Phoebe Buffay,Powerful,positive
+s04_e02_c08,s04_e02_c08_u014,All right!!,Rachel Green,Peaceful,positive
+s04_e02_c08,s04_e02_c08_u015,I'm coming already!!,Chandler Bing,Peaceful,positive
+s04_e02_c08,s04_e02_c08_u016,Jeez!,Rachel Green,Neutral,neutral
+s04_e02_c09,s04_e02_c09_u002,Not yet! Not yet! Not yet! Not yet! Not yet! Not yet! Not yet! Not yet!,Monica Geller,Scared,negative
+s04_e02_c09,s04_e02_c09_u003,"Hello, Chip.",Rachel Green,Neutral,neutral
+s04_e02_c09,s04_e02_c09_u004,"Hey, Rach! How ya doin'?",Chip Matthews,Powerful,positive
+s04_e02_c09,s04_e02_c09_u005,"I'm great! I'm great. I've got a great job at Bloomingdale's, have wonderful friends, and eventhough I'm not seeing anyone right now, I've never felt better about myself.",Rachel Green,Joyful,positive
+s04_e02_c09,s04_e02_c09_u006,"So ah, Monica ready yet?",Chip Matthews,Neutral,neutral
+s04_e02_c09,s04_e02_c09_u007,"She'll be out in a second. So, Chip, how's umm, Amy Welch?",Rachel Green,Peaceful,positive
+s04_e02_c09,s04_e02_c09_u008,"Amy Welch? Wow! I haven't seen her since... So, Monica about ready?",Chip Matthews,Powerful,positive
+s04_e02_c10,s04_e02_c10_u002,"This is the unit for you my friend. Sturdy construction, tons of storage compartments, some big enough to fit a grown man.",Joey Tribbiani,Powerful,positive
+s04_e02_c10,s04_e02_c10_u003,What?!,Guy,Scared,negative
+s04_e02_c10,s04_e02_c10_u004,"Oh yeah! I got in there myself once. My roommate bet me five bucks that I couldn't, and then he stuck a board through the handles that locked me in. Yeah. It was funny 'til I started feeling like I was in a coffin.",Joey Tribbiani,Neutral,neutral
+s04_e02_c10,s04_e02_c10_u005,"No, you, you can't fit in that thing. That's not deep enough.",Guy,Scared,negative
+s04_e02_c10,s04_e02_c10_u006,"Oh yeah? If I can't, I'll knock five bucks off the price off the unit.",Joey Tribbiani,Neutral,neutral
+s04_e02_c10,s04_e02_c10_u007,"All right, you have yourself a deal.",Guy,Joyful,positive
+s04_e02_c10,s04_e02_c10_u008,Okay. See?! I told ya!,Joey Tribbiani,Neutral,neutral
+s04_e02_c10,s04_e02_c10_u010,"Sometimes I get in here just to get away from it! Hey, a nickel!!",Joey Tribbiani,Joyful,positive
+s04_e02_c11,s04_e02_c11_u002,"Here, we are.",Chip Matthews,Neutral,neutral
+s04_e02_c11,s04_e02_c11_u003,Oh my God! You still have the Chipper!,Monica Geller,Joyful,positive
+s04_e02_c11,s04_e02_c11_u004,The what?,Chip Matthews,Scared,negative
+s04_e02_c11,s04_e02_c11_u005,"That's what we used to call your ah, your motorcycle in high school. Y'know how a motorcycle is a Chopper, and you're Chip. Nevermind.",Monica Geller,Peaceful,positive
+s04_e02_c11,s04_e02_c11_u006,"No, I think it's cute.",Chip Matthews,Joyful,positive
+s04_e02_c11,s04_e02_c11_u007,Wow! A lipper from Chipper.,Monica Geller,Peaceful,positive
+s04_e02_c11,s04_e02_c11_u008,So you still in touch with anyone from high school?,Chip Matthews,Peaceful,positive
+s04_e02_c11,s04_e02_c11_u009,"Umm. Well, there's Rachel, and umm, I think that's it. How bout you?",Monica Geller,Neutral,neutral
+s04_e02_c11,s04_e02_c11_u010,"Oh yeah, I still hang with Simmons and Zana, y'know. I see Spindler a lot. Devane, Kelly, and I run into Goldie from time to time. Steve Brown, Zuchoff, McGwire, J.T., Breadsly.",Chip Matthews,Peaceful,positive
+s04_e02_c11,s04_e02_c11_u011,Is that all?,Monica Geller,Neutral,neutral
+s04_e02_c11,s04_e02_c11_u012,"Ehh, y'know after high school, you just kinda lose touch. Oh yeah! I ran into Richard Dorfman.",Chip Matthews,Peaceful,positive
+s04_e02_c11,s04_e02_c11_u013,"Ohh, how is he?",Monica Geller,Peaceful,positive
+s04_e02_c11,s04_e02_c11_u014,"Not so good, Simmons and I gave him a wedgie.",Chip Matthews,Scared,negative
+s04_e02_c11,s04_e02_c11_u015,Isn't he an architect now?,Monica Geller,Peaceful,positive
+s04_e02_c11,s04_e02_c11_u016,"Yeah, they still wear underwear.",Chip Matthews,Joyful,positive
+s04_e02_c12,s04_e02_c12_u002,OH MY GOD!!!,Chandler Bing,Powerful,positive
+s04_e02_c12,s04_e02_c12_u003,WHAT?!!,Joey Tribbiani,Scared,negative
+s04_e02_c12,s04_e02_c12_u004,Are you all right?!,Chandler Bing,Scared,negative
+s04_e02_c12,s04_e02_c12_u005,Yeah...,Joey Tribbiani,Powerful,positive
+s04_e02_c12,s04_e02_c12_u006,What happened?!!,Chandler Bing,Scared,negative
+s04_e02_c12,s04_e02_c12_u007,"Awww, man! He promised he wouldn't take the chairs!!",Joey Tribbiani,Mad,negative
+s04_e02_c12,s04_e02_c12_u008,What the hell happened?!! How were you locked in?!! And where the hell is all of our stuff?!!,Chandler Bing,Mad,negative
+s04_e02_c12,s04_e02_c12_u009,"Well, this guy came by to look at the unit and-and he said he didn't think big enough to fit a grown man!",Joey Tribbiani,Scared,negative
+s04_e02_c12,s04_e02_c12_u010,So-You got in voluntarily?!,Chandler Bing,Mad,negative
+s04_e02_c12,s04_e02_c12_u011,"I was tryin' to make a sale!! Oh, man, if I ever run into that guy again, do you know what I'm gonna do?",Joey Tribbiani,Peaceful,positive
+s04_e02_c12,s04_e02_c12_u012,BEND OVER?!!!,Chandler Bing,Mad,negative
+s04_e02_c13,s04_e02_c13_u002,"...and then Zana, just let one rip!!",Chip Matthews,Joyful,positive
+s04_e02_c13,s04_e02_c13_u003,"Look, not that I enjoy talking about people who I went to high school with, 'cause I do, but umm, maybe we could talk about something else? Like you, I don't even know where you work?",Monica Geller,Joyful,positive
+s04_e02_c13,s04_e02_c13_u004,You know where I work!,Chip Matthews,Joyful,positive
+s04_e02_c13,s04_e02_c13_u005,I do?,Monica Geller,Joyful,positive
+s04_e02_c13,s04_e02_c13_u006,"The movie theatre, you used to come in all the time.",Chip Matthews,Powerful,positive
+s04_e02_c13,s04_e02_c13_u007,You still work at the multiplex?,Monica Geller,Sad,negative
+s04_e02_c13,s04_e02_c13_u008,"Oh, like I'd give up that job! Free popcorn and candy, anytime I want. I can get you free posters for your room.",Chip Matthews,Joyful,positive
+s04_e02_c13,s04_e02_c13_u009,"Thanks, I'm set. Do you still live with your parents?",Monica Geller,Joyful,positive
+s04_e02_c13,s04_e02_c13_u010,"Oh yeah, but I can stay out as late as I want.",Chip Matthews,Peaceful,positive
+s04_e17_c01,s04_e17_c01_u002,"Ohhh, man!!",Mr. Treeger,Joyful,positive
+s04_e17_c01,s04_e17_c01_u003,What is that?,Joey Tribbiani,Powerful,positive
+s04_e17_c01,s04_e17_c01_u004,Treeger's snaking the shower drain.,Chandler Bing,Joyful,positive
+s04_e17_c01,s04_e17_c01_u005,What in the name of hell?,Mr. Treeger,Peaceful,positive
+s04_e17_c01,s04_e17_c01_u006,Maybe he found you flip-flop.,Joey Tribbiani,Sad,negative
+s04_e17_c01,s04_e17_c01_u008,Hey!,Chandler Bing,Mad,negative
+s04_e17_c01,s04_e17_c01_u009,Whoa! Is this porn? What did I do? I must've hit something on the remote.,Joey Tribbiani,Scared,negative
+s04_e17_c01,s04_e17_c01_u010,Do we pay for this?,Chandler Bing,Powerful,positive
+s04_e17_c01,s04_e17_c01_u011,"No, we didn't even pay our cable bill-maybe this is how they punish us.",Joey Tribbiani,Neutral,neutral
+s04_e17_c01,s04_e17_c01_u012,Maybe we shouldn't pay our phone bill-free phone sex.,Chandler Bing,Sad,negative
+s04_e17_c01,s04_e17_c01_u013,Maybe we shouldn't pay our gas bill?,Joey Tribbiani,Peaceful,positive
+s04_e17_c01,s04_e17_c01_u014,"Whoa, hey, that lady's all kinds of naked.",Mr. Treeger,Joyful,positive
+s04_e17_c01,s04_e17_c01_u015,"Yeah, Joey just pressed something on the remote and it just, came on!",Chandler Bing,Joyful,positive
+s04_e17_c01,s04_e17_c01_u016,"Yeah, it happened to me once. I was just flipping through the channels and bam! It was like finding money.",Mr. Treeger,Neutral,neutral
+s04_e17_c01,s04_e17_c01_u017,Like finding money with naked people on it!,Chandler Bing,Powerful,positive
+s04_e17_c01,s04_e17_c01_u018,"Then I made the mistake of turning off the TV, I never got it back again. And I'm sad.",Mr. Treeger,Peaceful,positive
+s04_e17_c01,s04_e17_c01_u019,Why would he turn off the TV?,Joey Tribbiani,Neutral,neutral
+s04_e17_c02,s04_e17_c02_u002,"All right, y'know what, come on, do we really have to watch this while we eat?",Rachel Green,Powerful,positive
+s04_e17_c02,s04_e17_c02_u003,Oh no-no-no-no!,Chandler Bing,Sad,negative
+s04_e17_c02,s04_e17_c02_u004,We don't know what could make this go away.,Chandler Bing,Scared,negative
+s04_e17_c02,s04_e17_c02_u005,"Yeah, so no one touches the remote. And no one touches the TV!",Joey Tribbiani,Sad,negative
+s04_e17_c02,s04_e17_c02_u006,And no one touches the air around the TV!,Chandler Bing,Peaceful,positive
+s04_e17_c02,s04_e17_c02_u007,"Imagine a protective porn bubble if you will, okay?",Joey Tribbiani,Mad,negative
+s04_e17_c02,s04_e17_c02_u008,"Well at least, I'm going to mute it.",Monica Geller,Powerful,positive
+s04_e17_c02,s04_e17_c02_u009,Oh no-no-no!,Chandler Bing,Sad,negative
+s04_e17_c02,s04_e17_c02_u010,We still have porn.,Chandler Bing,Scared,negative
+s04_e17_c02,s04_e17_c02_u011,Hey.,Joey Tribbiani,Peaceful,positive
+s04_e17_c02,s04_e17_c02_u012,Hi!,Phoebe Buffay,Powerful,positive
+s04_e17_c02,s04_e17_c02_u013,Hi!,Monica Geller,Joyful,positive
+s04_e17_c02,s04_e17_c02_u014,"Honey, what are you doing? That's too heavy.",Rachel Green,Powerful,positive
+s04_e17_c02,s04_e17_c02_u015,Yeah.,Phoebe Buffay,Neutral,neutral
+s04_e17_c02,s04_e17_c02_u016,"Give it here. Oh, God.",Rachel Green,Powerful,positive
+s04_e17_c02,s04_e17_c02_u017,Okay.,Monica Geller,Peaceful,positive
+s04_e17_c02,s04_e17_c02_u018,"Ohh, I'm getting too pregnant for this, lugging around a stupid massage table. Y'know, I have to find a job where I carrying a smaller table.",Phoebe Buffay,Scared,negative
+s04_e17_c02,s04_e17_c02_u019,Or a job where you don't have to carry a table.,Chandler Bing,Peaceful,positive
+s04_e17_c02,s04_e17_c02_u020,You mean like a doctor?,Phoebe Buffay,Peaceful,positive
+s04_e17_c02,s04_e17_c02_u021,Pheebs! You're blocking the porn! Look out!,Joey Tribbiani,Scared,negative
+s04_e17_c02,s04_e17_c02_u022,"Ohh! Oh my. Oh, that reminds me, I have to see my OB-GYN today.",Phoebe Buffay,Joyful,positive
+s04_e17_c03,s04_e17_c03_u002,Hi.,Ross Geller,Neutral,neutral
+s04_e17_c03,s04_e17_c03_u003,Hi.,Monica Geller,Neutral,neutral
+s04_e17_c03,s04_e17_c03_u004,"So uh, Emily just went to the airport.",Ross Geller,Scared,negative
+s04_e17_c03,s04_e17_c03_u005,Oh. Why didn't you take her?,Monica Geller,Neutral,neutral
+s04_e17_c03,s04_e17_c03_u006,"Eh, her-her uncle already had planned on doing it. And y'know, we-we said our good-byes this morning, so...",Ross Geller,Scared,negative
+s04_e17_c03,s04_e17_c03_u007,You must feel horrible. Hey! The guys have free porn!,Monica Geller,Powerful,positive
+s04_e17_c03,s04_e17_c03_u008,Nah.,Ross Geller,Neutral,neutral
+s04_e17_c03,s04_e17_c03_u009,"Hey, cheer up! You're gonna see her again, right?",Monica Geller,Peaceful,positive
+s04_e17_c03,s04_e17_c03_u010,"Well I, that's the thing, I don't know! I mean, whenever I brought it up with her she said, ""This is so fantastic! Why do we have to talk about the future? Let's just enjoy...""",Ross Geller,Scared,negative
+s04_e17_c03,s04_e17_c03_u011,"No-no-no, don't-don't do the accent. You've got to see her again.",Monica Geller,Peaceful,positive
+s04_e17_c03,s04_e17_c03_u012,And why do you care so much?,Ross Geller,Powerful,positive
+s04_e17_c03,s04_e17_c03_u013,Because! You could get to live out my fantasy!,Monica Geller,Powerful,positive
+s04_e17_c03,s04_e17_c03_u014,You had fantasies about Emily?,Ross Geller,Neutral,neutral
+s04_e17_c03,s04_e17_c03_u015,"No! Y'know, the fantasy! Meet someone from a strange land, fall in madly love, and spend the rest of your lives together.",Monica Geller,Powerful,positive
+s04_e17_c03,s04_e17_c03_u016,Is that why in junior high you were the only one that hung out with that Ukrainian kid?,Ross Geller,Peaceful,positive
+s04_e17_c03,s04_e17_c03_u017,"Yeah that, plus his mom used to put sour cream on everything!",Monica Geller,Peaceful,positive
+s04_e17_c03,s04_e17_c03_u018,Ahh.,Ross Geller,Neutral,neutral
+s04_e17_c03,s04_e17_c03_u019,Do you love her?,Monica Geller,Joyful,positive
+s04_e17_c03,s04_e17_c03_u020,"We said it was only going to be two weeks, y'know?",Ross Geller,Peaceful,positive
+s04_e17_c03,s04_e17_c03_u021,You love her!,Monica Geller,Powerful,positive
+s04_e17_c03,s04_e17_c03_u022,What-what is love really?,Ross Geller,Peaceful,positive
+s04_e17_c03,s04_e17_c03_u023,"Ohhh, I knew you loved her! Then you need to go to the airport and tell her. You're probably just gonna catch her just as she's about to go to the gate. You're gonna call out her name and say, ""I love you!"" And she's gonna say, ""I love you, too!"" And you guys are going to have the most amazing kiss, everyone at the gate will applaud.",Monica Geller,Powerful,positive
+s04_e17_c03,s04_e17_c03_u024,I am a good kisser.,Ross Geller,Peaceful,positive
+s04_e17_c03,s04_e17_c03_u025,"Then you two can, can sneak into the cockpit, and things will start to heat up, and then a stewardess comes in... I've been watching too much porn.",Monica Geller,Powerful,positive
+s04_e17_c04,s04_e17_c04_u002,Is that the heartbeat?,Rachel Green,Joyful,positive
+s04_e17_c04,s04_e17_c04_u003,That's it.,The Doctor,Joyful,positive
+s04_e17_c04,s04_e17_c04_u004,Oh my God!,Phoebe Buffay,Joyful,positive
+s04_e17_c04,s04_e17_c04_u005,Oh wow! This is so cool.,Rachel Green,Joyful,positive
+s04_e17_c04,s04_e17_c04_u007,Have we talked about the possibility of multiple births?,The Doctor,Powerful,positive
+s04_e17_c04,s04_e17_c04_u008,"Why don't take care of this one, and should I get pregnant again, I'll hold onto your card, okay?",Phoebe Buffay,Joyful,positive
+s04_e17_c04,s04_e17_c04_u009,"No, I'm getting three separate heartbeats.",The Doctor,Powerful,positive
+s04_e17_c04,s04_e17_c04_u010,Three? You guys were worried I wouldn't even have one!,Phoebe Buffay,Neutral,neutral
+s04_e17_c04,s04_e17_c04_u011,Doctors are wrong all the time.,The Doctor,Mad,negative
+s04_e17_c04,s04_e17_c04_u012,"Well, yeah.",Phoebe Buffay,Joyful,positive
+s04_e17_c04,s04_e17_c04_u013,"Well, so, are-are you sure that there are three?!",Rachel Green,Powerful,positive
+s04_e17_c04,s04_e17_c04_u014,Definitely.,The Doctor,Peaceful,positive
+s04_e17_c04,s04_e17_c04_u015,Oh my God! Oh my God! Oh my God!! So I-I mean so in a few months I'm going to have three full grown babies just walkin' around inside me?! Oh! Oh! And it's gonna be one of those log rides where they just come shooting out!,Phoebe Buffay,Joyful,positive
+s04_e17_c04,s04_e17_c04_u016,"Actually, giving birth to three babies isn't that different from giving birth to one.",The Doctor,Joyful,positive
+s04_e17_c04,s04_e17_c04_u017,What do you know?!,Phoebe Buffay,Neutral,neutral
+s04_e17_c05,s04_e17_c05_u002,"Oh-oh, Phoebe!",Alice Knight,Joyful,positive
+s04_e17_c05,s04_e17_c05_u003,Ooh! Hi!,Phoebe Buffay,Joyful,positive
+s04_e17_c05,s04_e17_c05_u004,"Hi! So, how did it go at the doctors?",Alice Knight,Joyful,positive
+s04_e17_c05,s04_e17_c05_u005,"Oh well, okay, hey, y'know how when you're umm, you're walking down the street and you see three people in a row, and you say, ""Oh, that's nice?""",Phoebe Buffay,Neutral,neutral
+s04_e17_c05,s04_e17_c05_u006,Yes.,Frank Buffay Jr.,Neutral,neutral
+s04_e17_c05,s04_e17_c05_u007,"Okay, yeah well, good news, you're going to have three babies.",Phoebe Buffay,Joyful,positive
+s04_e17_c05,s04_e17_c05_u008,Three babies?,Alice Knight,Powerful,positive
+s04_e17_c05,s04_e17_c05_u009,I finally got my band!,Frank Buffay Jr.,Joyful,positive
+s04_e17_c05,s04_e17_c05_u010,"We're gonna have a big family, I've always wanted a big family!",Alice Knight,Joyful,positive
+s04_e17_c05,s04_e17_c05_u011,"Oh God, I'm so glad you guys are happy, I was so afraid you were going to be all freaked.",Phoebe Buffay,Joyful,positive
+s04_e17_c05,s04_e17_c05_u012,Why would we be freaked?,Frank Buffay Jr.,Powerful,positive
+s04_e17_c05,s04_e17_c05_u013,"No, no maybe 'cause it's harder to raise them, and the added expense, and...",Phoebe Buffay,Neutral,neutral
+s04_e17_c05,s04_e17_c05_u014,Oh.,Frank Buffay Jr.,Joyful,positive
+s04_e17_c05,s04_e17_c05_u015,Right.,Alice Knight,Neutral,neutral
+s04_e17_c05,s04_e17_c05_u016,"No, back to happy. Back to happy!",Phoebe Buffay,Powerful,positive
+s04_e17_c05,s04_e17_c05_u017,"No-no-no, no, it's going to be fine. Because umm, because I teach Home Ec, and uh, I can have 30 kids making baby clothes all year long. Y'know it'll-it'll be like my very own little sweatshop.",Alice Knight,Powerful,positive
+s04_e17_c05,s04_e17_c05_u018,"Yeah, I've been thinking ever since you said we were having triplets, the best thing for me to do is to drop out of college and get a job.",Frank Buffay Jr.,Neutral,neutral
+s04_e17_c05,s04_e17_c05_u019,"No, Frank.",Alice Knight,Peaceful,positive
+s04_e17_c05,s04_e17_c05_u020,No you can't quit college! No! You're in college? Really?,Phoebe Buffay,Powerful,positive
+s04_e17_c05,s04_e17_c05_u021,"Yeah, refrigerator college.",Frank Buffay Jr.,Neutral,neutral
+s04_e17_c05,s04_e17_c05_u022,Yeah.,Alice Knight,Neutral,neutral
+s04_e17_c05,s04_e17_c05_u023,"Yeah, y'know when we found out we were going to have a baby, y'know I figured y'know like I should y'know have like a career-and I love refrigerators!",Frank Buffay Jr.,Powerful,positive
+s04_e17_c05,s04_e17_c05_u024,You can't give up on your dream.,Phoebe Buffay,Peaceful,positive
+s04_e17_c05,s04_e17_c05_u025,"No, it's okay. We're-we're gonna have three kids! And that's-that's a different kind of dream. Three kids and no money.",Frank Buffay Jr.,Powerful,positive
+s04_e17_c06,s04_e17_c06_u002,This is the boarding call for Flight 009.,Ticket Agent,Neutral,neutral
+s04_e17_c06,s04_e17_c06_u003,Emily!,Ross Geller,Powerful,positive
+s04_e17_c06,s04_e17_c06_u004,Oh my God! What are you doing here?,Emily Waltham,Mad,negative
+s04_e17_c06,s04_e17_c06_u005,"I just, I had to see you one more time before you took-off.",Ross Geller,Peaceful,positive
+s04_e17_c06,s04_e17_c06_u006,You are so sweet.,Emily Waltham,Joyful,positive
+s04_e17_c06,s04_e17_c06_u007,"That's, that's, that's a big candy bar. I had the most amazing time with you.",Ross Geller,Joyful,positive
+s04_e17_c06,s04_e17_c06_u008,Me too.,Emily Waltham,Joyful,positive
+s04_e17_c06,s04_e17_c06_u009,This is the final boarding call for Flight 009.,Ticket Agent,Neutral,neutral
+s04_e17_c06,s04_e17_c06_u010,"Well, that' me. Here, have this. I'm only allowed one piece of carryon anyway.",Emily Waltham,Peaceful,positive
+s04_e17_c06,s04_e17_c06_u011,"Wait uh, listen. I-I, I have to tell you something. Umm, I've been thinking, I'm just gonna come out and say it. Okay? I-I-I ah, I-I think I love you.",Ross Geller,Powerful,positive
+s04_e17_c06,s04_e17_c06_u012,Oh. Thank you.,Emily Waltham,Powerful,positive
+s04_e17_c06,s04_e17_c06_u013,That's no problem.,Ross Geller,Neutral,neutral
+s04_e17_c08,s04_e17_c08_u002,Hey!,Rachel Green,Neutral,neutral
+s04_e17_c08,s04_e17_c08_u003,"Hi! Listen, can we watch cartoons on your television? We need a porn break. We spent the last two hours watching In & Out & In, Again.",Chandler Bing,Powerful,positive
+s04_e17_c08,s04_e17_c08_u004,"Well, so, why don't you just turn it off?",Rachel Green,Powerful,positive
+s04_e17_c08,s04_e17_c08_u005,Because then we would be the guys who turned off free porn.,Chandler Bing,Peaceful,positive
+s04_e17_c08,s04_e17_c08_u006,"Ooh, good, you're hear! Okay.",Phoebe Buffay,Joyful,positive
+s04_e17_c08,s04_e17_c08_u007,Hey!,Monica Geller,Neutral,neutral
+s04_e17_c08,s04_e17_c08_u008,Hi!,Phoebe Buffay,Neutral,neutral
+s04_e17_c08,s04_e17_c08_u009,"Well, what-what 'cha got there?",Rachel Green,Neutral,neutral
+s04_e17_c08,s04_e17_c08_u010,"Oh this, well I'm glad you asked. Now, don't you hate it when you have to cut a tin can with an ordinary steak knife? Ahh! Now, I know what you're thinking...",Phoebe Buffay,Joyful,positive
+s04_e17_c08,s04_e17_c08_u011,Pregnant Woman Slays Four?,Chandler Bing,Powerful,positive
+s04_e17_c08,s04_e17_c08_u012,"Phoebe, they didn't make you pay for those knives, did they?",Monica Geller,Scared,negative
+s04_e17_c08,s04_e17_c08_u013,No!,Phoebe Buffay,Powerful,positive
+s04_e17_c08,s04_e17_c08_u014,Are you sure?,Monica Geller,Neutral,neutral
+s04_e17_c08,s04_e17_c08_u015,No!,Phoebe Buffay,Scared,negative
+s04_e17_c08,s04_e17_c08_u016,"Honey, you're not gonna make enough money to help Frank and Alice just by selling knives.",Rachel Green,Joyful,positive
+s04_e17_c08,s04_e17_c08_u017,"No-no, I know that, but I just have to make enough money for the second part of my plan.",Phoebe Buffay,Powerful,positive
+s04_e17_c08,s04_e17_c08_u018,What's the second part of your plan?,Chandler Bing,Scared,negative
+s04_e17_c08,s04_e17_c08_u019,My Saturn dealership.,Phoebe Buffay,Joyful,positive
+s04_e17_c09,s04_e17_c09_u002,Hello?,Ross Geller,Neutral,neutral
+s04_e17_c09,s04_e17_c09_u003,Ross.,Emily Waltham,Neutral,neutral
+s04_e17_c09,s04_e17_c09_u004,"Emily, hi! Uh, how-how was you flight?",Ross Geller,Powerful,positive
+s04_e17_c09,s04_e17_c09_u005,It was dreadful. I felt terrible about how I acted when you said those wonderful things.,Emily Waltham,Peaceful,positive
+s04_e17_c09,s04_e17_c09_u006,"No, no, that-that, that's all right. Umm, I'm just glad you called.",Ross Geller,Scared,negative
+s04_e17_c09,s04_e17_c09_u007,"Ross umm, there's something that I've got to tell you, there's-there's someone else.",Emily Waltham,Scared,negative
+s04_e17_c09,s04_e17_c09_u008,Does that mean the same thing in England as it does in America?,Ross Geller,Scared,negative
+s04_e17_c10,s04_e17_c10_u002,"She doesn't know which one of us she wants, me or this Colin guy.",Ross Geller,Joyful,positive
+s04_e17_c10,s04_e17_c10_u003,"This isn't how it's supposed to go, there can't be another guy.",Monica Geller,Joyful,positive
+s04_e17_c10,s04_e17_c10_u004,Well...,Ross Geller,Peaceful,positive
+s04_e17_c10,s04_e17_c10_u005,Of course there's another guy!! This is even more perfect! Now you have to prove your love!,Monica Geller,Powerful,positive
+s04_e17_c10,s04_e17_c10_u006,"I'm not proving anything. Okay, I'm done listening to you. If I hadn't let you talk me into going to the airport in the first place, I never would've put my fist through the wall!",Ross Geller,Powerful,positive
+s04_e17_c10,s04_e17_c10_u007,You put your fist through the wall?,Chandler Bing,Joyful,positive
+s04_e17_c10,s04_e17_c10_u008,"No, I missed and hit the door. But, it opened really hard!",Ross Geller,Sad,negative
+s04_e17_c10,s04_e17_c10_u009,You have to go to London!,Monica Geller,Joyful,positive
+s04_e17_c10,s04_e17_c10_u010,What?,Ross Geller,Scared,negative
+s04_e17_c10,s04_e17_c10_u011,"Yeah, you have to go fight for her!",Monica Geller,Mad,negative
+s04_e17_c10,s04_e17_c10_u012,"Oh yeah, sure, that makes sense. Yeah. 'Cause you already told her you love her and she didn't say it back, then she called you and told you that there's another guy, so yeah, go to London that'll scare her!",Joey Tribbiani,Neutral,neutral
+s04_e17_c10,s04_e17_c10_u013,"When Rachel was with Paulo, what did you do?",Monica Geller,Sad,negative
+s04_e17_c10,s04_e17_c10_u014,I made fun of his accent.,Ross Geller,Joyful,positive
+s04_e17_c10,s04_e17_c10_u015,"You sat back and let him have her, you didn't fight at all. Am I right? Do you want the same thing to happen with Emily?",Monica Geller,Sad,negative
+s04_e17_c10,s04_e17_c10_u016,No.,Ross Geller,Neutral,neutral
+s04_e17_c10,s04_e17_c10_u017,"All right then, go fight for her! Go to London! I mean, that could be you and Emily! That, but-but nicer. Just, go to London!",Monica Geller,Peaceful,positive
+s04_e17_c10,s04_e17_c10_u018,Really?,Ross Geller,Scared,negative
+s04_e17_c10,s04_e17_c10_u019,Come on! Surprise her! Show up at her doorstep! Don't let her go without a fight!,Monica Geller,Mad,negative
+s04_e17_c10,s04_e17_c10_u020,"All right. All right, I'm gonna do it!",Ross Geller,Peaceful,positive
+s04_e17_c10,s04_e17_c10_u021,All right.,Monica Geller,Neutral,neutral
+s04_e17_c10,s04_e17_c10_u022,"I'm gonna, I'm gonna go to London and I'm going to fight for her.",Ross Geller,Scared,negative
+s04_e17_c10,s04_e17_c10_u023,"Okay, good luck!",Monica Geller,Neutral,neutral
+s04_e17_c10,s04_e17_c10_u025,"Ross! Ross! If you're going to the airport, could you pick me up another one of those Toblerone bars?",Joey Tribbiani,Neutral,neutral
+s04_e17_c11,s04_e17_c11_u002,Hey!,Rachel Green,Joyful,positive
+s04_e17_c11,s04_e17_c11_u003,Ooh-Ooh! I did it! I did it! I figured out a way to make money! I'm gonna open up my own massage place and Frank's gonna help me! And! We can work it around his schedule so he doesn't have to quit school!,Phoebe Buffay,Joyful,positive
+s04_e17_c11,s04_e17_c11_u004,"That's sounds great, but how are you going to afford it?",Monica Geller,Neutral,neutral
+s04_e17_c11,s04_e17_c11_u005,"Well, we were walking down the street and we saw that van that you guys used for catering and we realised...",Rachel Green,Joyful,positive
+s04_e17_c11,s04_e17_c11_u006,I'm telling it! I'm telling it!,Phoebe Buffay,Joyful,positive
+s04_e17_c11,s04_e17_c11_u007,Okay.,Rachel Green,Peaceful,positive
+s04_e17_c11,s04_e17_c11_u008,"Okay. You know how people need transportation, but they also need massages to help them relax so I just figured we could combine the two, okay, I give the massages and Frank drives! I can fix up the van, bolt the table in the back, and you know what I've got?",Phoebe Buffay,Joyful,positive
+s04_e17_c11,s04_e17_c11_u009,A place where no one will ever get out alive?,Chandler Bing,Peaceful,positive
+s04_e17_c11,s04_e17_c11_u010,"No! Think about it, it's a taxi that people take when they need to relax, it's...",Phoebe Buffay,Powerful,positive
+s04_e17_c11,s04_e17_c11_u011,Relaxi-Taxi!,Rachel Green,Joyful,positive
+s04_e17_c11,s04_e17_c11_u012,The name was my favourite part!,Phoebe Buffay,Neutral,neutral
+s04_e17_c11,s04_e17_c11_u013,"Well, well I can up with it!",Rachel Green,Joyful,positive
+s04_e17_c11,s04_e17_c11_u014,YOU DID NOT!!!! Oh! No! You came up with Relaxi Cab! That's not good.,Phoebe Buffay,Scared,negative
+s04_e17_c11,s04_e17_c11_u015,"Well, I...",Rachel Green,Neutral,neutral
+s04_e17_c11,s04_e17_c11_u017,Hello.,Monica Geller,Neutral,neutral
+s04_e17_c11,s04_e17_c11_u018,Hey.,Ross Geller,Neutral,neutral
+s04_e17_c11,s04_e17_c11_u019,"Oh my God! Ross, are you in England? Was Emily surprised?",Monica Geller,Joyful,positive
+s04_e17_c11,s04_e17_c11_u021,"No, because she hasn't come home yet. And she hasn't been home all night! She's obviously staying with that other guy, and I'm the stupid moron who spent the whole night outside her apartment!",Ross Geller,Mad,negative
+s04_e17_c11,s04_e17_c11_u022,"All right. When is, when is the next flight out?",Monica Geller,Peaceful,positive
+s04_e17_c11,s04_e17_c11_u023,About four hours.,Ross Geller,Neutral,neutral
+s04_e17_c11,s04_e17_c11_u024,"Okay, just stay there a couple more hours and if she doesn't show up by then, then just come on home.",Monica Geller,Neutral,neutral
+s04_e17_c11,s04_e17_c11_u025,"Hey, tell him about Relaxi-Taxi, and-and ask him if he thinks that's better than Relaxi Cab.",Phoebe Buffay,Neutral,neutral
+s04_e17_c11,s04_e17_c11_u026,"Okay, it's not Relaxi Cab. It's Relaxicab, like taxicab.",Rachel Green,Joyful,positive
+s04_e17_c11,s04_e17_c11_u027,"Oh, that is better.",Phoebe Buffay,Joyful,positive
+s04_e17_c12,s04_e17_c12_u002,Are we in London?,Chandler Bing,Neutral,neutral
+s04_e17_c12,s04_e17_c12_u003,What are you doing here? You can't be here!,Monica Geller,Mad,negative
+s04_e17_c12,s04_e17_c12_u004,"I've uh, I've come to talk to Ross.",Emily Waltham,Scared,negative
+s04_e17_c12,s04_e17_c12_u006,What?,Emily Waltham,Scared,negative
+s04_e17_c12,s04_e17_c12_u007,"Nothing. No, nothing.",Joey Tribbiani,Scared,negative
+s04_e17_c12,s04_e17_c12_u008,"I was going to call him, but...",Emily Waltham,Scared,negative
+s04_e17_c12,s04_e17_c12_u009,"Oh, you came to tell him you love him! I knew it! I was right! I'm right, right?",Monica Geller,Joyful,positive
+s04_e17_c12,s04_e17_c12_u010,I'd really rather talk to him.,Emily Waltham,Scared,negative
+s04_e17_c12,s04_e17_c12_u011,Oh.,Monica Geller,Sad,negative
+s04_e17_c12,s04_e17_c12_u012,"I uh, I've been to his apartment and he wasn't there, and uh. I need to talk to him, so do you have any idea where he is?",Emily Waltham,Scared,negative
+s04_e17_c12,s04_e17_c12_u014,"Ross, are you there? Ross, I don't know if you can hear this but... I'm gonna talk anyway, uh, I'm in the States with you sister and your friends and it's all over with Colin. I came here to tell you that, and to tell you-Yes, Joey you can have all the chocolate you want, just take it! Uh, I came here to tell you that I love you.",Emily Waltham,Scared,negative
+s04_e17_c12,s04_e17_c12_u015,"I love you too! I'm, I'm gonna call you right now from the phone booth! You can't hear me.",Ross Geller,Joyful,positive
+s04_e17_c12,s04_e17_c12_u016,"I wish I could know if you'd heard any of that. I suppose I've either just told you I love you or given my neighbours a good laugh. Mrs. Newman if you're listening, bugger off this in none of your business. I suppose there's not much chance you did heard that, and there's the call waiting so, I should go. Oh well. Hello.",Emily Waltham,Sad,negative
+s04_e17_c12,s04_e17_c12_u017,Hi.,Ross Geller,Joyful,positive
+s04_e17_c12,s04_e17_c12_u018,"Ross, I love you!",Emily Waltham,Joyful,positive
+s04_e17_c12,s04_e17_c12_u019,Ohh! Thank you.,Ross Geller,Joyful,positive
+s04_e17_c13,s04_e17_c13_u002,Hey.,Chandler Bing,Neutral,neutral
+s04_e17_c13,s04_e17_c13_u003,Hey.,Joey Tribbiani,Neutral,neutral
+s04_e17_c13,s04_e17_c13_u004,"I was just at the bank, and there was this really hot teller, and she didn't ask me to go do it with her in the vault.",Chandler Bing,Powerful,positive
+s04_e17_c13,s04_e17_c13_u005,"Same kind of thing happened to me! Woman pizza delivery guy come over, gives me the pizza, takes the money, and leaves!",Joey Tribbiani,Mad,negative
+s04_e17_c13,s04_e17_c13_u006,"What, no, ""Nice apartment, I bet the bedrooms are huge?""",Chandler Bing,Peaceful,positive
+s04_e17_c13,s04_e17_c13_u007,Noo! Nothing!,Joey Tribbiani,Scared,negative
+s04_e17_c13,s04_e17_c13_u008,"Y'know what, we have to turn off the porn.",Chandler Bing,Peaceful,positive
+s04_e17_c13,s04_e17_c13_u009,I think you're right.,Joey Tribbiani,Powerful,positive
+s04_e17_c13,s04_e17_c13_u011,"All right, ready?",Chandler Bing,Peaceful,positive
+s04_e17_c13,s04_e17_c13_u012,One.,Joey Tribbiani,Joyful,positive
+s04_e17_c13,s04_e17_c13_u013,Two.,Chandler Bing,Joyful,positive
+s04_e17_c13,s04_e17_c13_u014,Three.,Both,Neutral,neutral
+s04_e17_c13,s04_e17_c13_u016,That's kinda nice.,Joey Tribbiani,Joyful,positive
+s04_e17_c13,s04_e17_c13_u017,"Yeah, that's kinda a relief.",Chandler Bing,Joyful,positive
+s04_e17_c13,s04_e17_c13_u018,Yeah.,Joey Tribbiani,Neutral,neutral
+s04_e17_c13,s04_e17_c13_u020,You wanna see if we still have it?,Chandler Bing,Joyful,positive
+s04_e17_c13,s04_e17_c13_u021,Yeah.,Joey Tribbiani,Neutral,neutral
+s04_e17_c13,s04_e17_c13_u023,FREE PORN!!!,Chandler Bing,Joyful,positive
+s04_e17_c13,s04_e17_c13_u024,Yeah!!,Joey Tribbiani,Joyful,positive
+s04_e17_c13,s04_e17_c13_u025,We have free porn here!!!,Chandler Bing,Joyful,positive
+s04_e20_c04,s04_e20_c04_u002,Oh my God! Ohh! Look at this one! It's so beautiful!,Monica Geller,Joyful,positive
+s04_e20_c04,s04_e20_c04_u003,"Yeah, but y'know, about have of these are gonna end up getting divorced.",Phoebe Buffay,Sad,negative
+s04_e20_c04,s04_e20_c04_u004,May I help you ladies?,The Saleslady,Joyful,positive
+s04_e20_c04,s04_e20_c04_u005,"Oh, yes, umm, I'm here to pick up a dress that you have on hold.",Monica Geller,Scared,negative
+s04_e20_c04,s04_e20_c04_u006,"Yes, what's the name, please?",The Saleslady,Neutral,neutral
+s04_e20_c04,s04_e20_c04_u007,Emily Waltham.,Monica Geller,Neutral,neutral
+s04_e20_c04,s04_e20_c04_u008,Yes! I have it right here. Would you like to try it on Ms. Waltham?,The Saleslady,Joyful,positive
+s04_e20_c04,s04_e20_c04_u009,Okay.,Monica Geller,Powerful,positive
+s04_e20_c04,s04_e20_c04_u011,You're the most beautiful bride I've ever seen.,Phoebe Buffay,Peaceful,positive
+s04_e20_c04,s04_e20_c04_u012,"I am, aren't I?",Monica Geller,Powerful,positive
+s04_e20_c04,s04_e20_c04_u013,Ms. Waltham?,The Saleslady,Neutral,neutral
+s04_e20_c04,s04_e20_c04_u014,Yes?,Monica Geller,Neutral,neutral
+s04_e20_c04,s04_e20_c04_u015,We're closing.,The Saleslady,Peaceful,positive
+s04_e20_c04,s04_e20_c04_u016,All right.,Monica Geller,Joyful,positive
+s04_e20_c04,s04_e20_c04_u017,And could I get my ring back?,The Saleslady,Neutral,neutral
+s04_e20_c06,s04_e20_c06_u002,Does she use the cups? Yes! I believe she does. Does she use the plates? Yes! I believe she does.,Monica Geller,Powerful,positive
+s04_e20_c06,s04_e20_c06_u004,"Oh. Thank you. Ohhh, thank you very much. Oh, thank you for coming. Uh, just a second!",Monica Geller,Joyful,positive
+s04_e20_c06,s04_e20_c06_u005,"No-no, let me in!",Phoebe Buffay,Joyful,positive
+s04_e20_c06,s04_e20_c06_u006,Phoebe?,Monica Geller,Scared,negative
+s04_e20_c06,s04_e20_c06_u007,Yeah!,Phoebe Buffay,Neutral,neutral
+s04_e20_c06,s04_e20_c06_u008,Can you just hold on for one minute?,Monica Geller,Scared,negative
+s04_e20_c06,s04_e20_c06_u009,"No, you have to let me in right now!!",Phoebe Buffay,Mad,negative
+s04_e20_c06,s04_e20_c06_u010,Are you alone?,Monica Geller,Scared,negative
+s04_e20_c06,s04_e20_c06_u011,Yes!,Phoebe Buffay,Peaceful,positive
+s04_e20_c06,s04_e20_c06_u012,All right.,Monica Geller,Peaceful,positive
+s04_e20_c08,s04_e20_c08_u002,"Hey, Rachel.",Joshua Burgin,Neutral,neutral
+s04_e20_c08,s04_e20_c08_u003,Hi!,Rachel Green,Neutral,neutral
+s04_e20_c08,s04_e20_c08_u004,What's up? You're voice sounded all squeaky on the phone.,Joshua Burgin,Peaceful,positive
+s04_e20_c08,s04_e20_c08_u005,"Ohh, nothing, I just wanted to see you. See you and hug you. See you.",Rachel Green,Peaceful,positive
+s04_e20_c08,s04_e20_c08_u006,Great!,Joshua Burgin,Powerful,positive
+s04_e20_c08,s04_e20_c08_u007,Yeah! Sit!,Rachel Green,Peaceful,positive
+s04_e20_c08,s04_e20_c08_u008,You okay?,Joshua Burgin,Powerful,positive
+s04_e20_c08,s04_e20_c08_u009,"I'm more than okay, I am really, really happy! Wanna know why?",Rachel Green,Powerful,positive
+s04_e20_c08,s04_e20_c08_u010,Do I?,Joshua Burgin,Peaceful,positive
+s04_e20_c08,s04_e20_c08_u011,"'Cause I am really happy about us. I think we are, I think we are so on the right track! Y'know? I mean, I think we are working, I think we are clicking. Y'know?",Rachel Green,Scared,negative
+s04_e20_c08,s04_e20_c08_u012,"Yeah, sure-sure, yeah, we're-we're-we're-we're-we're clicking.",Joshua Burgin,Peaceful,positive
+s04_e20_c08,s04_e20_c08_u013,"Yeah-yeah, y'know if-if there was just like one little area where I-that I think we need-we would need to work on; I-I would think it was we're just not crazy enough!",Rachel Green,Mad,negative
+s04_e20_c08,s04_e20_c08_u014,"I-I gotta say, I-I-I-I'm not too sure I agree with that.",Joshua Burgin,Scared,negative
+s04_e20_c08,s04_e20_c08_u015,"Well, yeah, right, y'know what? Yeah, you're right, I mean, we no, we have our fun. Yeah! But if ......I mean, I mean like craaaazy! Y'know? Okay, all right. This is gonna, this is gonna sound y'know, a little umm, hasty, but uh, just go with it. Umm. Ugh. What if we got married?",Rachel Green,Joyful,positive
+s04_e20_c08,s04_e20_c08_u016,What?!,Joshua Burgin,Powerful,positive
+s04_e20_c08,s04_e20_c08_u017,"Oh, I know, I know, it's-it's so, it's so totally like, ""Whoa! Can we do this?"" Y'know, I mean, but I mean it just feels right! Don't you think? It does! I mean, it just feels right, don't you think?",Rachel Green,Joyful,positive
+s04_e20_c08,s04_e20_c08_u018,"Wow! Uhh, Rachel uhh, you're a real special lady, but my divorce isn't final yet and, and, and we've been on four days, so I'm thinking ""No, but thanks.""",Joshua Burgin,Powerful,positive
+s04_e20_c08,s04_e20_c08_u019,YOU IDIOT!!!!!,Gunther,Mad,negative
+s04_e20_c09,s04_e20_c09_u002,"Your name, please?",Sleep Clinic Worker,Peaceful,positive
+s04_e20_c09,s04_e20_c09_u003,Joey Tribbiani.,Joey Tribbiani,Joyful,positive
+s04_e20_c09,s04_e20_c09_u004,"Um-hmm, and did you stay up all night in preparation for your sleep study. Uh, sir?",Sleep Clinic Worker,Powerful,positive
+s04_e20_c09,s04_e20_c09_u005,Yes he did.,Chandler Bing,Neutral,neutral
+s04_e20_c09,s04_e20_c09_u006,"Alll right, we'll call you in a few minutes.",Sleep Clinic Worker,Powerful,positive
+s04_e20_c09,s04_e20_c09_u008,"Hey, check out that girl! She is really hot!",Chandler Bing,Powerful,positive
+s04_e20_c09,s04_e20_c09_u009,"Yeah, she is. Wow! How you doin'?",Joey Tribbiani,Peaceful,positive
+s04_e20_c09,s04_e20_c09_u011,What?!,Joey Tribbiani,Neutral,neutral
+s04_e20_c09,s04_e20_c09_u012,You're coming on to the entire room! I'm Chandler.,Chandler Bing,Peaceful,positive
+s04_e20_c09,s04_e20_c09_u013,I'm Marjorie.,Woman,Peaceful,positive
+s04_e20_c09,s04_e20_c09_u014,Hi.,Chandler Bing,Peaceful,positive
+s04_e20_c09,s04_e20_c09_u015,Hi.,Marjorie,Peaceful,positive
+s04_e20_c09,s04_e20_c09_u016,You mind if I...,Chandler Bing,Peaceful,positive
+s04_e20_c09,s04_e20_c09_u017,"No, please.",Marjorie,Peaceful,positive
+s04_e20_c09,s04_e20_c09_u019,"So uh, what are you in for?",Chandler Bing,Peaceful,positive
+s04_e20_c09,s04_e20_c09_u020,I talk in my sleep.,Marjorie,Joyful,positive
+s04_e20_c09,s04_e20_c09_u021,"What a coincidence, I listen in my sleep.",Chandler Bing,Peaceful,positive
+s04_e20_c09,s04_e20_c09_u022,So why don't you give me your number?,Joey Tribbiani,Sad,negative
+s04_e20_c10,s04_e20_c10_u002,"Okay, ready?",Monica Geller,Neutral,neutral
+s04_e20_c10,s04_e20_c10_u003,Yeah.,Phoebe Buffay,Neutral,neutral
+s04_e20_c10,s04_e20_c10_u004,Okay.,Monica Geller,Neutral,neutral
+s04_e20_c10,s04_e20_c10_u006,I got it! Mine!,Phoebe Buffay,Joyful,positive
+s04_e20_c10,s04_e20_c10_u007,Congratulations!,Monica Geller,Joyful,positive
+s04_e20_c10,s04_e20_c10_u008,Thank you!,Phoebe Buffay,Joyful,positive
+s04_e20_c10,s04_e20_c10_u009,Okay! My turn! My turn!,Monica Geller,Neutral,neutral
+s04_e20_c10,s04_e20_c10_u010,"Okay! Okay, ready?",Phoebe Buffay,Neutral,neutral
+s04_e20_c10,s04_e20_c10_u011,Yeah.,Monica Geller,Neutral,neutral
+s04_e20_c10,s04_e20_c10_u012,Okay.,Phoebe Buffay,Neutral,neutral
+s04_e20_c10,s04_e20_c10_u013,That was a terrible throw!!,Monica Geller,Sad,negative
+s04_e20_c10,s04_e20_c10_u014,I'm not gonna right to you! That's not real!,Phoebe Buffay,Neutral,neutral
+s04_e20_c10,s04_e20_c10_u015,"Look at me! My big concern is what's real?! Oh my God. We're really sad, aren't we?",Monica Geller,Sad,negative
+s04_e20_c10,s04_e20_c10_u016,"Yeah, I think we are.",Phoebe Buffay,Sad,negative
+s04_e20_c10,s04_e20_c10_u017,This isn't even my dress.,Monica Geller,Neutral,neutral
+s04_e20_c10,s04_e20_c10_u018,"Well, at least you didn't rent yours from a store called, ""It's Not Too Late.""",Phoebe Buffay,Peaceful,positive
+s04_e20_c10,s04_e20_c10_u019,I'm changing out of this.,Monica Geller,Neutral,neutral
+s04_e20_c10,s04_e20_c10_u020,Me too.,Phoebe Buffay,Neutral,neutral
+s04_e20_c10,s04_e20_c10_u021,In like a half-hour?,Monica Geller,Neutral,neutral
+s04_e20_c10,s04_e20_c10_u022,Me too.,Phoebe Buffay,Neutral,neutral
+s04_e20_c10,s04_e20_c10_u023,"Okay, throw it straight this time.",Monica Geller,Neutral,neutral
+s04_e20_c10,s04_e20_c10_u024,Okay.,Phoebe Buffay,Neutral,neutral
+s04_e20_c10,s04_e20_c10_u026,I'm getting married next!!,Monica Geller,Joyful,positive
+s04_e20_c10,s04_e20_c10_u027,Yay!,Phoebe Buffay,Joyful,positive
+s04_e20_c11,s04_e20_c11_u002,I hate my regular clothes now! Y'know? I look down and-and I know that this isn't gonna be the most special day of my life.,Phoebe Buffay,Peaceful,positive
+s04_e20_c11,s04_e20_c11_u003,"Yeah. I mean it was kinda fun for a while, but didn't you start feeling silly?",Monica Geller,Powerful,positive
+s04_e20_c11,s04_e20_c11_u004,I guess.,Phoebe Buffay,Sad,negative
+s04_e20_c11,s04_e20_c11_u006,Oh my God!,Phoebe Buffay,Powerful,positive
+s04_e20_c11,s04_e20_c11_u007,Oh God.,Monica Geller,Powerful,positive
+s04_e20_c11,s04_e20_c11_u008,"Oh, you're such a cheater!",Phoebe Buffay,Powerful,positive
+s04_e20_c11,s04_e20_c11_u009,Hello! Little ones.,Chandler Bing,Powerful,positive
+s04_e20_c11,s04_e20_c11_u010,Hey!,Monica Geller,Powerful,positive
+s04_e20_c11,s04_e20_c11_u011,Hey!,Phoebe Buffay,Peaceful,positive
+s04_e20_c11,s04_e20_c11_u012,"So, is Joey gonna stop snoring?",Monica Geller,Peaceful,positive
+s04_e20_c11,s04_e20_c11_u013,"Yep! And! A beautiful woman agreed to go out with me. Joey wanted to ask her out, but uh, she picked me.",Chandler Bing,Joyful,positive
+s04_e20_c11,s04_e20_c11_u014,"Oh, how'd that happen?",Phoebe Buffay,Powerful,positive
+s04_e20_c11,s04_e20_c11_u015,Because I'm cooler.,Chandler Bing,Neutral,neutral
+s04_e20_c11,s04_e20_c11_u016,"No, seriously.",Monica Geller,Sad,negative
+s04_e20_c11,s04_e20_c11_u017,"Well she's, she's the kinda girl-Joey was unconscious.",Chandler Bing,Peaceful,positive
+s04_e20_c11,s04_e20_c11_u019,Hey you guys! What's happening?,Joey Tribbiani,Powerful,positive
+s04_e20_c11,s04_e20_c11_u020,Oh my God!,Monica Geller,Peaceful,positive
+s04_e20_c11,s04_e20_c11_u021,What is that?,Phoebe Buffay,Peaceful,positive
+s04_e20_c11,s04_e20_c11_u022,"Oh, they gave it to me at the sleep clinic, and it's gonna help me not to snore.",Joey Tribbiani,Peaceful,positive
+s04_e20_c11,s04_e20_c11_u023,"Well, are you asleep right now, Joe? 'Cause I don't think you have to wear it unless you are!",Monica Geller,Peaceful,positive
+s04_e20_c11,s04_e20_c11_u024,I know I don't have too! It tastes good.,Joey Tribbiani,Peaceful,positive
+s04_e20_c11,s04_e20_c11_u025,"Plus, you look cool.",Chandler Bing,Joyful,positive

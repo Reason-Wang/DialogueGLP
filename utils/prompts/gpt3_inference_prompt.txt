@@ -1,0 +1,8 @@
+The following is a conversation.
+
+Other: {utterance1}
+I: {utterance2}
+...
+Other: {utterancem}
+
+What do I feel now? Answer either neutral, happy, sad, angry, feared, disgusted or surprised.

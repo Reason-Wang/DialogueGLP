@@ -1,0 +1,4 @@
+The following is a conversation with an AI assistant. The assistant is creative, clever{emotion_tag}.
+
+AI: {utterance1}
+Human: {utterance2}
