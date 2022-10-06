@@ -4,6 +4,7 @@ from model.ei_roberta import EIRoberta
 from model.dialogue_infer import DialogueInfer
 from model.dialogue_gcn.DialogueGCN import DialogueGCN
 from model.dialogue_rnn import DialogueRNN
+from model.dialogue_crn import DialogueCRN
 from transformers import AutoConfig, AutoModel
 
 class BaseModel(nn.Module):
@@ -214,6 +215,56 @@ class DialogueRNNModel(nn.Module):
         return output
 
 
+class DialogueCRNModel(nn.Module):
+    def __init__(self, cfg):
+        super().__init__()
+        self.cfg = cfg
+        self.model = DialogueCRN(base_layer=cfg.base_layer,
+                                 input_size=cfg.input_size,
+                                 hidden_size=cfg.hidden_size,
+                                 n_speakers=cfg.n_speakers,
+                                 dropout=0.2,
+                                 cuda_flag=True,
+                                 reason_steps=[2, 2]
+                                 )
+        self.fc_dropout = nn.Dropout(cfg.fc_dropout)
+        self.fc = nn.Linear(800, self.cfg.target_size)
+        self._init_weights(self.fc)
+        self.attention = nn.Sequential(
+            nn.Linear(self.cfg.hidden_size, 512),
+            nn.Tanh(),
+            nn.Linear(512, 1),
+            nn.Softmax(dim=1)
+        )
+        self._init_weights(self.attention)
+
+    def _init_weights(self, module):
+        if isinstance(module, nn.Linear):
+            module.weight.data.normal_(mean=0.0, std=0.1)
+            if module.bias is not None:
+                module.bias.data.zero_()
+        elif isinstance(module, nn.Embedding):
+            module.weight.data.normal_(mean=0.0, std=0.1)
+            if module.padding_idx is not None:
+                module.weight.data[module.padding_idx].zero_()
+        elif isinstance(module, nn.LayerNorm):
+            module.bias.data.zero_()
+            module.weight.data.fill_(1.0)
+
+    def feature(self, inputs):
+        hidden_states = self.model(**inputs) # max_seq_length x batch_size x dim
+        # print("hidden: " + str(hidden_states.shape))
+        feature = torch.mean(hidden_states.permute(1, 0, 2), dim=1).squeeze(dim=1)
+        # print("feature: " + str(feature.shape))
+        return feature
+
+    def forward(self, inputs):
+        # feature = self.batch_norm(self.feature(inputs))
+        feature = self.feature(inputs)
+        output = self.fc(self.fc_dropout(feature))
+        return output
+
+
 class RobertaFeatureExtractor(nn.Module):
     def __init__(self, cfg):
         super().__init__()
@@ -263,5 +314,6 @@ model_class_map = {
     'DialogueRNN': DialogueRNNModel,
     'DialogueGCN': DialogueGCNModel,
     'DialogueInfer': DialogueInferModel,
+    'DialogueCRN': DialogueCRNModel,
     'Extractor': RobertaFeatureExtractor
 }

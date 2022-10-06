@@ -216,6 +216,8 @@ if __name__ == '__main__':
         options.add_dialogue_rnn_options()
     elif opt.model == 'DialogueGCN':
         options.add_dialogue_gcn_options()
+    elif opt.model == 'DialogueCRN':
+        options.add_dialogue_crn_options()
     opt = options.parse()[0]
     if opt.cls_3:
         opt.target_size = 3

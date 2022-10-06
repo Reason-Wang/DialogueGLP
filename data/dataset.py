@@ -108,6 +108,41 @@ class DialogueRNNEIDataset(Dataset):
                 "speakers": speakers, "emb": self.embeddings[item],
                 "emotions": emotions, "speaker_idx": self.speaker_idx[item]}
 
+class DialogueCRNEIDataset(Dataset):
+    def __init__(self, data, opt=None):
+        super().__init__()
+        self.dialogues = data['dialogue']
+        self.labels = data['label']
+        self.emotions = data['emotion']
+        self.speakers = data['speaker']
+        self.embeddings = data['embedding']
+
+        self.speaker_idx = []
+        for dialog_speakers in self.speakers:
+            dialog_speakers_idx = []
+            speaker_map = {}
+            idx = -1
+            for speaker in dialog_speakers:
+                if speaker not in speaker_map:
+                    idx += 1
+                    speaker_map[speaker] = idx
+                one_hot_idx = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+                # print(speaker, speaker_map[speaker])
+                one_hot_idx[speaker_map[speaker]] = 1
+                dialog_speakers_idx.append(one_hot_idx)
+            self.speaker_idx.append(dialog_speakers_idx)
+
+    def __len__(self):
+        return len(self.dialogues)
+
+    def __getitem__(self, item):
+        emotions = self.emotions[item]
+        label = self.labels[item]['emotion']
+        speakers = [1 if speaker == self.labels[item]['speaker'] else 0 for speaker in self.speakers[item]]
+        return {"text": self.dialogues[item], "label": label,
+                "speakers": speakers, "emb": self.embeddings[item],
+                "emotions": emotions, "speaker_idx": self.speaker_idx[item]}
+
 
 class DialogueGCNEIDataset(Dataset):
     def __init__(self, data, opt=None):
@@ -146,6 +181,7 @@ dataset_map = {
     'DialogueInfer': DialogueInferEIDataset,
     'DialogueRNN': DialogueRNNEIDataset,
     'DialogueGCN': DialogueGCNEIDataset,
+    'DialogueCRN': DialogueCRNEIDataset,
     'Extractor': FeatureTuningDataset,
 }
 
@@ -268,6 +304,24 @@ class DialogueRNNCollator(object):
 
         return {'U': embs, 'qmask': qmask}, labels
 
+class DialogueCRNCollator(object):
+    def __init__(self, cfg, device):
+        self.cfg = cfg
+        self.padding_emb = torch.zeros(cfg.input_size)
+        self.device = device
+
+    def __call__(self, batch):
+
+        lens = [len(ex['emb']) for ex in batch]
+        embs = pad_sequence([torch.tensor([ex['emb'][i] for i in range(len(ex['emb']))]) for ex in batch]).to(self.device)
+        qmask = pad_sequence([torch.tensor([ex['speaker_idx'][i] for i in range(len(ex['emb']))]) for ex in batch]).to(
+            self.device)
+        labels = torch.tensor([ex['label'] for ex in batch]).to(self.device)
+
+        # print("embs: " + str(embs.shape))
+        # print("qmask: " + str(qmask.shape))
+        return {'U': embs, 'qmask': qmask, 'seq_lengths': lens}, labels
+
 
 class DialogueGCNCollator(object):
     def __init__(self, cfg, device):
@@ -323,5 +377,6 @@ collator_map = {
     'DialogueInfer': DialogueInferCollator,
     'DialogueRNN': DialogueRNNCollator,
     'DialogueGCN': DialogueGCNCollator,
+    'DialogueCRN': DialogueCRNCollator,
     'Extractor': FeatureTuningCollator
 }

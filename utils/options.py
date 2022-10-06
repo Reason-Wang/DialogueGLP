@@ -33,6 +33,12 @@ class Options():
         self.parser.add_argument('--fc_dropout', type=float, default=0.2)
         self.parser.add_argument('--hidden_size', type=int, default=300)
 
+    def add_dialogue_crn_options(self):
+        self.parser.add_argument('--base_layer', type=int, default=2)
+        self.parser.add_argument('--hidden_size', type=int, default=100)
+        self.parser.add_argument('--n_speakers', type=int, default=9)
+        self.parser.add_argument('--fc_dropout', type=float, default=0.1)
+        self.parser.add_argument('--lr', type=float, default=0.0005)
 
     def add_extractor_options(self):
         self.parser.add_argument('--lr', type=float, default=2e-5)
