@@ -176,12 +176,36 @@ class DialogueGCNEIDataset(Dataset):
                 "speakers": speakers, "emb": self.embeddings[item],
                 "emotions": emotions, "speaker_idx": self.speaker_idx[item]}
 
+class CogBartEIDataset(Dataset):
+    def __init__(self, data, opt=None):
+        super().__init__()
+        self.dialogues = data['dialogue']
+        self.labels = data['label']
+        self.emotions = data['emotion']
+        self.speakers = data['speaker']
+        self.embeddings = data['embedding']
+
+    def __len__(self):
+        return len(self.dialogues)
+
+    def __getitem__(self, item):
+        # emotions = self.emotions[item]
+        label = self.labels[item]['emotion']
+        speaker_names = self.speakers[item]
+        # speakers = [1 if speaker == self.labels[item]['speaker'] else 0 for speaker in self.speakers[item]]
+        return {"text": self.dialogues[item], "label": label,
+                'speaker_names': speaker_names
+                # "speakers": speakers, "emb": self.embeddings[item],
+                # "emotions": emotions
+                }
+
 dataset_map = {
     'BaseModel': BaseModelEIDataset,
     'DialogueInfer': DialogueInferEIDataset,
     'DialogueRNN': DialogueRNNEIDataset,
     'DialogueGCN': DialogueGCNEIDataset,
     'DialogueCRN': DialogueCRNEIDataset,
+    'CogBart': CogBartEIDataset,
     'Extractor': FeatureTuningDataset,
 }
 
@@ -349,6 +373,51 @@ class DialogueGCNCollator(object):
         return {'text_len_tensor': lens, 'text_tensor': embs, 'speaker_tensor': speakers}, labels
 
 
+class CogBartCollator(object):
+    def __init__(self, cfg, device):
+        self.cfg = cfg
+        self.device = device
+        self.max_seq_length = 128
+        self.print = True
+        self.tokenizer = AutoTokenizer.from_pretrained("facebook/bart-base",
+                                                       cache_dir=None,
+                                                       use_fast=True)
+
+    def get_bart_feature(self, sentence, tokenizer):
+        # print(sentence)
+        # stop
+        inputs = tokenizer(sentence, max_length=self.max_seq_length, padding='max_length', truncation=True, return_tensors="pt")
+        inputs = inputs.to(self.device)
+        return inputs
+
+    def __call__(self, batch):
+        # embd: [tensor size BxD]
+        # speaker_infos: [tensor size B] with 0 or 1 as values
+        # labels: tensor size B
+        texts = []
+        for ex in batch:
+            text = ''
+            for s, t in zip(ex['speaker_names'][-5:], ex['text'][-5:]):
+                text = text + s + " : " + t + ' '
+            texts.append(text)
+
+        if self.print:
+            print(texts)
+            self.print = False
+        # inputs = {
+        #     'input_ids': pad_sequence([self.get_bart_feature(data[0], self.tokenizer)['input_ids'] for data in texts],
+        #                               batch_first=True,
+        #                               padding_value=1),
+        #     'attention_mask': pad_sequence(
+        #         [self.get_bart_feature(data[0], self.tokenizer)['attention_mask'] for data in texts],
+        #         batch_first=True, padding_value=0)}
+        inputs = self.tokenizer(texts, max_length=self.max_seq_length, padding="max_length", truncation=True, return_tensors="pt")
+        for k, v in inputs.items():
+            inputs[k] = v.to(self.device)
+        labels = torch.tensor([ex['label'] for ex in batch]).to(self.device)
+
+        return inputs, labels
+
 class FeatureTuningCollator(object):
     def __init__(self, opt, tokenizer):
         self.cfg = opt
@@ -378,5 +447,6 @@ collator_map = {
     'DialogueRNN': DialogueRNNCollator,
     'DialogueGCN': DialogueGCNCollator,
     'DialogueCRN': DialogueCRNCollator,
+    'CogBart': CogBartCollator,
     'Extractor': FeatureTuningCollator
 }

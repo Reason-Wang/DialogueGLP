@@ -40,6 +40,13 @@ class Options():
         self.parser.add_argument('--fc_dropout', type=float, default=0.1)
         self.parser.add_argument('--lr', type=float, default=0.0005)
 
+    def add_cog_bart_options(self):
+        self.parser.add_argument('--hidden_size', type=int, default=1024)
+        self.parser.add_argument('--model_path', type=str, required=True)
+        self.parser.add_argument('--fc_dropout', type=float, default=0.1)
+        self.parser.add_argument('--lr', type=float, default=1e-5)
+
+
     def add_extractor_options(self):
         self.parser.add_argument('--lr', type=float, default=2e-5)
         self.parser.add_argument('--max_len', type=int, default=512)

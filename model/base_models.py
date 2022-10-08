@@ -1,10 +1,13 @@
 import torch
 import torch.nn as nn
+import transformers
+
 from model.ei_roberta import EIRoberta
 from model.dialogue_infer import DialogueInfer
 from model.dialogue_gcn.DialogueGCN import DialogueGCN
 from model.dialogue_rnn import DialogueRNN
 from model.dialogue_crn import DialogueCRN
+from model.cog_bart.modeling_bart import BartForERC
 from transformers import AutoConfig, AutoModel
 
 class BaseModel(nn.Module):
@@ -264,6 +267,72 @@ class DialogueCRNModel(nn.Module):
         output = self.fc(self.fc_dropout(feature))
         return output
 
+class CogBartModel(nn.Module):
+    def __init__(self, cfg):
+        super().__init__()
+        self.cfg = cfg
+        # config = AutoConfig.from_pretrained(
+        #     cfg.model_path,
+        #     # num_labels=7,
+        #     # finetuning_task=other_args.task_name,
+        #     cache_dir=None,
+        #     revision=None,
+        #     use_auth_token=None,
+        # )
+        # self.model = BartForERC.from_pretrained(
+        #     cfg.model_path,
+        #     from_tf=False,
+        #     config=config,
+        #     cache_dir=None,
+        #     revision=None,
+        #     use_auth_token=None,
+        #     temperature=0.5,
+        #     alpha=0.4,
+        #     beta=0.1,
+        #     use_trans_layer=1
+        # )
+        self.model = transformers.BartModel.from_pretrained(cfg.model_path)
+        self.project = nn.Linear(self.cfg.hidden_size, self.cfg.hidden_size)
+        self.fc_dropout = nn.Dropout(cfg.fc_dropout)
+        self.fc = nn.Linear(self.cfg.hidden_size, self.cfg.target_size)
+        self._init_weights(self.fc)
+        self.attention = nn.Sequential(
+            nn.Linear(self.cfg.hidden_size, 512),
+            nn.Tanh(),
+            nn.Linear(512, 1),
+            nn.Softmax(dim=1)
+        )
+        self._init_weights(self.attention)
+
+    def _init_weights(self, module):
+        if isinstance(module, nn.Linear):
+            module.weight.data.normal_(mean=0.0, std=0.1)
+            if module.bias is not None:
+                module.bias.data.zero_()
+        elif isinstance(module, nn.Embedding):
+            module.weight.data.normal_(mean=0.0, std=0.1)
+            if module.padding_idx is not None:
+                module.weight.data[module.padding_idx].zero_()
+        elif isinstance(module, nn.LayerNorm):
+            module.bias.data.zero_()
+            module.weight.data.fill_(1.0)
+
+    def feature(self, inputs):
+        last_hidden_state = self.model(**inputs).encoder_last_hidden_state
+        # print(last_hidden_state.shape)
+        # print(last_hidden_states.shape)
+        # stop
+        # feature = last_hidden_states[:, 0, :]
+        feature = last_hidden_state[:, 0, :].squeeze(dim=1)
+
+        # feature = last_hidden_states
+        return feature
+
+    def forward(self, inputs):
+        feature = self.feature(inputs)
+        output = self.fc(self.fc_dropout(feature))
+        return output
+
 
 class RobertaFeatureExtractor(nn.Module):
     def __init__(self, cfg):
@@ -315,5 +384,6 @@ model_class_map = {
     'DialogueGCN': DialogueGCNModel,
     'DialogueInfer': DialogueInferModel,
     'DialogueCRN': DialogueCRNModel,
+    'CogBart': CogBartModel,
     'Extractor': RobertaFeatureExtractor
 }
