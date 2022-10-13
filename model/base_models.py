@@ -8,6 +8,7 @@ from model.dialogue_gcn.DialogueGCN import DialogueGCN
 from model.dialogue_rnn import DialogueRNN
 from model.dialogue_crn import DialogueCRN
 from model.cog_bart.modeling_bart import BartForERC
+from model.com_pm.compm import CoMPM
 from transformers import AutoConfig, AutoModel
 
 class BaseModel(nn.Module):
@@ -333,6 +334,47 @@ class CogBartModel(nn.Module):
         output = self.fc(self.fc_dropout(feature))
         return output
 
+class CoMPMModel(nn.Module):
+    def __init__(self, cfg):
+        super().__init__()
+        self.cfg = cfg
+        self.model = CoMPM(context_type='roberta-large', speaker_type='bert-large-uncased', freeze=True)
+        self.project = nn.Linear(1024, 1024)
+        self.fc_dropout = nn.Dropout(cfg.fc_dropout)
+        self.fc = nn.Linear(1024, self.cfg.target_size)
+        self._init_weights(self.fc)
+        self.attention = nn.Sequential(
+            nn.Linear(1024, 512),
+            nn.Tanh(),
+            nn.Linear(512, 1),
+            nn.Softmax(dim=1)
+        )
+        self._init_weights(self.attention)
+
+    def _init_weights(self, module):
+        if isinstance(module, nn.Linear):
+            module.weight.data.normal_(mean=0.0, std=0.1)
+            if module.bias is not None:
+                module.bias.data.zero_()
+        elif isinstance(module, nn.Embedding):
+            module.weight.data.normal_(mean=0.0, std=0.1)
+            if module.padding_idx is not None:
+                module.weight.data[module.padding_idx].zero_()
+        elif isinstance(module, nn.LayerNorm):
+            module.bias.data.zero_()
+            module.weight.data.fill_(1.0)
+
+    def feature(self, inputs):
+        last_hidden_state = self.model(**inputs)
+        feature = last_hidden_state
+
+        return feature
+
+    def forward(self, inputs):
+        feature = self.feature(inputs)
+        output = self.fc(self.fc_dropout(feature))
+        return output
+
 
 class RobertaFeatureExtractor(nn.Module):
     def __init__(self, cfg):
@@ -385,5 +427,6 @@ model_class_map = {
     'DialogueInfer': DialogueInferModel,
     'DialogueCRN': DialogueCRNModel,
     'CogBart': CogBartModel,
+    'CoMPM': CoMPMModel,
     'Extractor': RobertaFeatureExtractor
 }

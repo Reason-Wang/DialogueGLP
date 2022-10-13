@@ -220,6 +220,8 @@ if __name__ == '__main__':
         options.add_dialogue_crn_options()
     elif opt.model == 'CogBart':
         options.add_cog_bart_options()
+    elif opt.model == 'CoMPM':
+        options.add_compm_options()
 
     opt = options.parse()[0]
     if opt.cls_3:

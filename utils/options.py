@@ -46,6 +46,9 @@ class Options():
         self.parser.add_argument('--fc_dropout', type=float, default=0.1)
         self.parser.add_argument('--lr', type=float, default=1e-5)
 
+    def add_compm_options(self):
+        self.parser.add_argument('--fc_dropout', type=float, default=0.1)
+        self.parser.add_argument('--lr', type=float, default=1e-6)
 
     def add_extractor_options(self):
         self.parser.add_argument('--lr', type=float, default=2e-5)

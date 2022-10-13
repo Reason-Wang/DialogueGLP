@@ -3,6 +3,7 @@ import torch
 import numpy as np
 from transformers import AutoTokenizer
 from torch.nn.utils.rnn import pad_sequence
+from model.com_pm.utils import make_batch_roberta_bert
 
 class FeatureTuningDataset(Dataset):
     def __init__(self, utterances, emotions):
@@ -189,15 +190,40 @@ class CogBartEIDataset(Dataset):
         return len(self.dialogues)
 
     def __getitem__(self, item):
-        # emotions = self.emotions[item]
         label = self.labels[item]['emotion']
         speaker_names = self.speakers[item]
-        # speakers = [1 if speaker == self.labels[item]['speaker'] else 0 for speaker in self.speakers[item]]
         return {"text": self.dialogues[item], "label": label,
                 'speaker_names': speaker_names
-                # "speakers": speakers, "emb": self.embeddings[item],
-                # "emotions": emotions
                 }
+
+class CoMPMEIDataset(Dataset):
+    def __init__(self, data, opt=None):
+        super().__init__()
+        self.dialogues = data['dialogue']
+        self.labels = data['label']
+        self.emotions = data['emotion']
+        self.speakers = data['speaker']
+        self.embeddings = data['embedding']
+        self.context_speakers = []
+        for label, ss in zip(self.labels, self.speakers):
+            tmp_speakers = []
+            speaker2idx_map = {}
+            idx = 0
+            for s in ss:
+                if s not in speaker2idx_map:
+                    speaker2idx_map[s] = idx
+                    idx += 1
+                tmp_speakers.append(speaker2idx_map[s])
+            if label['speaker'] not in speaker2idx_map:
+                speaker2idx_map[label['speaker']] = idx
+            tmp_speakers.append(speaker2idx_map[label['speaker']])
+            self.context_speakers.append(tmp_speakers)
+    def __len__(self):
+        return len(self.dialogues)
+
+    def __getitem__(self, item):
+
+        return {'context_speakers': self.context_speakers[item], 'context': self.dialogues[item], 'label': self.labels[item]['emotion']}
 
 dataset_map = {
     'BaseModel': BaseModelEIDataset,
@@ -206,6 +232,7 @@ dataset_map = {
     'DialogueGCN': DialogueGCNEIDataset,
     'DialogueCRN': DialogueCRNEIDataset,
     'CogBart': CogBartEIDataset,
+    'CoMPM': CoMPMEIDataset,
     'Extractor': FeatureTuningDataset,
 }
 
@@ -398,7 +425,7 @@ class CogBartCollator(object):
         for ex in batch:
             text = ''
             for s, t in zip(ex['speaker_names'][-5:], ex['text'][-5:]):
-                text = text + s + " : " + t + ' '
+                text = text + str(s) + " : " + t + ' '
             texts.append(text)
 
         if self.print:
@@ -414,6 +441,22 @@ class CogBartCollator(object):
         inputs = self.tokenizer(texts, max_length=self.max_seq_length, padding="max_length", truncation=True, return_tensors="pt")
         for k, v in inputs.items():
             inputs[k] = v.to(self.device)
+        labels = torch.tensor([ex['label'] for ex in batch]).to(self.device)
+
+        return inputs, labels
+
+class CoMPMCollator(object):
+    def __init__(self, cfg, device):
+        self.cfg = cfg
+        self.device = device
+        self.print = True
+        self.tokenizer = AutoTokenizer.from_pretrained("facebook/bart-base",
+                                                       cache_dir=None,
+                                                       use_fast=True)
+
+    def __call__(self, batch):
+        batch_input_tokens, batch_speaker_tokens = make_batch_roberta_bert(batch)
+        inputs = {'batch_input_tokens': batch_input_tokens.to(self.device), 'batch_speaker_tokens': batch_speaker_tokens}
         labels = torch.tensor([ex['label'] for ex in batch]).to(self.device)
 
         return inputs, labels
@@ -448,5 +491,6 @@ collator_map = {
     'DialogueGCN': DialogueGCNCollator,
     'DialogueCRN': DialogueCRNCollator,
     'CogBart': CogBartCollator,
+    'CoMPM': CoMPMCollator,
     'Extractor': FeatureTuningCollator
 }

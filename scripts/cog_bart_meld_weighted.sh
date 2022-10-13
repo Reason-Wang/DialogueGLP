@@ -10,7 +10,7 @@ do
       --batch_size 32 \
       --scheduler cosine \
       --gradient_accumulation_steps 1 \
-      --lr 1e-5 \
+      --lr 2e-5 \
       --seed $seed \
       --metric $metric \
       --feature_metric $feature_metric \
