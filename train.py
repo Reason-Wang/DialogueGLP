@@ -222,6 +222,8 @@ if __name__ == '__main__':
         options.add_cog_bart_options()
     elif opt.model == 'CoMPM':
         options.add_compm_options()
+    elif opt.model == 'DAG':
+        options.add_dag_options()
 
     opt = options.parse()[0]
     if opt.cls_3:

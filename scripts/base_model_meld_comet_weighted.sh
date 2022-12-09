@@ -11,10 +11,10 @@ do
     --seed $seed \
     --metric $metric \
     --scheduler cosine \
-    --lr 0.001 \
+    --lr 0.00001 \
     --plm_lr 5e-6 \
     --feature_metric weighted \
-    --epochs 20 \
+    --epochs 24 \
     --knowledge $knowledge"
   echo "${cmd}"
   eval $cmd

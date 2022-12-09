@@ -4,6 +4,7 @@ import numpy as np
 from transformers import AutoTokenizer
 from torch.nn.utils.rnn import pad_sequence
 from model.com_pm.utils import make_batch_roberta_bert
+import json
 
 class FeatureTuningDataset(Dataset):
     def __init__(self, utterances, emotions):
@@ -225,6 +226,61 @@ class CoMPMEIDataset(Dataset):
 
         return {'context_speakers': self.context_speakers[item], 'context': self.dialogues[item], 'label': self.labels[item]['emotion']}
 
+class DagERCEIDataset(Dataset):
+    def __init__(self, data, opt=None):
+        with open("model/dag_erc/speakers.json", 'r') as f:
+            speaker_vocabs = json.load(f)
+        self.speaker_vocab = speaker_vocabs[opt.dataset]
+        # print(self.speaker_vocab)
+        # self.label_vocab = label_vocab
+        self.args = opt
+        self.data = self.read(data)
+        self.labels = data['label']
+        print(len(self.data))
+
+        self.len = len(self.data)
+
+    def read(self, data):
+        # process dialogue
+        dialogs = []
+        dd_name_map = {0: 'A', 1: 'B'}
+        for utterances, speakers_names, features in zip(data['dialogue'], data['speaker'], data['embedding']):
+            speakers = []
+            for s in speakers_names:
+                if s == 0 or s == 1:
+                    s = dd_name_map[s]
+                if 'Richard' in s and 'Date' in s:
+                    s = "Richard's Date"
+                speakers.append(self.speaker_vocab['stoi'][s])
+            dialogs.append({
+                'utterances': utterances,
+                'speakers': speakers,
+                'features': features
+            })
+        # random.shuffle(dialogs)
+        return dialogs
+
+    def __getitem__(self, index):
+        '''
+        :param index:
+        :return:
+            feature,
+            speaker
+            length
+            text
+            label
+        '''
+        return {'feature': torch.FloatTensor(self.data[index]['features']),
+                'speaker': self.data[index]['speakers'],
+                'length': len(self.data[index]['features']),
+                'utterance': self.data[index]['utterances'],
+                'label': self.labels[index]['emotion']}
+
+    def __len__(self):
+        return self.len
+
+
+
 dataset_map = {
     'BaseModel': BaseModelEIDataset,
     'DialogueInfer': DialogueInferEIDataset,
@@ -233,6 +289,7 @@ dataset_map = {
     'DialogueCRN': DialogueCRNEIDataset,
     'CogBart': CogBartEIDataset,
     'CoMPM': CoMPMEIDataset,
+    'DAG': DagERCEIDataset,
     'Extractor': FeatureTuningDataset,
 }
 
@@ -247,7 +304,7 @@ class BaseModelCollator():
         self.addressee_prefix = {1: "I: ", 0: "Other: "}
         self.printed = False
         self.k_knowledge = 3 if (opt.dataset == "emorynlp" and opt.knowledge == "feeling") else 10
-        self.comet_k_num = 2 if self.cfg.dataset == "meld" else 5
+        self.comet_k_num = 2 if self.cfg.dataset == "meld" else 3
 
     def __call__(self, batch):
         # embd: [tensor size BxD]
@@ -270,15 +327,15 @@ class BaseModelCollator():
             if self.cfg.knowledge == 'comet':
                 text = self.addressee_prefix[ex['local_speakers'][0]] + ex['local_utterances'][0]
 
-                text = text + ' ' + " I am " \
-                       + ', '.join(ex['local_knowledges'][0][0][:self.comet_k_num]) + '. I am ' \
-                       + ex['local_knowledges'][0][1][0] + '. ' \
-                       + ex['local_knowledges'][0][2][0]
+                text = text + ' ' \
+                       + ', '.join(ex['local_knowledges'][0][0][:self.comet_k_num]) + '. ' \
+                       + ex['local_knowledges'][0][1][0] + '. '
+                       # + ex['local_knowledges'][0][2][0]
                 for a, u, k in zip(ex['local_speakers'][1:], ex['local_utterances'][1:], ex['local_knowledges'][1:]):
-                    text = text + ' ' + self.sep + ' ' + self.addressee_prefix[a] + u + ' ' + " I am " \
-                           + ', '.join(k[0][:self.comet_k_num]) + '. | I am ' \
-                           + k[1][0] + '. | ' \
-                           + k[2][0]
+                    text = text + ' ' + self.sep + ' ' + self.addressee_prefix[a] + u + ' ' \
+                           + ', '.join(k[0][:self.comet_k_num]) + '. ' \
+                           + k[1][0] + '. '
+                           # + k[2][0]
             elif self.cfg.knowledge == 'utterance':
                 text = self.addressee_prefix[ex['local_speakers'][0]] + ex['local_utterances'][0]
                 for a, u in zip(ex['local_speakers'][1:], ex['local_utterances'][1:]):
@@ -461,6 +518,111 @@ class CoMPMCollator(object):
 
         return inputs, labels
 
+class DagERCCollator(object):
+    def __init__(self, cfg, device):
+        self.args = cfg
+        self.device = device
+
+    def __call__(self, data):
+        '''
+        :param data:
+            features, labels, speakers, length, utterances
+        :return:
+            features: (B, N, D) padded
+            labels: (B, N) padded
+            adj: (B, N, N) adj[:,i,:] means the direct predecessors of node i
+            s_mask: (B, N, N) s_mask[:,i,:] means the speaker informations for predecessors of node i, where 1 denotes the same speaker, 0 denotes the different speaker
+            lengths: (B, )
+            utterances:  not a tensor
+        '''
+        max_dialog_len = max([d['length'] for d in data])
+        features = pad_sequence([d['feature'] for d in data], batch_first = True) # (B, N, D)
+        # labels = pad_sequence([d[1] for d in data], batch_first = True, padding_value = -1) # (B, N )
+        adj = self.get_adj_v1([d['speaker'] for d in data], max_dialog_len)
+        s_mask, s_mask_onehot = self.get_s_mask([d['speaker'] for d in data], max_dialog_len)
+        lengths = torch.LongTensor([d['length'] for d in data])
+        speakers = pad_sequence([torch.LongTensor(d['speaker']) for d in data], batch_first = True, padding_value = -1)
+        utterances = [d['utterance'] for d in data]
+
+        inputs = {"features": features.to(self.device), "adj": adj.to(self.device), "s_mask": s_mask.to(self.device),
+                  "s_mask_onehot": s_mask_onehot.to(self.device), "lengths": lengths.to(self.device),
+                }
+        labels = torch.tensor([d['label'] for d in data]).to(self.device)
+        return inputs, labels
+
+    def get_adj(self, speakers, max_dialog_len):
+        '''
+        get adj matrix
+        :param speakers:  (B, N)
+        :param max_dialog_len:
+        :return:
+            adj: (B, N, N) adj[:,i,:] means the direct predecessors of node i
+        '''
+        adj = []
+        for speaker in speakers:
+            a = torch.zeros(max_dialog_len, max_dialog_len)
+            for i,s in enumerate(speaker):
+                get_local_pred = False
+                get_global_pred = False
+                for j in range(i - 1, -1, -1):
+                    if speaker[j] == s and not get_local_pred:
+                        get_local_pred = True
+                        a[i,j] = 1
+                    elif speaker[j] != s and not get_global_pred:
+                        get_global_pred = True
+                        a[i,j] = 1
+                    if get_global_pred and get_local_pred:
+                        break
+            adj.append(a)
+        return torch.stack(adj)
+
+    def get_adj_v1(self, speakers, max_dialog_len):
+        '''
+        get adj matrix
+        :param speakers:  (B, N)
+        :param max_dialog_len:
+        :return:
+            adj: (B, N, N) adj[:,i,:] means the direct predecessors of node i
+        '''
+        adj = []
+        for speaker in speakers:
+            a = torch.zeros(max_dialog_len, max_dialog_len)
+            for i,s in enumerate(speaker):
+                cnt = 0
+                for j in range(i - 1, -1, -1):
+                    a[i,j] = 1
+                    if speaker[j] == s:
+                        cnt += 1
+                        if cnt==self.args.windowp:
+                            break
+            adj.append(a)
+        return torch.stack(adj)
+
+    def get_s_mask(self, speakers, max_dialog_len):
+        '''
+        :param speakers:
+        :param max_dialog_len:
+        :return:
+         s_mask: (B, N, N) s_mask[:,i,:] means the speaker informations for predecessors of node i, where 1 denotes the same speaker, 0 denotes the different speaker
+         s_mask_onehot (B, N, N, 2) onehot emcoding of s_mask
+        '''
+        s_mask = []
+        s_mask_onehot = []
+        for speaker in speakers:
+            s = torch.zeros(max_dialog_len, max_dialog_len, dtype = torch.long)
+            s_onehot = torch.zeros(max_dialog_len, max_dialog_len, 2)
+            for i in range(len(speaker)):
+                for j in range(len(speaker)):
+                    if speaker[i] == speaker[j]:
+                        s[i,j] = 1
+                        s_onehot[i,j,1] = 1
+                    else:
+                        s_onehot[i,j,0] = 1
+
+            s_mask.append(s)
+            s_mask_onehot.append(s_onehot)
+        return torch.stack(s_mask), torch.stack(s_mask_onehot)
+
 class FeatureTuningCollator(object):
     def __init__(self, opt, tokenizer):
         self.cfg = opt
@@ -492,5 +654,6 @@ collator_map = {
     'DialogueCRN': DialogueCRNCollator,
     'CogBart': CogBartCollator,
     'CoMPM': CoMPMCollator,
+    'DAG': DagERCCollator,
     'Extractor': FeatureTuningCollator
 }

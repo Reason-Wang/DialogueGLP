@@ -10,6 +10,7 @@ from model.dialogue_crn import DialogueCRN
 from model.cog_bart.modeling_bart import BartForERC
 from model.com_pm.compm import CoMPM
 from transformers import AutoConfig, AutoModel
+from model.dag_erc.DAG_ERC import DAGERC_fushion
 
 class BaseModel(nn.Module):
     def __init__(self, cfg):
@@ -375,6 +376,49 @@ class CoMPMModel(nn.Module):
         output = self.fc(self.fc_dropout(feature))
         return output
 
+class DAGModel(nn.Module):
+    def __init__(self, cfg):
+        super().__init__()
+        self.cfg = cfg
+        # self.config = AutoConfig.from_pretrained(cfg.model, output_hidden_states=True)
+        # self.model = AutoModel.from_pretrained(cfg.model, config=self.config)
+        self.model = DAGERC_fushion(cfg)
+        self.fc_dropout = nn.Dropout(cfg.fc_dropout)
+        self.fc = nn.Linear(self.cfg.hidden_dim, self.cfg.target_size)
+        self._init_weights(self.fc)
+        self.attention = nn.Sequential(
+            nn.Linear(self.cfg.hidden_dim, 512),
+            nn.Tanh(),
+            nn.Linear(512, 1),
+            nn.Softmax(dim=1)
+        )
+        self._init_weights(self.attention)
+
+    def _init_weights(self, module):
+        if isinstance(module, nn.Linear):
+            module.weight.data.normal_(mean=0.0, std=0.1)
+            if module.bias is not None:
+                module.bias.data.zero_()
+        elif isinstance(module, nn.Embedding):
+            module.weight.data.normal_(mean=0.0, std=0.1)
+            if module.padding_idx is not None:
+                module.weight.data[module.padding_idx].zero_()
+        elif isinstance(module, nn.LayerNorm):
+            module.bias.data.zero_()
+            module.weight.data.fill_(1.0)
+
+    def feature(self, inputs):
+        hidden_states = self.model(**inputs)
+        # print(hidden_states.shape)
+        B, L= hidden_states.shape[0], hidden_states.shape[1]
+        feature = hidden_states.view(-1, self.cfg.hidden_dim)[torch.tensor([i for i in range(B)]).to('cuda') * L + (inputs['lengths']-1)]
+        return feature
+
+    def forward(self, inputs):
+        # feature = self.batch_norm(self.feature(inputs))
+        feature = self.feature(inputs)
+        output = self.fc(self.fc_dropout(feature))
+        return output
 
 class RobertaFeatureExtractor(nn.Module):
     def __init__(self, cfg):
@@ -428,5 +472,6 @@ model_class_map = {
     'DialogueCRN': DialogueCRNModel,
     'CogBart': CogBartModel,
     'CoMPM': CoMPMModel,
+    'DAG': DAGModel,
     'Extractor': RobertaFeatureExtractor
 }
