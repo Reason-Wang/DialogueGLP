@@ -32,6 +32,15 @@ def get_knowledge(df, knowledge):
                 else:
                     k.append([])
             knowledges.append(k)
+    if knowledge == 'U_and_F':
+        for item in list(df.groupby("Dialogue_ID")):
+            k = []
+            for i, row in item[1].reset_index(drop=True).iterrows():
+                if isinstance(row['Knowledge'][0], list):
+                    k.append([[klg.strip() for klg in row["Knowledge"][0]], [klg.strip() for klg in row["Knowledge"][1]]])
+                else:
+                    k.append([])
+            knowledges.append(k)
 
     if knowledge == 'none':
         knowledges = [None for i in range(len(df))]
@@ -52,6 +61,13 @@ def process_daily_dialog(split, emb_dict, knowledge):
         elif knowledge == 'utterance':
             k_df = pd.read_csv(input_dir + f'daily_dialogue/knowledge/{split}_knowledge_full_dialogue_chatbot.csv')
             k_df['Knowledge'] = k_df['Knowledge'].apply(lambda x: ast.literal_eval(x) if isinstance(x, str) else None)
+        elif knowledge == 'U_and_F':
+            k_df = pd.read_csv(input_dir + f'daily_dialogue/knowledge/{split}_knowledge_full_dialogue_chatbot.csv')
+            k_df['Knowledge'] = k_df['Knowledge'].apply(lambda x: ast.literal_eval(x) if isinstance(x, str) else None)
+            k2_df = pd.read_csv(input_dir + f'daily_dialogue/knowledge/{split}_knowledge_full_dialogue_feeling.csv')
+            k2_df['Knowledge'] = k2_df['Knowledge'].apply(lambda x: ast.literal_eval(x) if isinstance(x, str) else None)
+            for i, row in k_df.iterrows():
+                k_df.at[i, 'Knowledge'] = [row['Knowledge'], k2_df.loc[i, 'Knowledge']]
         else:
             raise "knowledge must be either none, comet, feeling or utterance"
 
@@ -132,6 +148,13 @@ def process_meld(split, emb_dict, knowledge, cls_3=False):
         elif knowledge == 'utterance':
             k_df = pd.read_csv(input_dir + f'meld/knowledge/{split}_knowledge_full_dialogue_chatbot.csv')
             k_df['Knowledge'] = k_df['Knowledge'].apply(lambda x: ast.literal_eval(x) if isinstance(x, str) else None)
+        elif knowledge == 'U_and_F':
+            k_df = pd.read_csv(input_dir + f'meld/knowledge/{split}_knowledge_full_dialogue_chatbot.csv')
+            k_df['Knowledge'] = k_df['Knowledge'].apply(lambda x: ast.literal_eval(x) if isinstance(x, str) else None)
+            k2_df = pd.read_csv(input_dir + f'meld/knowledge/{split}_knowledge_full_dialogue_feeling.csv')
+            k2_df['Knowledge'] = k2_df['Knowledge'].apply(lambda x: ast.literal_eval(x) if isinstance(x, str) else None)
+            for i, row in k_df.iterrows():
+                k_df.at[i, 'Knowledge'] = [row['Knowledge'], k2_df.loc[i, 'Knowledge']]
         else:
             raise "knowledge must be either none, comet, feeling or utterance"
 
@@ -204,6 +227,13 @@ def process_emorynlp(split, emb_dict, knowledge, cls_3=False):
         elif knowledge == 'utterance':
             k_df = pd.read_csv(input_dir + f'emorynlp/knowledge/{split}_knowledge_full_dialogue_chatbot.csv')
             k_df['Knowledge'] = k_df['Knowledge'].apply(lambda x: ast.literal_eval(x) if isinstance(x, str) else None)
+        elif knowledge == 'U_and_F':
+            k_df = pd.read_csv(input_dir + f'emorynlp/knowledge/{split}_knowledge_full_dialogue_chatbot.csv')
+            k_df['Knowledge'] = k_df['Knowledge'].apply(lambda x: ast.literal_eval(x) if isinstance(x, str) else None)
+            k2_df = pd.read_csv(input_dir + f'emorynlp/knowledge/{split}_knowledge_full_dialogue_feeling.csv')
+            k2_df['Knowledge'] = k2_df['Knowledge'].apply(lambda x: ast.literal_eval(x) if isinstance(x, str) else None)
+            for i, row in k_df.iterrows():
+                k_df.at[i, 'Knowledge'] = [row['Knowledge'], k2_df.loc[i, 'Knowledge']]
         else:
             raise "knowledge must be either none, comet, feeling or utterance"
 

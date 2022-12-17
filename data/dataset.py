@@ -44,6 +44,8 @@ class BaseModelEIDataset(Dataset):
             local_knowledges = self.knowledges[item][-self.cfg.n_knowledges:]
         elif self.cfg.knowledge == 'utterance':
             local_knowledges = self.knowledges[item][-self.cfg.n_knowledges:]
+        elif self.cfg.knowledge == 'U_and_F':
+            local_knowledges = self.knowledges[item][-self.cfg.n_knowledges:]
         else:
             local_knowledges = None
 
@@ -350,6 +352,15 @@ class BaseModelCollator():
                 for klgs in ex['local_knowledges']:
                     for k in klgs[:self.k_knowledge]:
                         text = text + ' ' + self.sep + ' ' + k
+            elif self.cfg.knowledge == 'U_and_F':
+                text = self.addressee_prefix[ex['local_speakers'][0]] + ex['local_utterances'][0]
+                for a, u in zip(ex['local_speakers'][1:], ex['local_utterances'][1:]):
+                    text = text + ' ' + self.sep + ' ' + self.addressee_prefix[a] + u
+                klgs = ex['local_knowledges'][-1]
+                for k in klgs[0][:2]:
+                    text = text + ' ' + self.sep + ' ' + self.addressee_prefix[1] + k
+                for k in klgs[1][:2]:
+                    text = text + ' ' + self.sep + ' ' + k
             else:
                 text = self.addressee_prefix[ex['local_speakers'][0]] + ex['local_utterances'][0]
                 for a, u in zip(ex['local_speakers'][1:], ex['local_utterances'][1:]):
