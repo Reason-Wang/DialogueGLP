@@ -4,11 +4,13 @@
 
 ```
 torch = 1.10.1
-torch = 2.0.4
+torch_geometric = 2.0.4
 transformers = 4.17.0
 ```
 
-### Training feature extractor
+### Training
+
++ Training feature extractor
 
 ```bash
 # DailyDialog weighted
@@ -23,7 +25,7 @@ python feature_tuning.py \
   --metric weighted
 ```
 
-### Extracting features
++ Extracting features
 
 ```bash
 python feature_extraction.py \
@@ -33,7 +35,7 @@ python feature_extraction.py \
  --metric weighted
 ```
 
-### Training DialogueGLP
++ Training DialogueGLP
 
 ```bash
 # you can also run scripts/base_model_dd_weighted.sh
@@ -60,7 +62,11 @@ do
 done
 ```
 
+### Testing New Models
 
++ Add the model file to *model* folder and write a wrapper for the model in *model/base_models.py*
++ Add dataset and collator for that model in *data/dataset.py*
++ Add arguments in *utils/options.py*
 
 ### Directory Tree
 
@@ -106,4 +112,3 @@ DialogueGLP
 ├── feature_tuning.py
 └── train.py
 ```
-
