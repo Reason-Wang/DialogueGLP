@@ -6,6 +6,7 @@ from torch.nn.utils.rnn import pad_sequence
 from model.com_pm.utils import make_batch_roberta_bert
 import json
 
+
 class FeatureTuningDataset(Dataset):
     def __init__(self, utterances, emotions):
         super().__init__()
@@ -17,6 +18,7 @@ class FeatureTuningDataset(Dataset):
 
     def __getitem__(self, item):
         return {"text": self.utterances[item], "label": self.emotions[item]}
+
 
 class BaseModelEIDataset(Dataset):
     def __init__(self, data, opt):
@@ -112,6 +114,7 @@ class DialogueRNNEIDataset(Dataset):
                 "speakers": speakers, "emb": self.embeddings[item],
                 "emotions": emotions, "speaker_idx": self.speaker_idx[item]}
 
+
 class DialogueCRNEIDataset(Dataset):
     def __init__(self, data, opt=None):
         super().__init__()
@@ -180,6 +183,7 @@ class DialogueGCNEIDataset(Dataset):
                 "speakers": speakers, "emb": self.embeddings[item],
                 "emotions": emotions, "speaker_idx": self.speaker_idx[item]}
 
+
 class CogBartEIDataset(Dataset):
     def __init__(self, data, opt=None):
         super().__init__()
@@ -198,6 +202,7 @@ class CogBartEIDataset(Dataset):
         return {"text": self.dialogues[item], "label": label,
                 'speaker_names': speaker_names
                 }
+
 
 class CoMPMEIDataset(Dataset):
     def __init__(self, data, opt=None):
@@ -227,6 +232,7 @@ class CoMPMEIDataset(Dataset):
     def __getitem__(self, item):
 
         return {'context_speakers': self.context_speakers[item], 'context': self.dialogues[item], 'label': self.labels[item]['emotion']}
+
 
 class DagERCEIDataset(Dataset):
     def __init__(self, data, opt=None):
@@ -282,7 +288,6 @@ class DagERCEIDataset(Dataset):
         return self.len
 
 
-
 dataset_map = {
     'BaseModel': BaseModelEIDataset,
     'DialogueInfer': DialogueInferEIDataset,
@@ -296,7 +301,7 @@ dataset_map = {
 }
 
 
-class BaseModelCollator():
+class BaseModelCollator:
     def __init__(self, opt, device):
         self.cfg = opt
         self.padding_emb = torch.zeros(opt.input_size, dtype=torch.float)
@@ -415,13 +420,13 @@ class DialogueRNNCollator(object):
         self.device = device
 
     def __call__(self, batch):
-
         embs = pad_sequence([torch.tensor([ex['emb'][i] for i in range(len(ex['emb']))]) for ex in batch]).to(self.device)
         qmask = pad_sequence([torch.tensor([ex['speaker_idx'][i] for i in range(len(ex['emb']))]) for ex in batch]).to(
             self.device)
         labels = torch.tensor([ex['label'] for ex in batch]).to(self.device)
 
         return {'U': embs, 'qmask': qmask}, labels
+
 
 class DialogueCRNCollator(object):
     def __init__(self, cfg, device):
@@ -436,7 +441,6 @@ class DialogueCRNCollator(object):
         qmask = pad_sequence([torch.tensor([ex['speaker_idx'][i] for i in range(len(ex['emb']))]) for ex in batch]).to(
             self.device)
         labels = torch.tensor([ex['label'] for ex in batch]).to(self.device)
-
         # print("embs: " + str(embs.shape))
         # print("qmask: " + str(qmask.shape))
         return {'U': embs, 'qmask': qmask, 'seq_lengths': lens}, labels
@@ -513,6 +517,7 @@ class CogBartCollator(object):
 
         return inputs, labels
 
+
 class CoMPMCollator(object):
     def __init__(self, cfg, device):
         self.cfg = cfg
@@ -528,6 +533,7 @@ class CoMPMCollator(object):
         labels = torch.tensor([ex['label'] for ex in batch]).to(self.device)
 
         return inputs, labels
+
 
 class DagERCCollator(object):
     def __init__(self, cfg, device):
@@ -633,6 +639,7 @@ class DagERCCollator(object):
             s_mask.append(s)
             s_mask_onehot.append(s_onehot)
         return torch.stack(s_mask), torch.stack(s_mask_onehot)
+
 
 class FeatureTuningCollator(object):
     def __init__(self, opt, tokenizer):

@@ -66,7 +66,7 @@
             </Attribute>
           </value>
         </entry>
-        <entry key="\data\daily_dialogue\validation.csv">
+        <entry key="\data\emorynlp\processed\val_full.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
@@ -74,20 +74,6 @@
           </value>
         </entry>
         <entry key="\data\emorynlp\train.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="\data\meld\knowledge2\train_knowledge_full_dialogue_chatbot.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="\data\meld\knowledge2\val_comet_knowledge.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
@@ -102,6 +88,20 @@
           </value>
         </entry>
         <entry key="\data\meld\knowledge\train_knowledge_full_dialogue_feeling.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data\meld\processed\train_full.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data\meld\processed\val_full.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
