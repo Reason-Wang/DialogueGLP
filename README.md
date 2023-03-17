@@ -10,7 +10,9 @@ transformers = 4.17.0
 
 ### Training
 
-+ Training feature extractor
+#### Training feature extractor
+
+For most baselines and DialogueGLP, first train a feature extractor which is trained directly with (utterance, emotion) pairs. Take DailyDialog dataset as an example, the following trains a roberta-large feature extractor on DailyDialog.
 
 ```bash
 # DailyDialog weighted
@@ -25,7 +27,9 @@ python feature_tuning.py \
   --metric weighted
 ```
 
-+ Extracting features
+#### Extracting features
+
+After training with (utterance, emotion) pairs, we use the trained model from previous step to extractor features. 
 
 ```bash
 python feature_extraction.py \
@@ -35,7 +39,9 @@ python feature_extraction.py \
  --metric weighted
 ```
 
-+ Training DialogueGLP
+#### Training DialogueGLP
+
+After extracting the features, we can now train DialogueGLP. The following gives a shell script example to train DialogueGLP on DailyDialog with 5 random seeds. You can also find other scripts to train other models in *scripts* folder. 
 
 ```bash
 # you can also run scripts/base_model_dd_weighted.sh
@@ -64,9 +70,11 @@ done
 
 ### Testing New Models
 
-+ Add the model file to *model* folder and write a wrapper for the model in *model/base_models.py*
-+ Add dataset and collator for that model in *data/dataset.py*
-+ Add arguments in *utils/options.py*
+You can also add a new model and test its performance of inferring emotions. Basically you should follow the following steps:
+
+1. Add the model file to *model* folder and write a wrapper for the model in *model/base_models.py*
+2. Add dataset and collator for that model in *data/dataset.py*
+3. Add arguments in *utils/options.py*
 
 ### Directory Tree
 
