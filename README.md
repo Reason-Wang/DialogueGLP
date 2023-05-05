@@ -1,4 +1,6 @@
-## Global-Local Modeling with Prompt-Based Knowledge Enhancement for Emotion Inference in Conversation
+## DialogueGLP: Global-Local Modeling with Prompt-Based Knowledge Enhancement for Emotion Inference in Conversation
+
+This is code for "Global-Local Modeling with Prompt-Based Knowledge Enhancement for Emotion Inference in Conversation".
 
 ### Dependencies
 
